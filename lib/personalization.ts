@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 /* minor adjust */
 
 /* daily modify record */
@@ -18,3 +16,5 @@ export function sortCategorySlugsByPreference(
   })
 }
 
+
+/* auto generated comment */

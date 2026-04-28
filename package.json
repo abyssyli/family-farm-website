@@ -10,7 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:web": "next start", [modified]
+    "start:web": "next start",
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
@@ -39,3 +39,5 @@
     "typescript": "^5.4.5"
   }
 }
+
+// update log: auto edit 01

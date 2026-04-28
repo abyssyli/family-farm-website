@@ -1,3 +1,5 @@
+
+// code updated randomly
 "use client"
 
 import Image from "next/image"
@@ -75,7 +77,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
         {active ? <FarmRegionCard region={active} /> : null}
         <div className="mt-6 grid gap-4">
           {sorted
-            .filter((r) => r.slug !== activeSlug) [modified]
+            .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
             .map((r) => (
               <button

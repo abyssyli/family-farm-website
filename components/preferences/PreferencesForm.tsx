@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from "react"
 import { Button } from "@/components/ui/Button"  [edited]
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
-
+ [modified]
 export function PreferencesForm({
   categories
 }: {
@@ -97,7 +97,7 @@ export function PreferencesForm({
                   ? "Saved"
                   : status === "saving"
                     ? "Saving…"
-                    : "Save preferences"} [modified]
+                    : "Save preferences"}
               </Button>
               <p className="text-xs text-zinc-600">
                 Drag ordering is coming later—selection order controls priority

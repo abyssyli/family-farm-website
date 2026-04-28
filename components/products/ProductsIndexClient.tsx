@@ -138,5 +138,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       </div>
     </div>  [edited]
   )
-}
-# minor content update
+} [modified]

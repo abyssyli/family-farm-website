@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
@@ -7,4 +9,4 @@ const nextConfig = {
   }
 }
 
-export default nextConfig [modified]
+export default nextConfig

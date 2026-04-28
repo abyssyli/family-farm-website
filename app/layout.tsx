@@ -55,7 +55,7 @@ export default function RootLayout({
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
-            </div> [modified]
+            </div>
           </footer>
         </div>
       </body>
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// update log: auto edit 01

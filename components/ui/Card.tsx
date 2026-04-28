@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// update log: auto edit 01
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }

@@ -1,7 +1,5 @@
-
-// update log: auto edit 01
 import { defineConfig } from "@playwright/test"
-
+ [modified]
 export default defineConfig({
   testDir: "./tests",
   use: {

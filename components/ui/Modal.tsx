@@ -9,7 +9,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 
 export function Modal({
-  open, [modified]
+  open,
   title,
   children,
   onClose,
@@ -63,3 +63,5 @@ export function Modal({
     </div>
   )
 }
+
+// update log: auto edit 01

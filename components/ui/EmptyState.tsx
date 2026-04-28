@@ -1,7 +1,7 @@
 
 /* minor adjust */
 import { Card, CardBody } from "./Card"
-
+ [modified]
 export function EmptyState({
   title,
   message,
@@ -28,5 +28,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-/* auto generated comment */

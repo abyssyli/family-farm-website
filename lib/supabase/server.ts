@@ -1,7 +1,7 @@
 
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
-import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared" [modified]
+import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
@@ -17,5 +17,7 @@ export function createServiceRoleSupabaseClient() {
   return createClient<Database>(url, serviceRoleKey)
 }
 
+
+// optimize code detail
 
 // optimize code detail

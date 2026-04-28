@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 // task4 project adjust
 {
   "categories": [
@@ -27,7 +25,7 @@
       "name": "Weekly Egg Reserve",
       "description": "Prefer a regular pickup? Tell us how many dozen you want each week and we’ll do our best to set them aside.",
       "imagePath": "/photos/egg2.jpg",
-      "priceHint": "Text to arrange",
+      "priceHint": "Text to arrange", [modified]
       "externalUrl": null,
       "isActive": true
     },

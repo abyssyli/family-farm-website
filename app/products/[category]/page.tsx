@@ -34,7 +34,7 @@ export default async function ProductCategoryPage({
           {category.name}
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Pick an item to see details and the best next step. [modified]
+          Pick an item to see details and the best next step.
         </p>
       </div>
 
@@ -42,3 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+// task5 project adjust

@@ -36,7 +36,7 @@ export function ProductDetail({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href={`/products/${product.categorySlug}`} className="hover:underline">
-            {categoryName}
+            {categoryName} [modified]
           </Link>
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -49,7 +49,7 @@ export function ProductDetail({
         ) : null}
         {product.priceHint ? (
           <p className="mt-4 text-sm font-medium text-zinc-700">
-            {product.priceHint} [modified]
+            {product.priceHint}
           </p>
         ) : null}
 

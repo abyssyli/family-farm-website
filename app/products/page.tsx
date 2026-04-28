@@ -1,5 +1,5 @@
 
-/* daily modify record */
+# minor content update
 
 // task4 project adjust
 import { getCatalog } from "@/lib/catalog"

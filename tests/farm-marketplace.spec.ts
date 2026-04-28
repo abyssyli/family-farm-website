@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 
 /* minor adjust */
@@ -14,7 +16,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await page.getByRole("link", { name: /Farm Eggs/i }).click()
   await expect(page.getByRole("heading", { name: /Farm Eggs/i })).toBeVisible()
 
-  await page.getByRole("link", { name: /View details/i }).first().click() [modified]
+  await page.getByRole("link", { name: /View details/i }).first().click()
   await expect(page.getByRole("button", { name: /Buy \/ Contact/i })).toBeVisible()
 
   await page.getByRole("button", { name: /Buy \/ Contact/i }).click()
