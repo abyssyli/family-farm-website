@@ -1,5 +1,7 @@
 
-// task4 project adjust [modified]
+/* daily modify record */
+
+// task4 project adjust
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

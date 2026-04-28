@@ -7,5 +7,7 @@ module.exports = {
   }
 }
 
- [modified]
+
+# minor content update
+
 # minor content update

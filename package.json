@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 # minor content update
 
 // task4 project adjust
@@ -12,7 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:web": "next start",
+    "start:web": "next start", [modified]
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

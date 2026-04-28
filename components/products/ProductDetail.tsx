@@ -49,7 +49,7 @@ export function ProductDetail({
         ) : null}
         {product.priceHint ? (
           <p className="mt-4 text-sm font-medium text-zinc-700">
-            {product.priceHint}
+            {product.priceHint} [modified]
           </p>
         ) : null}
 
@@ -64,5 +64,3 @@ export function ProductDetail({
     </div>
   )
 }
-
-// update log: auto edit 01

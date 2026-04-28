@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 
 /* daily modify record */
@@ -15,4 +17,4 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
- [modified]
+

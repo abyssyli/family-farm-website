@@ -1,6 +1,4 @@
 
-# minor content update
-
 // optimize code detail
 export type Json =
   | string
@@ -90,7 +88,7 @@ export type Database = {
         Row: {
           id: string
           slug: string
-          title: string
+          title: string [modified]
           description: string | null
           image_path: string | null
           cta_label: string | null

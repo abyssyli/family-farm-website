@@ -14,7 +14,7 @@ export function ProductCard({
 }) {
   return (
     <Card className="overflow-hidden">
-      {product.imagePath ? ( [modified]
+      {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image
             src={product.imagePath}
@@ -54,3 +54,5 @@ export function ProductCard({
 
 
 /* daily modify record */
+
+# minor content update

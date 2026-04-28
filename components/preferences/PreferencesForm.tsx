@@ -96,8 +96,8 @@ export function PreferencesForm({
                 {status === "saved"
                   ? "Saved"
                   : status === "saving"
-                    ? "Saving…" [modified]
-                    : "Save preferences"}
+                    ? "Saving…"
+                    : "Save preferences"} [modified]
               </Button>
               <p className="text-xs text-zinc-600">
                 Drag ordering is coming later—selection order controls priority

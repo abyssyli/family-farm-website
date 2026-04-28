@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 /* daily modify record */
 import { readFile } from "node:fs/promises"
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
@@ -29,3 +27,5 @@ export async function loadCatalogFromSource(): Promise<{
 
 
 // optimize code detail
+
+# minor content update

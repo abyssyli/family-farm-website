@@ -1,10 +1,10 @@
 
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
-const nextConfig = { [modified]
+const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"]
   }
 }
 
-export default nextConfig
+export default nextConfig [modified]

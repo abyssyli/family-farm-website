@@ -1,5 +1,3 @@
-
-// code updated randomly
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -12,7 +10,7 @@ export function ErrorState({
   action?: React.ReactNode
 }) {
   return (
-    <Card className="border-red-200">
+    <Card className="border-red-200"> [modified]
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>

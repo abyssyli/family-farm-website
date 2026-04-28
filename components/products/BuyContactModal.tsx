@@ -22,7 +22,7 @@ export function BuyContactModal({
   categorySlug: string
   productId: string | null
   defaultMessage: string
-}) {
+}) { [modified]
   const { supabase, session } = useSupabaseAuth()
   const { contactPhone } = getPublicEnv()
   const [message, setMessage] = useState(defaultMessage)
@@ -93,4 +93,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-// task5 project adjust

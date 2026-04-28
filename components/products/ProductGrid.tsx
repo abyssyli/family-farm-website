@@ -4,11 +4,11 @@ import { ProductCard } from "./ProductCard"
 export function ProductGrid({
   products,
   categorySlug
-}: { [modified]
+}: {
   products: CatalogProduct[]
   categorySlug: string
 }) {
-  return (
+  return ( [modified]
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
       {products.map((p) => (
         <ProductCard

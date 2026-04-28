@@ -47,7 +47,7 @@ export default function RootLayout({
               <Link href="/account" className="hover:text-farm-700">
                 Account
               </Link>
-              <UserMenu /> [modified]
+              <UserMenu />
             </nav>
           </header>
           <main className="flex-1 pb-16">{children}</main>
@@ -55,7 +55,7 @@ export default function RootLayout({
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
-            </div>
+            </div> [modified]
           </footer>
         </div>
       </body>

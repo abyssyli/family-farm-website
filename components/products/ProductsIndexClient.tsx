@@ -53,7 +53,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         { event: "*", schema: "public", table: "categories" },
         () => {
           setLastUpdate(new Date())
-          router.refresh() [modified]
+          router.refresh()
         }
       )
       .subscribe()
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+# minor content update

@@ -18,7 +18,7 @@ export default async function JournalIndexPage() {
       <EmptyState
         title="No journal posts yet"
         message="When we share farm updates, they’ll show up here."
-        action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
+        action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>} [modified]
       />
     )
   }
@@ -33,7 +33,7 @@ export default async function JournalIndexPage() {
           Small stories from the farm, the shop, and the family.
         </p>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"> [modified]
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}

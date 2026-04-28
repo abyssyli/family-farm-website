@@ -1,7 +1,5 @@
 
 // update log: auto edit 01
-
-// update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
@@ -36,7 +34,7 @@ export default async function ProductCategoryPage({
           {category.name}
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
-          Pick an item to see details and the best next step.
+          Pick an item to see details and the best next step. [modified]
         </p>
       </div>
 
