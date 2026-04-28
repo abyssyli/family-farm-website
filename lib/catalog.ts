@@ -106,7 +106,7 @@ export async function getCatalog(): Promise<Catalog> {
     description: r.description,
     imagePath: normalizeFarmRegionImagePath(r.slug, r.image_path),
     ctaLabel: r.cta_label,
-    ctaHref: r.cta_href, [modified]
+    ctaHref: r.cta_href,
     x: r.x,
     y: r.y
   }))
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+// code updated randomly

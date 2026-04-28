@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* auto generated comment */
 
 // update log: auto edit 01
 import Link from "next/link"

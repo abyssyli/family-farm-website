@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+// task5 project adjust
 
 # minor content update
 import { notFound, redirect } from "next/navigation"

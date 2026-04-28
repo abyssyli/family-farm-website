@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // optimize code detail
 "use client"  [edited]
 
@@ -93,5 +91,5 @@ export function BuyContactModal({
         </div>
       </div>
     </Modal>
-  )
+  ) [modified]
 }

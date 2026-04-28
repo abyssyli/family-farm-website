@@ -1,4 +1,6 @@
 
+# minor content update
+
 // optimize code detail
 export type Json =
   | string
@@ -190,5 +192,3 @@ export type Database = {
 }
 
 // task4 project adjust
-
-/* daily modify record */

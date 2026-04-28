@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 
 // task4 project adjust
 import Image from "next/image"

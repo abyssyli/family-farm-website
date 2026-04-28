@@ -25,7 +25,7 @@ export default function RootLayout({
                 PF
               </span>
               <span className="font-semibold tracking-tight">
-                Paula’s Farm Family Marketplace [modified]
+                Paula’s Farm Family Marketplace
               </span>
             </Link>
             <nav className="flex items-center gap-6 text-sm">
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// code updated randomly

@@ -1,5 +1,5 @@
 
-// task5 project adjust
+/* daily modify record */
 
 # minor content update
 export function getPublicEnv() {

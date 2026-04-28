@@ -1,7 +1,7 @@
 
 /* minor adjust */
 import { readFile } from "node:fs/promises"
-import { extname, join } from "node:path"
+import { extname, join } from "node:path" [modified]
 import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
@@ -22,7 +22,7 @@ function contentTypeFromExt(ext: string) {
 
 export async function GET(
   _request: Request,
-  { params }: { params: { name: string } } [modified]
+  { params }: { params: { name: string } }
 ) {
   const name = params.name
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {

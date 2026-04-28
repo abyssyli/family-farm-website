@@ -27,9 +27,7 @@ test("skincare category points to BeakerGold", async ({ page }) => {
   const href = await page
     .getByRole("link", { name: /Browse Lisa’s Skincare/i })
     .getAttribute("href")
-  expect(href).toBe(
+  expect(href).toBe( [modified]
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
-
-// optimize code detail

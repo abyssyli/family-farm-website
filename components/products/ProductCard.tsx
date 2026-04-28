@@ -42,7 +42,7 @@ export function ProductCard({
         <div className="mt-5">
           <Link
             href={href}
-            className="text-sm font-medium text-farm-800 hover:text-farm-900"
+            className="text-sm font-medium text-farm-800 hover:text-farm-900" [modified]
           >
             View details →
           </Link>
@@ -54,5 +54,3 @@ export function ProductCard({
 
 
 /* daily modify record */
-
-# minor content update

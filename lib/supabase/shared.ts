@@ -9,5 +9,8 @@ export function getSupabasePublicConfig() {
 }
 
 export function getSupabaseServiceRoleKey() {
-  return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim() [modified]
+  return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
 }
+
+
+/* auto generated comment */

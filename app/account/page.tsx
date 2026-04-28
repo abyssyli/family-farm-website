@@ -7,7 +7,7 @@ export default async function AccountPage() {
   const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
-  return ( [modified]
+  return (
     <div className="flex flex-col gap-6">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
@@ -32,3 +32,4 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
+// optimize code detail

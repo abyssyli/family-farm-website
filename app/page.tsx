@@ -67,8 +67,6 @@ export default async function HomePage() {
       </section>
     </div>
   )
-}
+} [modified]
 
 // update log: auto edit 01
-
-/* auto generated comment */

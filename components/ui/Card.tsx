@@ -1,3 +1,5 @@
+
+// task5 project adjust
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -23,7 +25,7 @@ export function Card({
 
 export function CardHeader({
   title,
-  subtitle [modified]
+  subtitle
 }: {
   title: string
   subtitle?: string | null
