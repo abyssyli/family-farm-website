@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -14,7 +12,7 @@ export function EmptyState({
   action?: React.ReactNode
 }) {
   return (
-    <Card>
+    <Card> [modified]
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>

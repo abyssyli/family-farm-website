@@ -1,5 +1,3 @@
-
-/* auto generated comment */
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -42,7 +40,7 @@ export const FarmRegionSchema = z.object({
 })
 
 export const CatalogSchema = z.object({
-  categories: z.array(CategorySchema),
+  categories: z.array(CategorySchema), [modified]
   products: z.array(ProductSchema),
   journalPosts: z.array(JournalPostSchema).default([]),
   farmRegions: z.array(FarmRegionSchema).default([])

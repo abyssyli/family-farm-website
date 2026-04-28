@@ -1,7 +1,7 @@
 
 // optimize code detail
 
-/* minor adjust */ [modified]
+/* minor adjust */
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -11,7 +11,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
   await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
-  await page.getByRole("link", { name: /Farm Eggs/i }).click()
+  await page.getByRole("link", { name: /Farm Eggs/i }).click() [modified]
   await expect(page.getByRole("heading", { name: /Farm Eggs/i })).toBeVisible()
 
   await page.getByRole("link", { name: /View details/i }).first().click()

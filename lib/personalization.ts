@@ -1,8 +1,8 @@
 
-/* minor adjust */ [modified]
+/* minor adjust */
 
 /* daily modify record */
-export function sortCategorySlugsByPreference(
+export function sortCategorySlugsByPreference( [modified]
   categorySlugs: string[],
   preferred: string[] | null | undefined
 ) {

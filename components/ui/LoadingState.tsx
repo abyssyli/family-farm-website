@@ -12,7 +12,5 @@ export function LoadingState({ label }: { label: string }) {
         </div>  [edited]
       </CardBody>
     </Card>
-  )
+  ) [modified]
 }
-
-# minor content update

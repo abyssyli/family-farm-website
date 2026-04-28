@@ -28,7 +28,7 @@ export function UserMenu() {
       <>
         <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
-        </Button> [modified]
+        </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
           <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>
@@ -59,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+# minor content update

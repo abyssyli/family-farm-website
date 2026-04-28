@@ -86,7 +86,7 @@ export async function getCatalog(): Promise<Catalog> {
           ? normalizeEggsImagePath(p.slug, p.image_path)
         : p.image_path,
     priceHint: p.price_hint,
-    externalUrl: p.external_url, [modified]
+    externalUrl: p.external_url,
     isActive: p.is_active
   }))
 
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+// task5 project adjust

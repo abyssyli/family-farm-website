@@ -5,7 +5,7 @@
 import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {
-  return parts.filter(Boolean).join(" ")
+  return parts.filter(Boolean).join(" ") [modified]
 }
 
 export function Modal({
@@ -45,7 +45,7 @@ export function Modal({
         aria-modal="true"
         className={cn(
           "relative w-full max-w-lg rounded-2xl bg-white shadow-xl",
-          className [modified]
+          className
         )}
       >
         <div className="flex items-center justify-between border-b border-zinc-200 px-6 py-4">

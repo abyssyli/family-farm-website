@@ -2,12 +2,12 @@
 # minor content update
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; [modified]
 
 html,
 body {
   height: 100%;
-} [modified]
+}
 
 body {
   @apply bg-farm-50 text-zinc-900;

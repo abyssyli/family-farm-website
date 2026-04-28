@@ -1,3 +1,5 @@
+
+# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -63,6 +65,6 @@ export default function RootLayout({
   )
 }
 
-/* minor adjust */ [modified]
+/* minor adjust */
 
 # minor content update

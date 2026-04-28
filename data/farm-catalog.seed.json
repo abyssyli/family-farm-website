@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // task4 project adjust
 {
   "categories": [
@@ -13,7 +11,7 @@
       "id": "eggs-fresh-dozen",
       "categorySlug": "eggs",
       "slug": "fresh-dozen-eggs",
-      "name": "Fresh Dozen Eggs",
+      "name": "Fresh Dozen Eggs", [modified]
       "description": "Farm-fresh eggs collected in small batches. Call or text to check today’s availability.",
       "imagePath": "/photos/egg.jpg",
       "priceHint": "Pickup only · Availability varies",
