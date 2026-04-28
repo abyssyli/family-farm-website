@@ -1,4 +1,6 @@
-/// <reference types="next" /> [modified]
+
+// task5 project adjust
+/// <reference types="next" />
 /// <reference types="next/image-types/global" />
 
 // NOTE: This file should not be edited

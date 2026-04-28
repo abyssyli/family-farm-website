@@ -27,7 +27,7 @@ export function UserMenu() {
     return (
       <>
         <Button variant="secondary" onClick={() => setOpen(true)}>
-          Sign in [modified]
+          Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
           <LoginForm onSuccess={() => setOpen(false)} />
@@ -59,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+// update log: auto edit 01

@@ -15,4 +15,4 @@ export function LoadingState({ label }: { label: string }) {
   )
 }
 
-// optimize code detail
+# minor content update

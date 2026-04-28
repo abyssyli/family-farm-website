@@ -15,7 +15,7 @@ export function PreferencesForm({
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [userId, setUserId] = useState<string | null>(null)
   const [selected, setSelected] = useState<string[]>([])
-  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
+  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle") [modified]
 
   useEffect(() => {
     if (!supabase) return
@@ -45,7 +45,7 @@ export function PreferencesForm({
 
   return (
     <Card>
-      <CardHeader [modified]
+      <CardHeader
         title="Preferences"
         subtitle="Choose what you want to see first when browsing products."
       />

@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -18,5 +20,3 @@ export function getPublicEnv() {
 }
 
 // task4 project adjust
-
-/* auto generated comment */

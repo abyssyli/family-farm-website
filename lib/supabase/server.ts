@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
@@ -9,7 +11,7 @@ export function createServerSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
- [modified]
+
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
   const serviceRoleKey = getSupabaseServiceRoleKey()

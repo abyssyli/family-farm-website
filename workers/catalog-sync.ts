@@ -1,3 +1,5 @@
+
+// code updated randomly
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -97,7 +99,7 @@ async function main() {
 
   for (;;) {
     try {
-      await runOnce() [modified]
+      await runOnce()
     } catch (e) {
       const message = e instanceof Error ? e.message : String(e)
       console.error(message)

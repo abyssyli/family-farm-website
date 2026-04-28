@@ -1,13 +1,13 @@
 
 // optimize code detail
 export type Json =
-  | string
+  | string [modified]
   | number
   | boolean
   | null
   | { [key: string]: Json | undefined }
   | Json[]
- [modified]
+
 export type Database = {
   public: {
     Tables: {

@@ -20,7 +20,8 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       ) : null}
     </Card>
   )
-} [modified]
+}
 
 
 # minor content update
+/* daily modify record */

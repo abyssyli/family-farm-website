@@ -1,7 +1,5 @@
 
 /* minor adjust */
-
-/* minor adjust */
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -11,3 +9,5 @@ module.exports = {
 
 
 # minor content update
+
+// update log: auto edit 01

@@ -1,6 +1,4 @@
-
-/* daily modify record */
-import "./globals.css"
+import "./globals.css" [modified]
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"

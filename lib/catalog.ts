@@ -34,7 +34,7 @@ export async function getCatalog(): Promise<Catalog> {
     return imagePath && imagePath.includes("/photos/Wooden")
       ? imagePath
       : fallbackBySlug[slug] ?? "/photos/Wooden1.jpg"
-  }
+  } [modified]
 
   const normalizeWoodcraftName = (slug: string, name: string) => {
     return slug === "handmade-stool" ? "Thoma's Handmade Stool" : name
@@ -144,4 +144,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-// code updated randomly

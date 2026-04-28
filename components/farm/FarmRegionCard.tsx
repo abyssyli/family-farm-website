@@ -18,7 +18,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
-      ) : null} [modified]
+      ) : null}
       <div className="p-6">
         <h3 className="text-base font-semibold">{region.title}</h3>
         {region.description ? (
@@ -35,3 +35,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
+/* minor adjust */

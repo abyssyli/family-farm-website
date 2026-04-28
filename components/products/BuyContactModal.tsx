@@ -69,7 +69,7 @@ export function BuyContactModal({
           />
         </label>
 
-        <div className="flex flex-wrap gap-3"> [modified]
+        <div className="flex flex-wrap gap-3">
           <Button type="button" onClick={() => window.open(smsHref)}>
             Open text message
           </Button>
@@ -93,3 +93,4 @@ export function BuyContactModal({
     </Modal>
   )
 }
+/* daily modify record */

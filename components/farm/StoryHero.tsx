@@ -71,7 +71,5 @@ export function StoryHero() {
         />
       </div>
     </section>
-  )
+  ) [modified]
 }
-
-// optimize code detail

@@ -1,5 +1,7 @@
+
+// update log: auto edit 01
 import { createClient } from "@supabase/supabase-js"
-import { getSupabasePublicConfig } from "./shared" [modified]
+import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"  [edited]
 
 export function createBrowserSupabaseClient() {
