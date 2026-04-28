@@ -6,7 +6,7 @@ import { getCatalog } from "@/lib/catalog"
 
 export default async function JournalPostPage({
   params
-}: {
+}: { [modified]
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
@@ -24,7 +24,7 @@ export default async function JournalPostPage({
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {post.title}
         </h1>
-        {post.publishedAt ? ( [modified]
+        {post.publishedAt ? (
           <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>

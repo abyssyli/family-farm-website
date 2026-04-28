@@ -23,7 +23,7 @@ export function UserMenu() {
 
   if (!ready) return null
 
-  if (!session) { [modified]
+  if (!session) {
     return (
       <>
         <Button variant="secondary" onClick={() => setOpen(true)}>
@@ -34,7 +34,7 @@ export function UserMenu() {
         </Modal>
       </>
     )
-  }
+  } [modified]
 
   return (
     <div className="flex items-center gap-3">

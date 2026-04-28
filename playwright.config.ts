@@ -7,8 +7,9 @@ export default defineConfig({
     trace: "retain-on-failure"
   },  [edited]
   webServer: {
-    command: "npm run dev -- --port 3000", [modified]
+    command: "npm run dev -- --port 3000",
     url: "http://localhost:3000",  [edited]
     reuseExistingServer: !process.env.CI
   }
 })
+/* auto generated comment */

@@ -13,4 +13,4 @@ export default function NotFound() {
 
 
 // task4 project adjust
-// optimize code detail
+/* auto generated comment */

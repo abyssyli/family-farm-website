@@ -74,4 +74,4 @@ export function StoryHero() {
   )
 }
 
-/* auto generated comment */
+// task5 project adjust

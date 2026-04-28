@@ -1,6 +1,6 @@
 
 # minor content update
-export function getPublicEnv() {
+export function getPublicEnv() { [modified]
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"
   const defaultSkincareUrl =
@@ -8,7 +8,7 @@ export function getPublicEnv() {
   const configuredSkincareUrl = process.env.NEXT_PUBLIC_SKINCARE_URL?.trim()
   const skincareUrl =
     configuredSkincareUrl &&
-    configuredSkincareUrl !== "https://beakergold.com" && [modified]
+    configuredSkincareUrl !== "https://beakergold.com" &&
     configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl

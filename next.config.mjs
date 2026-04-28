@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]

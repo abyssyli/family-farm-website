@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // task4 project adjust
 {
   "categories": [
@@ -72,7 +74,7 @@
       "priceHint": "Made to order · Local pickup",
       "externalUrl": null,
       "isActive": true
-    }, [modified]
+    },
     {
       "id": "woodcraft-decor-sign",
       "categorySlug": "woodcraft",

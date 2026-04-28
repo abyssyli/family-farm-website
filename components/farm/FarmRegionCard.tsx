@@ -1,5 +1,5 @@
 
-// task5 project adjust
+// optimize code detail
 
 // task4 project adjust
 import Image from "next/image"

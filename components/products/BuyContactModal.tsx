@@ -16,7 +16,7 @@ export function BuyContactModal({
   productId,
   defaultMessage
 }: {
-  open: boolean
+  open: boolean [modified]
   onClose: () => void
   title: string
   categorySlug: string
@@ -30,7 +30,7 @@ export function BuyContactModal({
 
   const smsHref = useMemo(() => {
     const body = encodeURIComponent(message)
-    const digits = contactPhone.replace(/[^\d+]/g, "") [modified]
+    const digits = contactPhone.replace(/[^\d+]/g, "")
     return `sms:${digits}?&body=${body}`
   }, [contactPhone, message])
 

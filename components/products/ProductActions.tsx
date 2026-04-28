@@ -26,7 +26,7 @@ export function ProductActions({
   }
 
   return (
-    <> [modified]
+    <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
       </Button>
@@ -43,3 +43,4 @@ export function ProductActions({
 }
 
 # minor content update
+// task5 project adjust

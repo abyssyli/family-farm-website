@@ -34,7 +34,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         setPreferred(pref.preferred_categories)
       }
     })
-  }, [supabase])
+  }, [supabase]) [modified]
 
   useEffect(() => {
     if (!supabase) return
@@ -139,4 +139,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
-# minor content update

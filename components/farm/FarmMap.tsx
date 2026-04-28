@@ -97,4 +97,4 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 
 /* minor adjust */
 
-// code updated randomly
+// task5 project adjust
