@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -35,4 +33,5 @@ export function useSupabaseAuth() {
 }
 
 
+// update log: auto edit 01
 // update log: auto edit 01

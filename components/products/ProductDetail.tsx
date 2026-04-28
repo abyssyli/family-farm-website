@@ -7,7 +7,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductDetail({
   product,
-  categoryName,
+  categoryName, [modified]
   primaryAction
 }: {
   product: CatalogProduct
@@ -36,7 +36,7 @@ export function ProductDetail({
       <div>
         <p className="text-sm font-medium text-farm-800">
           <Link href={`/products/${product.categorySlug}`} className="hover:underline">
-            {categoryName} [modified]
+            {categoryName}
           </Link>
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">

@@ -1,10 +1,8 @@
 
 # minor content update
-
-# minor content update
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; [modified]
 
 html,
 body {

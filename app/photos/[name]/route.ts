@@ -1,6 +1,4 @@
 
-# minor content update
-
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -31,7 +29,7 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 
-  try {
+  try { [modified]
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)

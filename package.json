@@ -35,9 +35,7 @@
     "eslint-config-next": "^14.2.20",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "tsx": "^4.19.2",
+    "tsx": "^4.19.2", [modified]
     "typescript": "^5.4.5"
   }
 }
-
-// update log: auto edit 01

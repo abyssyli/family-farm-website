@@ -1,3 +1,5 @@
+
+// task5 project adjust
 "use client"
 
 import { useState } from "react"  [edited]
@@ -6,7 +8,7 @@ import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
-export function ProductActions({ [modified]
+export function ProductActions({
   product,
   categorySlug
 }: {

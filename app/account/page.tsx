@@ -1,5 +1,3 @@
-
-// code updated randomly
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -8,7 +6,7 @@ import { UserMenu } from "@/components/auth/UserMenu"
 export default async function AccountPage() {
   const catalog = await getCatalog()
   const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
-
+ [modified]
   return (
     <div className="flex flex-col gap-6">
       <div>

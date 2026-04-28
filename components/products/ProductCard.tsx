@@ -25,7 +25,7 @@ export function ProductCard({
           />
         </div>
       ) : null}
-      <div className="p-6">
+      <div className="p-6"> [modified]
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
         </div>
@@ -54,5 +54,3 @@ export function ProductCard({
 
 
 /* daily modify record */
-
-// task5 project adjust

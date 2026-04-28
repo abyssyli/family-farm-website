@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -44,3 +42,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
+// update log: auto edit 01

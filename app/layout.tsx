@@ -27,7 +27,7 @@ export default function RootLayout({
               <span className="font-semibold tracking-tight">
                 Paula’s Farm Family Marketplace
               </span>
-            </Link>
+            </Link> [modified]
             <nav className="flex items-center gap-6 text-sm">
               <Link href="/products" className="group inline-flex items-center gap-2 hover:text-farm-700">
                 <span className="relative h-6 w-6 overflow-hidden rounded-lg ring-1 ring-zinc-200">
@@ -66,5 +66,3 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
-
-// update log: auto edit 01

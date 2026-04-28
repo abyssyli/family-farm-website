@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 
 // task4 project adjust
 import { getCatalog } from "@/lib/catalog"

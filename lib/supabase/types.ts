@@ -86,7 +86,7 @@ export type Database = {
       }
       farm_regions: {
         Row: {
-          id: string
+          id: string [modified]
           slug: string
           title: string
           description: string | null
@@ -190,5 +190,3 @@ export type Database = {
 }
 
 // task4 project adjust
-
-// optimize code detail

@@ -5,7 +5,7 @@ export const CategorySchema = z.object({
   name: z.string().min(1),
   sortOrder: z.number().int().nonnegative().default(0)
 })
- [modified]
+
 export const ProductSchema = z.object({
   id: z.string().min(1),
   categorySlug: z.string().min(1),
@@ -56,3 +56,5 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 // optimize code detail
 
 /* daily modify record */
+
+# minor content update

@@ -20,4 +20,4 @@ export function createServiceRoleSupabaseClient() {
 
 // optimize code detail
 
-// optimize code detail
+/* auto generated comment */

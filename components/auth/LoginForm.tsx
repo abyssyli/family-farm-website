@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -61,7 +59,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         />
       </label>
       <Button type="submit" disabled={!isConfigured || status === "sending"}>
-        {status === "sending" ? "Sending…" : "Send magic link"}
+        {status === "sending" ? "Sending…" : "Send magic link"} [modified]
       </Button>
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">
