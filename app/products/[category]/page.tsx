@@ -42,4 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-// task5 project adjust
+# minor content update

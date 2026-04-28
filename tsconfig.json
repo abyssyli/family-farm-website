@@ -4,7 +4,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
-      "DOM",
+      "DOM", [modified]
       "DOM.Iterable",
       "ES2022"
     ],
@@ -43,5 +43,3 @@
 }
 
 /* daily modify record */
-
-/* auto generated comment */

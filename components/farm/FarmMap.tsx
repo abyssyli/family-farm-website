@@ -43,7 +43,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
             <Image
               src={coverImagePath}
               alt="Farm map"
-              width={1400}
+              width={1400} [modified]
               height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -96,5 +96,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
-
-// code updated randomly

@@ -26,7 +26,7 @@ export function useSupabaseAuth() {
     return () => {
       active = false
       data.subscription.unsubscribe()
-    } [modified]
+    }
   }, [supabase])
 
   return { supabase, session, ready }
@@ -34,3 +34,4 @@ export function useSupabaseAuth() {
 
 
 // update log: auto edit 01
+// task5 project adjust

@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -13,7 +15,7 @@ export default async function AccountPage() {
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>
-        <p className="mt-2 text-sm text-zinc-700"> [modified]
+        <p className="mt-2 text-sm text-zinc-700">
           Sign in to save your preferences and track inquiries.
         </p>
       </div>

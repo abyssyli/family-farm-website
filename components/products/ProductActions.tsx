@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"  [edited]
+import { useState } from "react"  [edited] [modified]
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
@@ -8,7 +8,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
   product,
-  categorySlug [modified]
+  categorySlug
 }: {
   product: CatalogProduct
   categorySlug: string

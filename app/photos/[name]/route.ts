@@ -47,4 +47,4 @@ export async function GET(
 
 // update log: auto edit 01
 
-// code updated randomly
+// optimize code detail

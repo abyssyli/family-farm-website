@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // update log: auto edit 01
 
 /* daily modify record */
@@ -20,7 +18,7 @@ export function UserMenu() {
     if (!email) return "U"
     const trimmed = email.trim()
     if (!trimmed) return "U"
-    return trimmed[0]?.toUpperCase() ?? "U"
+    return trimmed[0]?.toUpperCase() ?? "U" [modified]
   }, [email])
 
   if (!ready) return null

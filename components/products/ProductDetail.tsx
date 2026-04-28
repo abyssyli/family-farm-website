@@ -3,7 +3,7 @@
 import Image from "next/image"  [edited]
 import Link from "next/link"
 import { ButtonLink } from "@/components/ui/Button"
-import type { CatalogProduct } from "@/lib/catalog-schema"
+import type { CatalogProduct } from "@/lib/catalog-schema" [modified]
 
 export function ProductDetail({
   product,
@@ -52,7 +52,7 @@ export function ProductDetail({
             {product.priceHint}
           </p>
         ) : null}
- [modified]
+
         <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 
         <div className="mt-8">

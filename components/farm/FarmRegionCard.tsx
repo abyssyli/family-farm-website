@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 // task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
@@ -28,7 +26,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
         ) : null}
         {region.ctaHref ? (
           <div className="mt-5">
-            <ButtonLink href={region.ctaHref} variant="secondary">
+            <ButtonLink href={region.ctaHref} variant="secondary"> [modified]
               {region.ctaLabel || "Explore"}
             </ButtonLink>
           </div>

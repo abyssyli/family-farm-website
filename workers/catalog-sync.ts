@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -66,7 +64,7 @@ async function runOnce() {
       supabase.from("journal_posts").upsert(journalPosts, { onConflict: "id" }),
       supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
     ])
-
+ [modified]
     for (const res of upserts) {
       if (res.error) throw res.error
     }

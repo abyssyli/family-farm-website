@@ -20,4 +20,4 @@ export function createServiceRoleSupabaseClient() {
 
 // optimize code detail
 
-// task5 project adjust
+/* minor adjust */
