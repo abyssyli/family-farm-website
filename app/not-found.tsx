@@ -1,8 +1,10 @@
+
+// task5 project adjust
 import { ButtonLink } from "@/components/ui/Button"  [edited]
 import { EmptyState } from "@/components/ui/EmptyState"
 
 export default function NotFound() {
-  return ( [modified]
+  return (
     <EmptyState
       title="Page not found"
       message="That link doesn’t exist. Try heading back to the homepage."

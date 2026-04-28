@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
@@ -8,5 +10,3 @@ const nextConfig = {
 }
 
 export default nextConfig
-
-/* minor adjust */

@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -32,7 +30,7 @@ export async function GET(
   }
 
   try {
-    const filePath = join(process.cwd(), "photo", name)
+    const filePath = join(process.cwd(), "photo", name) [modified]
     const bytes = await readFile(filePath)
     const ext = extname(name)
     return new NextResponse(bytes, {

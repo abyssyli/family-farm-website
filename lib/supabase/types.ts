@@ -140,7 +140,7 @@ export type Database = {
           product_id: string | null
           category_slug: string
           message: string
-          created_at: string
+          created_at: string [modified]
         }
         Insert: {
           id?: string
@@ -190,5 +190,3 @@ export type Database = {
 }
 
 // task4 project adjust
-
-/* daily modify record */

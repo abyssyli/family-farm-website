@@ -24,7 +24,7 @@ export function StoryHero() {
         : "/photos/background1.jpg"
 
   return (
-    <section className="grid gap-8 lg:grid-cols-2 lg:items-center"> [modified]
+    <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
       <div>
         <p className="text-sm font-medium text-farm-800">
           Texas family farm · Eggs · Woodcraft · Skincare
@@ -73,3 +73,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// code updated randomly

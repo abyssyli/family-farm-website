@@ -91,7 +91,7 @@ async function main() {
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
   if (once) {
-    await runOnce()
+    await runOnce() [modified]
     return
   }
 
@@ -112,8 +112,6 @@ main().catch((e) => {
   process.exit(1)
 })
 
-
-// optimize code detail
 
 // optimize code detail
 
