@@ -37,9 +37,7 @@ export default async function JournalIndexPage() {
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}
-      </div>
+      </div> [modified]
     </div>
   )
 }
-
-// code updated randomly

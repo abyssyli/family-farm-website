@@ -1,3 +1,5 @@
+
+# minor content update
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -24,7 +26,7 @@ export default async function AccountPage() {
           <UserMenu />
         </CardBody>
       </Card>
- [modified]
+
       <PreferencesForm categories={categories} />
     </div>
   )

@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -38,7 +36,7 @@ export function ProductCard({
         ) : null}
         {product.priceHint ? (
           <p className="mt-3 text-xs font-medium text-zinc-600">
-            {product.priceHint}
+            {product.priceHint} [modified]
           </p>
         ) : null}
         <div className="mt-5">

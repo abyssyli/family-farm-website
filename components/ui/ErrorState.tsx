@@ -5,7 +5,7 @@ export function ErrorState({
   message,
   action
 }: {
-  title: string
+  title: string [modified]
   message: string
   action?: React.ReactNode
 }) {
@@ -23,4 +23,3 @@ export function ErrorState({
     </Card>
   )
 }  [edited]
-# minor content update

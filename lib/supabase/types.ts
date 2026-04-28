@@ -1,7 +1,7 @@
 
 // optimize code detail
 export type Json =
-  | string [modified]
+  | string
   | number
   | boolean
   | null
@@ -168,7 +168,7 @@ export type Database = {
         }
         Insert: {
           id?: string
-          status: "success" | "error"
+          status: "success" | "error" [modified]
           source: string
           message?: string | null
           ran_at?: string

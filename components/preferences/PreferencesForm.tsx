@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 /* minor adjust */
 "use client"
 
@@ -15,7 +17,7 @@ export function PreferencesForm({
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [userId, setUserId] = useState<string | null>(null)
   const [selected, setSelected] = useState<string[]>([])
-  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle") [modified]
+  const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   useEffect(() => {
     if (!supabase) return

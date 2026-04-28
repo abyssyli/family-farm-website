@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 # minor content update
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
@@ -37,3 +35,5 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
+
+// code updated randomly

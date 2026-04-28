@@ -1,6 +1,6 @@
- [modified]
+
 // optimize code detail
-/** @type {import('next').NextConfig} */  [edited]
+/** @type {import('next').NextConfig} */  [edited] [modified]
 const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"]

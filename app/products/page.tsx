@@ -1,7 +1,5 @@
 
-// optimize code detail
-
-// task4 project adjust
+// task4 project adjust [modified]
 import { getCatalog } from "@/lib/catalog"
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 

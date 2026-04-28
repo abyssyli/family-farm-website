@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -34,7 +36,7 @@ export async function getCatalog(): Promise<Catalog> {
     return imagePath && imagePath.includes("/photos/Wooden")
       ? imagePath
       : fallbackBySlug[slug] ?? "/photos/Wooden1.jpg"
-  } [modified]
+  }
 
   const normalizeWoodcraftName = (slug: string, name: string) => {
     return slug === "handmade-stool" ? "Thoma's Handmade Stool" : name

@@ -1,5 +1,5 @@
 
-/* daily modify record */
+# minor content update
 
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"

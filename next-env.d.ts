@@ -1,5 +1,3 @@
-
-// task5 project adjust
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 
@@ -7,3 +5,4 @@
 // see https://nextjs.org/docs/app/building-your-application/configuring/typescript for more information.
   [edited]
 // task4 project adjust
+/* minor adjust */
