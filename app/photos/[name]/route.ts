@@ -5,7 +5,7 @@ import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
-  switch (ext.toLowerCase()) {
+  switch (ext.toLowerCase()) { [modified]
     case ".jpg":
     case ".jpeg":
       return "image/jpeg"
@@ -46,5 +46,3 @@ export async function GET(
 
 
 // update log: auto edit 01
-
-/* minor adjust */

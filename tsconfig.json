@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -23,7 +21,7 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
+        "name": "next" [modified]
       }
     ],
     "baseUrl": ".",

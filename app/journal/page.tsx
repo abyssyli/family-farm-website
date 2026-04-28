@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+# minor content update
 
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"

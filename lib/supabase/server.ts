@@ -3,7 +3,7 @@
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
- [modified]
+
 export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   if (!url || !anonKey) return null
@@ -19,3 +19,5 @@ export function createServiceRoleSupabaseClient() {
 
 
 // optimize code detail
+
+// update log: auto edit 01

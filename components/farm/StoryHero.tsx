@@ -21,7 +21,7 @@ export function StoryHero() {
       ? "/photos/background.jpg"
       : isDay
         ? "/photos/background.jpg"
-        : "/photos/background1.jpg" [modified]
+        : "/photos/background1.jpg"
 
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
@@ -73,3 +73,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// code updated randomly

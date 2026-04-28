@@ -30,7 +30,7 @@
       "isActive": true
     },
     {
-      "id": "eggs-coop-visit", [modified]
+      "id": "eggs-coop-visit",
       "categorySlug": "eggs",
       "slug": "coop-visit",
       "name": "Chicken Coop Visit",
@@ -111,7 +111,7 @@
       "categorySlug": "skincare",
       "slug": "body-butter",
       "name": "Body Butter",
-      "description": "All-natural body butter designed to nourish and hydrate—especially for sensitive skin.",
+      "description": "All-natural body butter designed to nourish and hydrate—especially for sensitive skin.", [modified]
       "imagePath": "/photos/background1.jpg",
       "priceHint": "Ships from Lisa’s shop",
       "externalUrl": "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR",

@@ -8,6 +8,4 @@ module.exports = {
 }
 
 
-# minor content update
-
-// optimize code detail
+# minor content update [modified]

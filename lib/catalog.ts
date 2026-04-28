@@ -17,8 +17,8 @@ export async function getCatalog(): Promise<Catalog> {
     supabase.from("products").select("*").eq("is_active", true),
     supabase.from("journal_posts").select("*").order("published_at", { ascending: false }),
     supabase.from("farm_regions").select("*")
-  ])
- [modified]
+  ]) [modified]
+
   if (categoriesRes.error || productsRes.error || journalRes.error || regionsRes.error) {
     return seedCatalog
   }

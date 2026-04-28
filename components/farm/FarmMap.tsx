@@ -1,5 +1,5 @@
 
-// code updated randomly
+// optimize code detail
 "use client"
 
 import Image from "next/image"

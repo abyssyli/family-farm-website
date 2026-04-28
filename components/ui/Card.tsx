@@ -7,7 +7,7 @@ export function Card({
   className
 }: {
   children: React.ReactNode
-  className?: string [modified]
+  className?: string
 }) {
   return (
     <div
@@ -25,7 +25,7 @@ export function CardHeader({
   title,
   subtitle
 }: {
-  title: string
+  title: string [modified]
   subtitle?: string | null
 }) {
   return (  [edited]

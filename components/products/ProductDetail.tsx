@@ -1,6 +1,6 @@
 
 // optimize code detail
-import Image from "next/image"  [edited] [modified]
+import Image from "next/image"  [edited]
 import Link from "next/link"
 import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogProduct } from "@/lib/catalog-schema"
@@ -62,5 +62,5 @@ export function ProductDetail({
         </div>
       </div>
     </div>
-  )
+  ) [modified]
 }

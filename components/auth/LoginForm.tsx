@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button"
 import { ErrorState } from "@/components/ui/ErrorState"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
-export function LoginForm({ onSuccess }: { onSuccess?: () => void }) { [modified]
+export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const { supabase } = useSupabaseAuth()
   const isConfigured = Boolean(supabase)
   const [email, setEmail] = useState("")
@@ -59,7 +59,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) { [modified
         />
       </label>
       <Button type="submit" disabled={!isConfigured || status === "sending"}>
-        {status === "sending" ? "Sending…" : "Send magic link"}
+        {status === "sending" ? "Sending…" : "Send magic link"} [modified]
       </Button>
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">

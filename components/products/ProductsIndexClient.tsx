@@ -72,7 +72,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [catalog.categories])
 
   if (catalog.categories.length === 0) {
-    return ( [modified]
+    return (
       <EmptyState
         title="No categories yet"
         message="Once the worker syncs data, products will show up here."
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+/* auto generated comment */

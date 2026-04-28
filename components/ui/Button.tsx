@@ -52,7 +52,7 @@ export function ButtonLink({
         className={cn(base, variants[variant], className)}
       >
         {children}
-      </a>
+      </a> [modified]
     )
   }
   return (
@@ -61,4 +61,3 @@ export function ButtonLink({
     </Link>
   )
 }
-// code updated randomly

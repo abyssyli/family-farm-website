@@ -24,7 +24,7 @@ export function useSupabaseAuth() {
       setSession(nextSession)
     })
     return () => {
-      active = false [modified]
+      active = false
       data.subscription.unsubscribe()
     }
   }, [supabase])
@@ -33,4 +33,5 @@ export function useSupabaseAuth() {
 }
 
 
+// update log: auto edit 01
 // update log: auto edit 01
