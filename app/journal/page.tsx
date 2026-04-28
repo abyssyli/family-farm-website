@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// task5 project adjust
 
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"

@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 // task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
@@ -37,3 +35,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
+// code updated randomly

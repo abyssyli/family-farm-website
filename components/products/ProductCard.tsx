@@ -34,8 +34,8 @@ export function ProductCard({
             {product.description}
           </p>
         ) : null}
-        {product.priceHint ? (
-          <p className="mt-3 text-xs font-medium text-zinc-600"> [modified]
+        {product.priceHint ? ( [modified]
+          <p className="mt-3 text-xs font-medium text-zinc-600">
             {product.priceHint}
           </p>
         ) : null}

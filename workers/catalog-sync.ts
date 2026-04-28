@@ -1,6 +1,6 @@
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
- [modified]
+
 function sleep(ms: number) {
   return new Promise<void>((resolve) => setTimeout(resolve, ms))
 }
@@ -17,7 +17,7 @@ async function runOnce() {
 
   const categories = catalog.categories.map((c) => ({
     slug: c.slug,
-    name: c.name,
+    name: c.name, [modified]
     sort_order: c.sortOrder
   }))
 

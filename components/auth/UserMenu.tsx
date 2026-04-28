@@ -36,7 +36,7 @@ export function UserMenu() {
     )
   }
 
-  return (
+  return ( [modified]
     <div className="flex items-center gap-3">
       <div
         className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-farm-700 text-sm font-semibold text-white"
@@ -59,5 +59,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// optimize code detail

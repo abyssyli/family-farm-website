@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -6,7 +8,7 @@ export function ErrorState({
   action
 }: {
   title: string
-  message: string [modified]
+  message: string
   action?: React.ReactNode
 }) {
   return (

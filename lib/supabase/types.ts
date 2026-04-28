@@ -96,7 +96,7 @@ export type Database = {
           x: number
           y: number
         }
-        Insert: { [modified]
+        Insert: {
           id: string
           slug: string
           title: string
@@ -183,7 +183,7 @@ export type Database = {
       }
     }
     Views: { [_ in never]: never }
-    Functions: { [_ in never]: never }
+    Functions: { [_ in never]: never } [modified]
     Enums: { [_ in never]: never }
     CompositeTypes: { [_ in never]: never }
   }

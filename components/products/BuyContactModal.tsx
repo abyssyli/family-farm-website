@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 // optimize code detail
 "use client"  [edited]
 
@@ -88,7 +90,7 @@ export function BuyContactModal({
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}
           </Button>
-        </div> [modified]
+        </div>
       </div>
     </Modal>
   )

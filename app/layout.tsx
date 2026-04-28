@@ -2,7 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
-import { UserMenu } from "@/components/auth/UserMenu" [modified]
+import { UserMenu } from "@/components/auth/UserMenu"
 
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// optimize code detail

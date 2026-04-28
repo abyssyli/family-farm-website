@@ -1,8 +1,6 @@
 
-/* auto generated comment */
-
 /* minor adjust */
-module.exports = {
+module.exports = { [modified]
   plugins: {
     tailwindcss: {},
     autoprefixer: {}

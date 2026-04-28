@@ -11,8 +11,6 @@ export function LoadingState({ label }: { label: string }) {
           <p className="text-sm text-zinc-700">{label}</p>
         </div>  [edited]
       </CardBody>
-    </Card>
+    </Card> [modified]
   )
 }
-
-// optimize code detail

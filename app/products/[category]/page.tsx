@@ -28,7 +28,7 @@ export default async function ProductCategoryPage({
         <p className="text-sm font-medium text-farm-800">
           <Link href="/products" className="hover:underline">
             Products
-          </Link>  [edited] [modified]
+          </Link>  [edited]
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {category.name}
@@ -42,3 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+/* minor adjust */

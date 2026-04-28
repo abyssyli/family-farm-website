@@ -31,7 +31,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }
 
   if (error) {
-    return (
+    return ( [modified]
       <ErrorState
         title="Sign-in failed"
         message={error}
@@ -81,5 +81,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
-
-/* auto generated comment */

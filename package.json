@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 # minor content update
 
 // task4 project adjust
@@ -16,7 +18,7 @@
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "worker:sync": "tsx workers/catalog-sync.ts" [modified]
+    "worker:sync": "tsx workers/catalog-sync.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",

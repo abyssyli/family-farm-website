@@ -21,7 +21,7 @@ export const ProductSchema = z.object({
 export const JournalPostSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
-  title: z.string().min(1),
+  title: z.string().min(1), [modified]
   excerpt: z.string().nullable().optional().default(null),
   body: z.string().min(1),
   publishedAt: z.string().datetime().nullable().optional().default(null)
@@ -56,5 +56,3 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 // optimize code detail
 
 /* daily modify record */
-
-/* auto generated comment */

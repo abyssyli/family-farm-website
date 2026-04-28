@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 /* minor adjust */
 "use client"
 
@@ -88,7 +86,7 @@ export function PreferencesForm({
                   </label>
                 )
               })}
-            </div>
+            </div> [modified]
             <div className="flex items-center gap-3">
               <Button
                 type="button"

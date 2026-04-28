@@ -24,7 +24,7 @@ export default async function ProductDetailPage({
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
   if (!product) notFound()
- [modified]
+
   return (
     <ProductDetail
       product={product}
@@ -33,5 +33,7 @@ export default async function ProductDetailPage({
     />
   )
 }
+
+/* daily modify record */
 
 /* daily modify record */

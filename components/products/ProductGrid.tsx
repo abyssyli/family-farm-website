@@ -1,6 +1,6 @@
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
- [modified]
+
 export function ProductGrid({
   products,
   categorySlug
@@ -13,7 +13,7 @@ export function ProductGrid({
       {products.map((p) => (
         <ProductCard
           key={p.id}
-          product={p}
+          product={p} [modified]
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}

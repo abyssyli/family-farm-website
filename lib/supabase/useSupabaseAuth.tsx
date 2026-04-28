@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -25,7 +27,7 @@ export function useSupabaseAuth() {
     })
     return () => {
       active = false
-      data.subscription.unsubscribe() [modified]
+      data.subscription.unsubscribe()
     }
   }, [supabase])
 

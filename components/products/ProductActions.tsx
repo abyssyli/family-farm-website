@@ -19,7 +19,7 @@ export function ProductActions({
   if (product.externalUrl) {
     const href = skincareUrl
     return (
-      <ButtonLink href={href} variant="primary" className="w-fit">
+      <ButtonLink href={href} variant="primary" className="w-fit"> [modified]
         Shop on BeakerGold
       </ButtonLink>
     )
@@ -43,4 +43,3 @@ export function ProductActions({
 }
 
 # minor content update
-// code updated randomly
