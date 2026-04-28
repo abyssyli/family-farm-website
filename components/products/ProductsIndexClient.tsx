@@ -32,7 +32,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         .maybeSingle()
       if (pref?.preferred_categories) {
         setPreferred(pref.preferred_categories)
-      } [modified]
+      }
     })
   }, [supabase])
 
@@ -94,7 +94,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           </p>
         </div>
         {lastUpdate ? (
-          <p className="text-xs text-zinc-600">
+          <p className="text-xs text-zinc-600"> [modified]
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
         ) : null}

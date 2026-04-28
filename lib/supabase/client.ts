@@ -1,6 +1,4 @@
-
-# minor content update
-import { createClient } from "@supabase/supabase-js"
+import { createClient } from "@supabase/supabase-js" [modified]
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"  [edited]
 

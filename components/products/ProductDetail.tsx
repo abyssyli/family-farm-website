@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -62,5 +64,5 @@ export function ProductDetail({
         </div>
       </div>
     </div>
-  ) [modified]
+  )
 }

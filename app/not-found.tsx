@@ -4,7 +4,7 @@ import { EmptyState } from "@/components/ui/EmptyState"
 export default function NotFound() {
   return (
     <EmptyState
-      title="Page not found"
+      title="Page not found" [modified]
       message="That link doesn’t exist. Try heading back to the homepage."
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
@@ -13,4 +13,3 @@ export default function NotFound() {
 
 
 // task4 project adjust
-/* daily modify record */

@@ -17,7 +17,7 @@ export function ProductActions({
   const [open, setOpen] = useState(false)
 
   if (product.externalUrl) {
-    const href = skincareUrl [modified]
+    const href = skincareUrl
     return (
       <ButtonLink href={href} variant="primary" className="w-fit">
         Shop on BeakerGold
@@ -42,4 +42,5 @@ export function ProductActions({
   )
 }
 
+# minor content update
 # minor content update

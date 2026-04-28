@@ -28,7 +28,7 @@ export default async function JournalPostPage({
           <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
-        ) : null}
+        ) : null} [modified]
       </div>
 
       <Card>
@@ -49,5 +49,3 @@ export default async function JournalPostPage({
 }
 
 /* minor adjust */
-
-// update log: auto edit 01

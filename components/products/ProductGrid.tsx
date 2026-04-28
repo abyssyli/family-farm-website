@@ -7,7 +7,7 @@ export function ProductGrid({
 }: {
   products: CatalogProduct[]
   categorySlug: string
-}) {
+}) { [modified]
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
       {products.map((p) => (
@@ -20,4 +20,3 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
-/* daily modify record */

@@ -11,7 +11,7 @@
       "id": "eggs-fresh-dozen",
       "categorySlug": "eggs",
       "slug": "fresh-dozen-eggs",
-      "name": "Fresh Dozen Eggs", [modified]
+      "name": "Fresh Dozen Eggs",
       "description": "Farm-fresh eggs collected in small batches. Call or text to check today’s availability.",
       "imagePath": "/photos/egg.jpg",
       "priceHint": "Pickup only · Availability varies",
@@ -97,7 +97,7 @@
     },
     {
       "id": "woodcraft-stool",
-      "categorySlug": "woodcraft",
+      "categorySlug": "woodcraft", [modified]
       "slug": "handmade-stool",
       "name": "Thoma's Handmade Stool",
       "description": "A sturdy little stool with clean lines—great as a step, seat, or plant stand.",

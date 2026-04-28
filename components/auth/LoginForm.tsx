@@ -42,7 +42,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         }
       />
     )
-  }
+  } [modified]
 
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-3">
@@ -81,5 +81,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
-
-/* daily modify record */

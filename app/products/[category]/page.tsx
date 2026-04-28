@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 // update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
@@ -9,7 +7,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductCategoryPage({
-  params
+  params [modified]
 }: {
   params: { category: string }
 }) {

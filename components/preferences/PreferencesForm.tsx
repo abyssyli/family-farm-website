@@ -51,7 +51,7 @@ export function PreferencesForm({
       />
       <CardBody>
         {!supabase ? (
-          <p className="text-sm text-zinc-700"> [modified]
+          <p className="text-sm text-zinc-700">
             Supabase isn’t configured in this environment. Add env vars to enable
             saved preferences.
           </p>
@@ -87,7 +87,7 @@ export function PreferencesForm({
                 )
               })}
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3"> [modified]
               <Button
                 type="button"
                 onClick={save}

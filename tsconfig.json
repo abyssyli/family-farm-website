@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -36,7 +38,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ], [modified]
+  ],
   "exclude": [
     "node_modules"
   ]

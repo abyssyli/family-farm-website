@@ -1,13 +1,13 @@
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
-  testDir: "./tests", [modified]
+  testDir: "./tests",
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
     trace: "retain-on-failure"
   },  [edited]
   webServer: {
-    command: "npm run dev -- --port 3000",
+    command: "npm run dev -- --port 3000", [modified]
     url: "http://localhost:3000",  [edited]
     reuseExistingServer: !process.env.CI
   }

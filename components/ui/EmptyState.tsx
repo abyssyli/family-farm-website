@@ -12,7 +12,7 @@ export function EmptyState({
   action?: React.ReactNode
 }) {
   return (
-    <Card> [modified]
+    <Card>
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>
@@ -26,5 +26,5 @@ export function EmptyState({
   )
 }
 
-
+ [modified]
 /* minor adjust */

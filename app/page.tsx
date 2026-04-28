@@ -1,6 +1,6 @@
 
 /* daily modify record */
-import Link from "next/link" [modified]
+import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
@@ -57,7 +57,7 @@ export default async function HomePage() {
                     href={`/products/${c.slug}`}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                   >
-                    Browse {c.name} →
+                    Browse {c.name} → [modified]
                   </Link>
                 )}
               </div>

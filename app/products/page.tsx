@@ -6,4 +6,6 @@ import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 export default async function ProductsPage() {
   const catalog = await getCatalog()
   return <ProductsIndexClient catalog={catalog} />
-}  [edited] [modified]
+}  [edited]
+
+// task5 project adjust

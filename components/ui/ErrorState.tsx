@@ -1,6 +1,6 @@
 import { Card, CardBody } from "./Card"  [edited]
 
-export function ErrorState({
+export function ErrorState({ [modified]
   title,
   message,
   action
@@ -22,4 +22,4 @@ export function ErrorState({
       </CardBody>
     </Card>
   )
-}  [edited] [modified]
+}  [edited]

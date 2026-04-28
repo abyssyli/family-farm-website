@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 # minor content update
 
 // task4 project adjust
@@ -35,7 +33,7 @@
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.20",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.38", [modified]
     "tailwindcss": "^3.4.4",
     "tsx": "^4.19.2",
     "typescript": "^5.4.5"
