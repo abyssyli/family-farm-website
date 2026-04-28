@@ -13,10 +13,11 @@ export function ProductGrid({
       {products.map((p) => (
         <ProductCard
           key={p.id}
-          product={p} [modified]
+          product={p}
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}
     </div>
   )
 }  [edited]
+/* minor adjust */

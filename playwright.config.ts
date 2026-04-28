@@ -1,3 +1,5 @@
+
+# minor content update
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -12,4 +14,3 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-// update log: auto edit 01

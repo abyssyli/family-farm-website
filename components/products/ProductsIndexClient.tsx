@@ -41,7 +41,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     const channel = supabase
       .channel("catalog-changes")
       .on(
-        "postgres_changes",
+        "postgres_changes", [modified]
         { event: "*", schema: "public", table: "products" },
         () => {
           setLastUpdate(new Date())
@@ -103,7 +103,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {orderedCategorySlugs.map((slug) => {
           const category = categoryBySlug.get(slug)
-          if (!category) return null [modified]
+          if (!category) return null
           const count = catalog.products.filter((p) => p.categorySlug === slug)
             .length
           const isSkincare = slug === "skincare"

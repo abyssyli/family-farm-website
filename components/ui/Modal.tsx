@@ -32,7 +32,7 @@ export function Modal({
 
   if (!open) return null
 
-  return ( [modified]
+  return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <button
         type="button"
@@ -59,7 +59,7 @@ export function Modal({
           </button>
         </div>
         <div className="px-6 py-5">{children}</div>
-      </div>
+      </div> [modified]
     </div>
   )
 }

@@ -33,7 +33,7 @@ export function CardHeader({
       <h3 className="text-base font-semibold">{title}</h3>
       {subtitle ? <p className="mt-1 text-sm text-zinc-600">{subtitle}</p> : null}
     </div>
-  )
+  ) [modified]
 }
 
 export function CardBody({ children }: { children: React.ReactNode }) {
@@ -42,4 +42,3 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-// task5 project adjust

@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* minor adjust */
 import { z } from "zod"
 
 export const CategorySchema = z.object({

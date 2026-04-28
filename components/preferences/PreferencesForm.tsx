@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// code updated randomly
 
 /* minor adjust */
 "use client"

@@ -158,9 +158,10 @@
       "description": "Our small shop where woodcraft gets sketched, cut, sanded, and finished by hand.",
       "imagePath": "/photos/Wooden1.jpg",
       "ctaLabel": "Explore Woodcraft",
-      "ctaHref": "/products/woodcraft", [modified]
+      "ctaHref": "/products/woodcraft",
       "x": 70,
       "y": 40
     }
   ]
 }
+// task5 project adjust

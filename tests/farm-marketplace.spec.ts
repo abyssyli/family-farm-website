@@ -1,5 +1,5 @@
 
-// code updated randomly
+/* daily modify record */
 
 // optimize code detail
 

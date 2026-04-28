@@ -1,5 +1,3 @@
-
-// code updated randomly
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -26,7 +24,7 @@ export function useSupabaseAuth() {
       setSession(nextSession)
     })
     return () => {
-      active = false
+      active = false [modified]
       data.subscription.unsubscribe()
     }
   }, [supabase])

@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "worker:sync": "tsx workers/catalog-sync.ts"
+    "worker:sync": "tsx workers/catalog-sync.ts" [modified]
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
@@ -39,5 +39,3 @@
     "typescript": "^5.4.5"
   }
 }
-
-// code updated randomly

@@ -14,7 +14,7 @@ export function ErrorState({
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>
-            <h2 className="text-lg font-semibold text-red-900">{title}</h2> [modified]
+            <h2 className="text-lg font-semibold text-red-900">{title}</h2>
             <p className="mt-1 text-sm text-red-800">{message}</p>
           </div>
           {action ? <div>{action}</div> : null}
@@ -23,3 +23,4 @@ export function ErrorState({
     </Card>
   )
 }  [edited]
+// update log: auto edit 01
