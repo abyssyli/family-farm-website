@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -56,5 +58,3 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 // optimize code detail
 
 /* daily modify record */
-
-# minor content update

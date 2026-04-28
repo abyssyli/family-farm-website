@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 /* minor adjust */
 "use client"
 
@@ -76,7 +74,7 @@ export function PreferencesForm({
                       checked={checked}
                       onChange={(e) => {
                         const next = e.target.checked
-                        setSelected((prev) =>
+                        setSelected((prev) => [modified]
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)

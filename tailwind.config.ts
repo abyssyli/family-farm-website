@@ -1,5 +1,3 @@
-
-/* auto generated comment */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -26,7 +24,7 @@ const config: Config = {
     }
   },
   plugins: []
-}
+} [modified]
 
 export default config
 

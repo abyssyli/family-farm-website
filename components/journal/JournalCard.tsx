@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// update log: auto edit 01
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"

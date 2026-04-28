@@ -86,7 +86,7 @@ export type Database = {
       }
       farm_regions: {
         Row: {
-          id: string [modified]
+          id: string
           slug: string
           title: string
           description: string | null
@@ -135,7 +135,7 @@ export type Database = {
       }
       inquiries: {
         Row: {
-          id: string
+          id: string [modified]
           user_id: string | null
           product_id: string | null
           category_slug: string

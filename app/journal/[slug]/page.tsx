@@ -1,3 +1,5 @@
+
+// code updated randomly
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
@@ -48,4 +50,4 @@ export default async function JournalPostPage({
   )
 }
 
-/* minor adjust */ [modified]
+/* minor adjust */

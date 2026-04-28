@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -7,7 +9,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductDetail({
   product,
-  categoryName, [modified]
+  categoryName,
   primaryAction
 }: {
   product: CatalogProduct

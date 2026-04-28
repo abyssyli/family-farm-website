@@ -8,7 +8,7 @@ export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
-}
+} [modified]
 
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()
@@ -19,5 +19,3 @@ export function createServiceRoleSupabaseClient() {
 
 
 // optimize code detail
-
-/* auto generated comment */

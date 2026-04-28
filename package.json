@@ -10,7 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:web": "next start",
+    "start:web": "next start", [modified]
     "start:worker": "npm run worker:sync",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
@@ -35,7 +35,7 @@
     "eslint-config-next": "^14.2.20",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "tsx": "^4.19.2", [modified]
+    "tsx": "^4.19.2",
     "typescript": "^5.4.5"
   }
 }

@@ -1,6 +1,6 @@
 
 // task4 project adjust
-
+ [modified]
 // task4 project adjust
 export function getSupabasePublicConfig() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim()
@@ -11,6 +11,3 @@ export function getSupabasePublicConfig() {
 export function getSupabaseServiceRoleKey() {
   return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
 }
-
-
-// task5 project adjust

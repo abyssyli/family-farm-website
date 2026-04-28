@@ -10,7 +10,7 @@ export function ProductGrid({
 }) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
-      {products.map((p) => ( [modified]
+      {products.map((p) => (
         <ProductCard
           key={p.id}
           product={p}
@@ -20,3 +20,4 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
+// task5 project adjust

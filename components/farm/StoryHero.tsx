@@ -1,6 +1,4 @@
 
-# minor content update
-
 /* minor adjust */
 
 // update log: auto edit 01
@@ -73,5 +71,5 @@ export function StoryHero() {
         />
       </div>
     </section>
-  )
+  ) [modified]
 }

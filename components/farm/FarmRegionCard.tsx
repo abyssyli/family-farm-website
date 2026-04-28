@@ -34,5 +34,4 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
       </div>
     </Card>
   )
-}
-/* daily modify record */
+} [modified]

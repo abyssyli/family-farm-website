@@ -29,7 +29,7 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 })
   }
 
-  try { [modified]
+  try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)
@@ -46,3 +46,5 @@ export async function GET(
 
 
 // update log: auto edit 01
+
+// code updated randomly

@@ -112,7 +112,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const categoriesBySlug = new Map(seedCatalog.categories.map((c) => [c.slug, c] as const))
-  for (const c of dbCategories) categoriesBySlug.set(c.slug, c)
+  for (const c of dbCategories) categoriesBySlug.set(c.slug, c) [modified]
   const categories = Array.from(categoriesBySlug.values()).sort(
     (a, b) => a.sortOrder - b.sortOrder
   )
@@ -144,4 +144,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-/* daily modify record */
