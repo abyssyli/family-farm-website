@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -8,7 +10,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 export function ProductCard({
   product,
   href
-}: { [modified]
+}: {
   product: CatalogProduct
   href: string
 }) {

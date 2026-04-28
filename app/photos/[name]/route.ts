@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* daily modify record */
 
 /* minor adjust */
 import { readFile } from "node:fs/promises"

@@ -2,11 +2,9 @@
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
-  images: {
+  images: { [modified]
     formats: ["image/avif", "image/webp"]
   }
 }
 
 export default nextConfig
-
-// update log: auto edit 01

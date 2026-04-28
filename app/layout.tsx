@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -6,7 +8,7 @@ import { UserMenu } from "@/components/auth/UserMenu"
 
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",
-  description: [modified]
+  description:
     "Explore farm eggs, handmade woodcraft, and Lisa’s skincare—rooted in a Texas family farm story."
 }
 

@@ -1,3 +1,5 @@
+
+// optimize code detail
 "use client"
 
 import { useState } from "react"  [edited]
@@ -28,7 +30,7 @@ export function ProductActions({
   return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>
-        Buy / Contact [modified]
+        Buy / Contact
       </Button>
       <BuyContactModal
         open={open}

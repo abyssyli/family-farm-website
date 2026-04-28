@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // update log: auto edit 01
 "use client"
 
@@ -15,7 +17,7 @@ export function Modal({
   onClose,
   className
 }: {
-  open: boolean [modified]
+  open: boolean
   title: string
   children: React.ReactNode
   onClose: () => void

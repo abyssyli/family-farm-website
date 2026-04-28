@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 "use client"
 
@@ -77,7 +79,7 @@ export function PreferencesForm({
                         setSelected((prev) =>
                           next
                             ? [...prev, c.slug]
-                            : prev.filter((x) => x !== c.slug) [modified]
+                            : prev.filter((x) => x !== c.slug)
                         )
                       }}
                       className="h-4 w-4 accent-farm-700"

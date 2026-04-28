@@ -27,7 +27,7 @@ export default async function JournalIndexPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-          Farm Journal
+          Farm Journal [modified]
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Small stories from the farm, the shop, and the family.
@@ -41,5 +41,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-
-/* daily modify record */

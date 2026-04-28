@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -20,7 +18,7 @@ export function ProductDetail({
     <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
       <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
         {product.imagePath ? (
-          <Image
+          <Image [modified]
             src={product.imagePath}
             alt={product.name}
             width={1400}

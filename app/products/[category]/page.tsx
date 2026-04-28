@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 // update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
@@ -20,7 +22,7 @@ export default async function ProductCategoryPage({
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
 
-  const products = catalog.products.filter((p) => p.categorySlug === category.slug) [modified]
+  const products = catalog.products.filter((p) => p.categorySlug === category.slug)
 
   return (
     <div className="flex flex-col gap-8">

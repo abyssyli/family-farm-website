@@ -55,6 +55,4 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 
 // optimize code detail
 
-/* daily modify record */
-
-/* auto generated comment */
+/* daily modify record */ [modified]
