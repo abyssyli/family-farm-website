@@ -41,10 +41,10 @@ export const FarmRegionSchema = z.object({
 
 export const CatalogSchema = z.object({
   categories: z.array(CategorySchema),
-  products: z.array(ProductSchema), [modified]
+  products: z.array(ProductSchema),
   journalPosts: z.array(JournalPostSchema).default([]),
   farmRegions: z.array(FarmRegionSchema).default([])
-})
+}) [modified]
 
 export type Catalog = z.infer<typeof CatalogSchema>
 export type CatalogCategory = z.infer<typeof CategorySchema>

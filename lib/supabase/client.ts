@@ -7,4 +7,4 @@ export function createBrowserSupabaseClient() {
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)  [edited]
 }
-/* minor adjust */
+/* daily modify record */

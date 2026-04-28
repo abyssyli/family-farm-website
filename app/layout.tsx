@@ -47,7 +47,7 @@ export default function RootLayout({
               <Link href="/account" className="hover:text-farm-700">
                 Account
               </Link>
-              <UserMenu />
+              <UserMenu /> [modified]
             </nav>
           </header>
           <main className="flex-1 pb-16">{children}</main>
@@ -66,5 +66,3 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
-
-/* daily modify record */

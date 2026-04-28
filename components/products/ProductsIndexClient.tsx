@@ -48,12 +48,12 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           router.refresh()
         }
       )
-      .on( [modified]
+      .on(
         "postgres_changes",
         { event: "*", schema: "public", table: "categories" },
         () => {
           setLastUpdate(new Date())
-          router.refresh()
+          router.refresh() [modified]
         }
       )
       .subscribe()

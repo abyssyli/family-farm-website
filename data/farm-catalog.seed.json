@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // task4 project adjust
 {
   "categories": [
@@ -96,7 +94,7 @@
       "priceHint": "Made to order · Local pickup",
       "externalUrl": null,
       "isActive": true
-    },
+    }, [modified]
     {
       "id": "woodcraft-stool",
       "categorySlug": "woodcraft",

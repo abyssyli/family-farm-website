@@ -1,5 +1,5 @@
 
-/* minor adjust */
+/* minor adjust */ [modified]
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
@@ -28,5 +28,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-# minor content update

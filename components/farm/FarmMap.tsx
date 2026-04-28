@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 "use client"
 
 import Image from "next/image"
@@ -96,5 +98,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
-
-// task5 project adjust

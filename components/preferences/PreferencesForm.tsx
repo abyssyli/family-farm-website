@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 "use client"
 
@@ -98,7 +96,7 @@ export function PreferencesForm({
                 {status === "saved"
                   ? "Saved"
                   : status === "saving"
-                    ? "Saving…"
+                    ? "Saving…" [modified]
                     : "Save preferences"}
               </Button>
               <p className="text-xs text-zinc-600">

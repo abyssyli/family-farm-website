@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -73,7 +75,7 @@ export async function getCatalog(): Promise<Catalog> {
     sortOrder: c.sort_order
   }))
 
-  const dbProducts = productsRes.data.map((p) => ({ [modified]
+  const dbProducts = productsRes.data.map((p) => ({
     id: p.id,
     categorySlug: p.category_slug,
     slug: p.slug,

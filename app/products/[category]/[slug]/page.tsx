@@ -25,7 +25,7 @@ export default async function ProductDetailPage({
   )
   if (!product) notFound()
 
-  return (
+  return ( [modified]
     <ProductDetail
       product={product}
       categoryName={category.name}
@@ -35,5 +35,3 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
-
-/* auto generated comment */

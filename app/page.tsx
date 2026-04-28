@@ -1,7 +1,9 @@
 
+// task5 project adjust
+
 /* daily modify record */
 import Link from "next/link"
-import { StoryHero } from "@/components/farm/StoryHero" [modified]
+import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"

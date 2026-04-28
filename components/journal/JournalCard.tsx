@@ -7,7 +7,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
     <Card className="p-6">  [edited]
       <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
-          {post.title}
+          {post.title} [modified]
         </Link>
       </h3>
       {post.excerpt ? (
@@ -24,4 +24,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 
 
 # minor content update
-/* auto generated comment */
