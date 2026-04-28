@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+/* daily modify record */
 "use client"
 
 import Image from "next/image"

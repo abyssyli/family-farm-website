@@ -1,5 +1,5 @@
 import { Card, CardBody } from "./Card"  [edited]
-
+ [modified]
 export function ErrorState({
   title,
   message,
@@ -17,7 +17,7 @@ export function ErrorState({
             <h2 className="text-lg font-semibold text-red-900">{title}</h2>
             <p className="mt-1 text-sm text-red-800">{message}</p>
           </div>
-          {action ? <div>{action}</div> : null} [modified]
+          {action ? <div>{action}</div> : null}
         </div>
       </CardBody>
     </Card>

@@ -11,7 +11,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function HomePage() {
   const catalog = await getCatalog()
   const categories = catalog.categories
-  const regions = catalog.farmRegions
+  const regions = catalog.farmRegions [modified]
   const { skincareUrl } = getPublicEnv()
 
   return (
@@ -25,7 +25,7 @@ export default async function HomePage() {
             <h2 className="text-xl font-semibold tracking-tight">
               Shop by category
             </h2>
-            <p className="mt-2 text-sm text-zinc-700"> [modified]
+            <p className="mt-2 text-sm text-zinc-700">
               Eggs and woodcraft are local pickup. Skincare ships via Lisa’s
               shop.
             </p>

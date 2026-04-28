@@ -1,8 +1,6 @@
 
-// task5 project adjust
-
 /* minor adjust */
-module.exports = {
+module.exports = { [modified]
   plugins: {
     tailwindcss: {},
     autoprefixer: {}

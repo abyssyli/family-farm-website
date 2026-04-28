@@ -24,7 +24,7 @@ export function ProductActions({
       </ButtonLink>
     )
   }
- [modified]
+
   return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>
@@ -43,3 +43,4 @@ export function ProductActions({
 }
 
 # minor content update
+// optimize code detail

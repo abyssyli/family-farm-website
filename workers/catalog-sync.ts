@@ -48,7 +48,7 @@ async function runOnce() {
     id: r.id,
     slug: r.slug,
     title: r.title,
-    description: r.description, [modified]
+    description: r.description,
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
     cta_href: r.ctaHref,
@@ -105,7 +105,7 @@ async function main() {
     await sleep(intervalMs)
   }
 }
-
+ [modified]
 main().catch((e) => {
   const message = e instanceof Error ? e.message : String(e)
   console.error(message)

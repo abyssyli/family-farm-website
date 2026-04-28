@@ -10,7 +10,7 @@ import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 export function PreferencesForm({
   categories
 }: {
-  categories: Array<{ slug: string; name: string }> [modified]
+  categories: Array<{ slug: string; name: string }>
 }) {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [userId, setUserId] = useState<string | null>(null)
@@ -110,3 +110,5 @@ export function PreferencesForm({
     </Card>
   )
 }
+
+/* auto generated comment */

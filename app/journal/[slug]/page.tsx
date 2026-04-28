@@ -1,5 +1,5 @@
 
-// task5 project adjust
+// code updated randomly
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"

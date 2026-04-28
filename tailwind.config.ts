@@ -30,4 +30,4 @@ export default config
 
 /* daily modify record */
 
-/* auto generated comment */
+// optimize code detail

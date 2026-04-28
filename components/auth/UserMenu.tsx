@@ -30,7 +30,7 @@ export function UserMenu() {
           Sign in
         </Button>
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
-          <LoginForm onSuccess={() => setOpen(false)} /> [modified]
+          <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>
       </>
     )
@@ -59,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* daily modify record */

@@ -1,7 +1,5 @@
 
 // optimize code detail
-
-// optimize code detail
 export type Json =
   | string
   | number
@@ -192,3 +190,5 @@ export type Database = {
 }
 
 // task4 project adjust
+
+// update log: auto edit 01

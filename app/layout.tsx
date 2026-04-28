@@ -67,4 +67,4 @@ export default function RootLayout({
 
 # minor content update
 
-// task5 project adjust
+/* minor adjust */

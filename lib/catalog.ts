@@ -121,7 +121,7 @@ export async function getCatalog(): Promise<Catalog> {
   for (const p of dbProducts) productsById.set(p.id, p)
   const products = Array.from(productsById.values()).map((p) =>
     p.categorySlug === "woodcraft"
-      ? {
+      ? { [modified]
           ...p,
           name: normalizeWoodcraftName(p.slug, p.name),
           imagePath: normalizeWoodcraftImagePath(p.slug, p.imagePath ?? null)
@@ -144,4 +144,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-/* minor adjust */

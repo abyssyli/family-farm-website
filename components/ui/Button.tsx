@@ -30,10 +30,10 @@ export const Button = forwardRef<
     />
   )
 })
- [modified]
+
 export function ButtonLink({
   href,
-  children,
+  children, [modified]
   variant = "primary",
   className
 }: {

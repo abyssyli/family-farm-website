@@ -35,7 +35,7 @@ export function Modal({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <button
-        type="button" [modified]
+        type="button"
         aria-label="Close"
         className="absolute inset-0 bg-black/40"
         onClick={onClose}
@@ -63,3 +63,5 @@ export function Modal({
     </div>
   )
 }
+
+// update log: auto edit 01
