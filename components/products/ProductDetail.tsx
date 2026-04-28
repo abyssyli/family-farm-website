@@ -31,7 +31,7 @@ export function ProductDetail({
             No image
           </div>
         )}
-      </div> [modified]
+      </div>
 
       <div>
         <p className="text-sm font-medium text-farm-800">
@@ -64,3 +64,5 @@ export function ProductDetail({
     </div>
   )
 }
+
+/* daily modify record */

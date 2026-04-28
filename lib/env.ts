@@ -9,7 +9,7 @@ export function getPublicEnv() {
   const skincareUrl =
     configuredSkincareUrl &&
     configuredSkincareUrl !== "https://beakergold.com" &&
-    configuredSkincareUrl !== "https://beakergold.com/" &&
+    configuredSkincareUrl !== "https://beakergold.com/" && [modified]
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
       : defaultSkincareUrl
@@ -18,5 +18,3 @@ export function getPublicEnv() {
 }
 
 // task4 project adjust
-
-/* daily modify record */

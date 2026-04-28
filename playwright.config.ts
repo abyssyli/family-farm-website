@@ -1,7 +1,5 @@
-
-// task5 project adjust
 import { defineConfig } from "@playwright/test"
-
+ [modified]
 export default defineConfig({
   testDir: "./tests",
   use: {

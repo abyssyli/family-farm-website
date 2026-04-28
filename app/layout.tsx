@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en"> [modified]
+    <html lang="en">
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// optimize code detail

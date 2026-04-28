@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -12,7 +10,7 @@ export default async function AccountPage() {
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl"> [modified]
           Account
         </h1>
         <p className="mt-2 text-sm text-zinc-700">

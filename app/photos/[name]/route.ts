@@ -30,14 +30,14 @@ export async function GET(
   }
 
   try {
-    const filePath = join(process.cwd(), "photo", name) [modified]
+    const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)
     return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
-      }
+      } [modified]
     })
   } catch {
     return new NextResponse("Not found", { status: 404 })

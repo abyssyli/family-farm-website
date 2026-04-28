@@ -1,5 +1,5 @@
 
-// code updated randomly
+/* auto generated comment */
 
 // task4 project adjust
 import { getCatalog } from "@/lib/catalog"

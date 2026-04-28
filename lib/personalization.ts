@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 /* minor adjust */
 
 /* daily modify record */
@@ -11,7 +13,8 @@ export function sortCategorySlugsByPreference(
   return [...categorySlugs].sort((a, b) => {
     const ra = rank.has(a) ? rank.get(a)! : Number.POSITIVE_INFINITY
     const rb = rank.has(b) ? rank.get(b)! : Number.POSITIVE_INFINITY
-    if (ra !== rb) return ra - rb [modified]
+    if (ra !== rb) return ra - rb
     return a.localeCompare(b)
   })
 }
+

@@ -24,4 +24,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 
 
 # minor content update
-// task5 project adjust
+// update log: auto edit 01

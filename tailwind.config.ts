@@ -21,7 +21,7 @@ const config: Config = {
           900: "#354022"
         }
       }
-    }
+    } [modified]
   },
   plugins: []
 }
@@ -29,5 +29,3 @@ const config: Config = {
 export default config
 
 /* daily modify record */
-
-/* auto generated comment */

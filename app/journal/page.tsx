@@ -38,8 +38,6 @@ export default async function JournalIndexPage() {
           <JournalCard key={p.id} post={p} />
         ))}
       </div>
-    </div>
+    </div> [modified]
   )
 }
-
-// task5 project adjust

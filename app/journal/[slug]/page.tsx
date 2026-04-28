@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
@@ -27,7 +25,7 @@ export default async function JournalPostPage({
           {post.title}
         </h1>
         {post.publishedAt ? (
-          <p className="mt-2 text-sm text-zinc-600">
+          <p className="mt-2 text-sm text-zinc-600"> [modified]
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}

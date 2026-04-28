@@ -25,7 +25,7 @@ export function BuyContactModal({
 }) {
   const { supabase, session } = useSupabaseAuth()
   const { contactPhone } = getPublicEnv()
-  const [message, setMessage] = useState(defaultMessage)
+  const [message, setMessage] = useState(defaultMessage) [modified]
   const [status, setStatus] = useState<"idle" | "saving" | "saved">("idle")
 
   const smsHref = useMemo(() => {
@@ -93,4 +93,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-/* auto generated comment */

@@ -59,7 +59,7 @@ export default async function HomePage() {
                   >
                     Browse {c.name} →
                   </Link>
-                )}
+                )} [modified]
               </div>
             </Card>
           ))}
@@ -70,5 +70,3 @@ export default async function HomePage() {
 }
 
 // update log: auto edit 01
-
-/* minor adjust */
