@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+// code updated randomly
 
 // task4 project adjust
 import Image from "next/image"

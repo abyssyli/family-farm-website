@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-/* auto generated comment */
+// update log: auto edit 01

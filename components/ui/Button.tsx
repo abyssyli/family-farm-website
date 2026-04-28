@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 /* daily modify record */
 import Link from "next/link"
 import { forwardRef } from "react"
@@ -25,7 +27,7 @@ export const Button = forwardRef<
   return (
     <button
       ref={ref}
-      className={cn(base, variants[variant], className)} [modified]
+      className={cn(base, variants[variant], className)}
       {...props}
     />
   )

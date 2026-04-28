@@ -30,4 +30,4 @@ export default config
 
 /* daily modify record */
 
-// code updated randomly
+/* daily modify record */

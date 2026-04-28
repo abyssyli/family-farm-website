@@ -43,7 +43,7 @@ export function BuyContactModal({
       category_slug: categorySlug,
       message
     })
-    setStatus("saved")
+    setStatus("saved") [modified]
   }
 
   return (
@@ -93,4 +93,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-// update log: auto edit 01

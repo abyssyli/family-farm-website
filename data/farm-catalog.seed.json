@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 // task4 project adjust
 {
   "categories": [
@@ -112,7 +110,7 @@
       "id": "skincare-body-butter",
       "categorySlug": "skincare",
       "slug": "body-butter",
-      "name": "Body Butter",
+      "name": "Body Butter", [modified]
       "description": "All-natural body butter designed to nourish and hydrate—especially for sensitive skin.",
       "imagePath": "/photos/background1.jpg",
       "priceHint": "Ships from Lisa’s shop",

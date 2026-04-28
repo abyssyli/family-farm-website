@@ -73,7 +73,7 @@ async function runOnce() {
     await supabase.from("sync_runs").insert({
       status: "success",
       source: sourceLabel,
-      message: `Upserted ${products.length} products in ${ms}ms`
+      message: `Upserted ${products.length} products in ${ms}ms` [modified]
     })
   } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error"
@@ -83,7 +83,7 @@ async function runOnce() {
       message
     })
     throw e
-  } [modified]
+  }
 }
 
 async function main() {

@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 /* minor adjust */
 module.exports = {
   plugins: {
@@ -11,3 +9,5 @@ module.exports = {
 
 
 # minor content update
+
+/* daily modify record */

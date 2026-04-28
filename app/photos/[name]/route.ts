@@ -32,7 +32,7 @@ export async function GET(
   try {
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
-    const ext = extname(name)
+    const ext = extname(name) [modified]
     return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),
@@ -46,5 +46,3 @@ export async function GET(
 
 
 // update log: auto edit 01
-
-/* auto generated comment */

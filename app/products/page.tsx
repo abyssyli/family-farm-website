@@ -1,9 +1,9 @@
 
 // task4 project adjust
 import { getCatalog } from "@/lib/catalog"
-import { ProductsIndexClient } from "@/components/products/ProductsIndexClient" [modified]
+import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 
-export default async function ProductsPage() {
+export default async function ProductsPage() { [modified]
   const catalog = await getCatalog()
   return <ProductsIndexClient catalog={catalog} />
 }  [edited]

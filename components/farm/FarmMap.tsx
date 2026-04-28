@@ -75,7 +75,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
         {active ? <FarmRegionCard region={active} /> : null}
         <div className="mt-6 grid gap-4">
           {sorted
-            .filter((r) => r.slug !== activeSlug) [modified]
+            .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
             .map((r) => (
               <button
@@ -96,3 +96,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
+
+// code updated randomly

@@ -50,7 +50,7 @@ export function PreferencesForm({
         subtitle="Choose what you want to see first when browsing products."
       />
       <CardBody>
-        {!supabase ? ( [modified]
+        {!supabase ? (
           <p className="text-sm text-zinc-700">
             Supabase isn’t configured in this environment. Add env vars to enable
             saved preferences.
@@ -78,7 +78,7 @@ export function PreferencesForm({
                           next
                             ? [...prev, c.slug]
                             : prev.filter((x) => x !== c.slug)
-                        )
+                        ) [modified]
                       }}
                       className="h-4 w-4 accent-farm-700"
                     />
