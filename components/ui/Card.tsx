@@ -29,7 +29,7 @@ export function CardHeader({
   subtitle?: string | null
 }) {
   return (  [edited]
-    <div className="px-6 pt-6"> [modified]
+    <div className="px-6 pt-6">
       <h3 className="text-base font-semibold">{title}</h3>
       {subtitle ? <p className="mt-1 text-sm text-zinc-600">{subtitle}</p> : null}
     </div>
@@ -42,3 +42,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
+// update log: auto edit 01

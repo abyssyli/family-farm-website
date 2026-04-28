@@ -130,7 +130,7 @@
     }
   ],
   "journalPosts": [
-    {
+    { [modified]
       "id": "journal-spring-collecting",
       "slug": "spring-egg-collecting",
       "title": "Spring Egg Collecting",
@@ -164,4 +164,3 @@
     }
   ]
 }
-/* minor adjust */

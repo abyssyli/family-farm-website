@@ -30,7 +30,7 @@ export const Button = forwardRef<
     />
   )
 })
-
+ [modified]
 export function ButtonLink({
   href,
   children,
@@ -56,7 +56,7 @@ export function ButtonLink({
     )
   }
   return (
-    <Link href={href} className={cn(base, variants[variant], className)}> [modified]
+    <Link href={href} className={cn(base, variants[variant], className)}>
       {children}
     </Link>
   )

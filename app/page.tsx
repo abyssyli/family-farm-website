@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 /* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -27,7 +25,7 @@ export default async function HomePage() {
             <h2 className="text-xl font-semibold tracking-tight">
               Shop by category
             </h2>
-            <p className="mt-2 text-sm text-zinc-700">
+            <p className="mt-2 text-sm text-zinc-700"> [modified]
               Eggs and woodcraft are local pickup. Skincare ships via Lisa’s
               shop.
             </p>

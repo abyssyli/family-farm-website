@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -33,7 +35,7 @@ export async function GET(
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)
-    return new NextResponse(bytes, { [modified]
+    return new NextResponse(bytes, {
       headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"

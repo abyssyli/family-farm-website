@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+# minor content update
 
 /* minor adjust */
 import { Card, CardBody } from "./Card"

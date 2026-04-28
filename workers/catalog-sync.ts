@@ -48,7 +48,7 @@ async function runOnce() {
     id: r.id,
     slug: r.slug,
     title: r.title,
-    description: r.description,
+    description: r.description, [modified]
     image_path: r.imagePath,
     cta_label: r.ctaLabel,
     cta_href: r.ctaHref,
@@ -63,7 +63,7 @@ async function runOnce() {
       supabase.from("products").upsert(products, { onConflict: "id" }),
       supabase.from("journal_posts").upsert(journalPosts, { onConflict: "id" }),
       supabase.from("farm_regions").upsert(farmRegions, { onConflict: "id" })
-    ]) [modified]
+    ])
 
     for (const res of upserts) {
       if (res.error) throw res.error

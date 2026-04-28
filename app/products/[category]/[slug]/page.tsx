@@ -13,7 +13,7 @@ export default async function ProductDetailPage({
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
-    redirect(skincareUrl) [modified]
+    redirect(skincareUrl)
   }
 
   const catalog = await getCatalog()
@@ -35,3 +35,5 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
+
+/* auto generated comment */

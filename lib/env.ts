@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+// optimize code detail
 
 # minor content update
 export function getPublicEnv() {

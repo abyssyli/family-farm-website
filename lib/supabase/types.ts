@@ -1,5 +1,7 @@
 
 // optimize code detail
+
+// optimize code detail
 export type Json =
   | string
   | number
@@ -41,7 +43,7 @@ export type Database = {
           external_url?: string | null
           is_active?: boolean
           updated_at?: string
-        } [modified]
+        }
         Update: {
           category_slug?: string
           slug?: string

@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
@@ -17,7 +19,5 @@ export function createServiceRoleSupabaseClient() {
   return createClient<Database>(url, serviceRoleKey)
 }
 
-
-// optimize code detail
 
 // optimize code detail

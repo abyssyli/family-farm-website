@@ -1,4 +1,6 @@
 
+# minor content update
+
 /* minor adjust */
 
 /* daily modify record */
@@ -16,5 +18,3 @@ export function sortCategorySlugsByPreference(
   })
 }
 
-
-// optimize code detail

@@ -135,7 +135,7 @@ export async function getCatalog(): Promise<Catalog> {
   for (const r of dbFarmRegions) regionsBySlug.set(r.slug, r)  [edited]
   const farmRegions = Array.from(regionsBySlug.values()).map((r) => ({
     ...r,
-    imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null) [modified]
+    imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null)
   }))
 
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions })
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+/* minor adjust */
