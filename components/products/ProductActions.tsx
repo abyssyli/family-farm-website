@@ -32,7 +32,7 @@ export function ProductActions({
       </Button>
       <BuyContactModal
         open={open}
-        onClose={() => setOpen(false)}
+        onClose={() => setOpen(false)} [modified]
         title="Buy / Contact"
         categorySlug={categorySlug}
         productId={product.id}
@@ -43,4 +43,3 @@ export function ProductActions({
 }
 
 # minor content update
-/* minor adjust */

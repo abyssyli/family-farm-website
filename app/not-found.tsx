@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { ButtonLink } from "@/components/ui/Button"  [edited]
 import { EmptyState } from "@/components/ui/EmptyState"
 
@@ -15,3 +13,4 @@ export default function NotFound() {
 
 
 // task4 project adjust
+/* daily modify record */

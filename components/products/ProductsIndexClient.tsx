@@ -25,7 +25,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     supabase.auth.getUser().then(async ({ data }) => {
       const userId = data.user?.id
       if (!userId) return
-      const { data: pref } = await supabase [modified]
+      const { data: pref } = await supabase
         .from("user_preferences")
         .select("preferred_categories")
         .eq("user_id", userId)
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+// task5 project adjust

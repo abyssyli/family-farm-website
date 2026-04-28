@@ -62,7 +62,7 @@ export async function getCatalog(): Promise<Catalog> {
         : "/photos/chicken.jpg"
     }
     if (slug === "woodshop") {
-      return imagePath && imagePath.includes("/photos/Wooden") ? imagePath : "/photos/Wooden1.jpg" [modified]
+      return imagePath && imagePath.includes("/photos/Wooden") ? imagePath : "/photos/Wooden1.jpg"
     }
     return imagePath
   }
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+// optimize code detail

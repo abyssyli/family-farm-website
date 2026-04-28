@@ -1,4 +1,6 @@
 
+# minor content update
+
 // optimize code detail
 export type Json =
   | string
@@ -147,7 +149,7 @@ export type Database = {
           user_id?: string | null
           product_id?: string | null
           category_slug: string
-          message: string [modified]
+          message: string
           created_at?: string
         }
         Update: {

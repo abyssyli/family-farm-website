@@ -11,7 +11,7 @@ import { getPublicEnv } from "@/lib/env"
 export function BuyContactModal({
   open,
   onClose,
-  title,
+  title, [modified]
   categorySlug,
   productId,
   defaultMessage
@@ -56,7 +56,7 @@ export function BuyContactModal({
 
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
           <p className="text-sm font-medium">Phone</p>
-          <p className="mt-1 font-mono text-sm">{contactPhone}</p> [modified]
+          <p className="mt-1 font-mono text-sm">{contactPhone}</p>
         </div>
 
         <label className="text-sm font-medium">

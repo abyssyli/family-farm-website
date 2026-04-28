@@ -1,4 +1,6 @@
 
+# minor content update
+
 /* minor adjust */
 module.exports = {
   plugins: {
@@ -9,5 +11,3 @@ module.exports = {
 
 
 # minor content update
-
-// task5 project adjust

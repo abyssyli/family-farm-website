@@ -42,4 +42,4 @@ export default async function JournalIndexPage() {
   )
 }
 
-/* daily modify record */
+// update log: auto edit 01

@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"
 
 import { useState } from "react"
@@ -58,7 +56,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           disabled={!isConfigured || status === "sending"}
           className="mt-2 w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm outline-none focus:border-farm-700 focus:ring-2 focus:ring-farm-700/20"
           placeholder="you@example.com"
-        />
+        /> [modified]
       </label>
       <Button type="submit" disabled={!isConfigured || status === "sending"}>
         {status === "sending" ? "Sending…" : "Send magic link"}

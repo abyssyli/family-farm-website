@@ -1,3 +1,5 @@
+
+// code updated randomly
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -11,7 +13,7 @@ export function Card({
 }) {
   return (
     <div
-      className={cn( [modified]
+      className={cn(
         "rounded-2xl border border-zinc-200 bg-white shadow-sm",
         className
       )}

@@ -1,6 +1,6 @@
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
- [modified]
+
 function sleep(ms: number) {
   return new Promise<void>((resolve) => setTimeout(resolve, ms))
 }
@@ -55,7 +55,7 @@ async function runOnce() {
     x: r.x,
     y: r.y
   }))
-
+ [modified]
   const startedAt = Date.now()
   try {
     const upserts = await Promise.all([

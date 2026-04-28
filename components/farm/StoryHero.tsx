@@ -74,4 +74,4 @@ export function StoryHero() {
   )
 }
 
-// update log: auto edit 01
+// optimize code detail

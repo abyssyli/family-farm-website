@@ -1,5 +1,7 @@
 
-// optimize code detail [modified]
+// task5 project adjust
+
+// optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
   images: {

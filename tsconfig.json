@@ -1,10 +1,8 @@
 
-# minor content update
-
 // update log: auto edit 01
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES2022", [modified]
     "lib": [
       "DOM",
       "DOM.Iterable",

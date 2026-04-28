@@ -1,4 +1,4 @@
-
+ [modified]
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -18,5 +18,3 @@ export function getPublicEnv() {
 }
 
 // task4 project adjust
-
-// update log: auto edit 01
