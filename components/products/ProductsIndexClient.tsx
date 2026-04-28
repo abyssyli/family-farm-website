@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 /* minor adjust */
 "use client"
 
@@ -89,7 +87,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Products
-          </h1>
+          </h1> [modified]
           <p className="mt-2 text-sm text-zinc-700">
             Browse what we’re making. Eggs and woodcraft are local pickup.
             Skincare ships via Lisa’s shop.

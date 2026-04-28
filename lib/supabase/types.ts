@@ -1,5 +1,7 @@
 
 // optimize code detail
+
+// optimize code detail
 export type Json =
   | string
   | number
@@ -12,7 +14,7 @@ export type Database = {
   public: {
     Tables: {
       categories: {
-        Row: { id: string; slug: string; name: string; sort_order: number } [modified]
+        Row: { id: string; slug: string; name: string; sort_order: number }
         Insert: { id?: string; slug: string; name: string; sort_order?: number }
         Update: { slug?: string; name?: string; sort_order?: number }
         Relationships: []

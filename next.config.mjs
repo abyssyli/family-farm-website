@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-/* auto generated comment */
+/* daily modify record */

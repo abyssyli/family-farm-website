@@ -9,7 +9,7 @@ export function ProductGrid({
   categorySlug: string
 }) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited] [modified]
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
       {products.map((p) => (
         <ProductCard
           key={p.id}
@@ -17,6 +17,6 @@ export function ProductGrid({
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}
-    </div>
+    </div> [modified]
   )
 }  [edited]

@@ -1,7 +1,7 @@
 
 // optimize code detail
 import Image from "next/image"  [edited]
-import Link from "next/link"
+import Link from "next/link" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogProduct } from "@/lib/catalog-schema"
 
@@ -54,7 +54,7 @@ export function ProductDetail({
         ) : null}
 
         <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
- [modified]
+
         <div className="mt-8">
           <ButtonLink href="/products" variant="ghost">
             ← Back to products

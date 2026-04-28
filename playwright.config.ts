@@ -1,5 +1,3 @@
-
-// optimize code detail
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -7,7 +5,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
     trace: "retain-on-failure"
-  },  [edited]
+  },  [edited] [modified]
   webServer: {
     command: "npm run dev -- --port 3000",
     url: "http://localhost:3000",  [edited]

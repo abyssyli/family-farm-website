@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -53,6 +51,6 @@ export function ProductCard({
     </Card>
   )
 }
-
+ [modified]
 
 /* daily modify record */

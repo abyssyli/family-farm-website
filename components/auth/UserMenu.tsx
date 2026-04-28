@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 // update log: auto edit 01
 
 /* daily modify record */
@@ -9,7 +11,7 @@ import { Button } from "@/components/ui/Button"
 import { Modal } from "@/components/ui/Modal"
 import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
- [modified]
+
 export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
   const [open, setOpen] = useState(false)

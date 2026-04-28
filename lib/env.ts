@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 
 # minor content update
 export function getPublicEnv() {

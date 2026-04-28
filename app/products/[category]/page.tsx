@@ -8,7 +8,7 @@ import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductCategoryPage({
   params
-}: { [modified]
+}: {
   params: { category: string }
 }) {
   if (params.category === "skincare") {
@@ -38,7 +38,7 @@ export default async function ProductCategoryPage({
         </p>
       </div>
 
-      <ProductGrid products={products} categorySlug={category.slug} />
+      <ProductGrid products={products} categorySlug={category.slug} /> [modified]
     </div>
   )
 }

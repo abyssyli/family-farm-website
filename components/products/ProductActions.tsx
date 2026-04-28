@@ -1,5 +1,5 @@
 "use client"
- [modified]
+
 import { useState } from "react"  [edited]
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
@@ -43,3 +43,4 @@ export function ProductActions({
 }
 
 # minor content update
+// task5 project adjust

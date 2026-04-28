@@ -1,3 +1,5 @@
+
+// task5 project adjust
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -21,7 +23,7 @@ export function useSupabaseAuth() {
       setReady(true)
     })
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession) [modified]
+      setSession(nextSession)
     })
     return () => {
       active = false

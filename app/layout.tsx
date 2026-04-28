@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -66,5 +68,3 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
-
-// task5 project adjust

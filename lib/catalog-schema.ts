@@ -1,6 +1,4 @@
-
-/* minor adjust */
-import { z } from "zod"
+import { z } from "zod" [modified]
 
 export const CategorySchema = z.object({
   slug: z.string().min(1),

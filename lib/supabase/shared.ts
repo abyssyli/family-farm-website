@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // task4 project adjust
 
 // task4 project adjust
@@ -10,7 +8,6 @@ export function getSupabasePublicConfig() {
   return { url, anonKey }
 }
 
-export function getSupabaseServiceRoleKey() {
+export function getSupabaseServiceRoleKey() { [modified]
   return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
 }
-

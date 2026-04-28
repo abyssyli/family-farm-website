@@ -1,6 +1,6 @@
 
 /* minor adjust */
-import { readFile } from "node:fs/promises" [modified]
+import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
 
@@ -25,7 +25,7 @@ export async function GET(
   { params }: { params: { name: string } }
 ) {
   const name = params.name
-  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
+  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) { [modified]
     return new NextResponse("Not found", { status: 404 })
   }
 
