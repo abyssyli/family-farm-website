@@ -6,7 +6,7 @@
   "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "scripts": { [modified]
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "worker:sync": "tsx workers/catalog-sync.ts" [modified]
+    "worker:sync": "tsx workers/catalog-sync.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",

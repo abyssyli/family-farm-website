@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -102,7 +104,7 @@ export async function getCatalog(): Promise<Catalog> {
   const dbFarmRegions = regionsRes.data.map((r) => ({
     id: r.id,
     slug: r.slug,
-    title: r.title, [modified]
+    title: r.title,
     description: r.description,
     imagePath: normalizeFarmRegionImagePath(r.slug, r.image_path),
     ctaLabel: r.cta_label,

@@ -11,7 +11,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   const [email, setEmail] = useState("")
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle")
   const [error, setError] = useState<string | null>(null)
- [modified]
+
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
@@ -81,3 +81,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
+
+/* auto generated comment */

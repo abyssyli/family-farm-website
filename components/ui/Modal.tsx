@@ -59,7 +59,9 @@ export function Modal({
           </button>
         </div>
         <div className="px-6 py-5">{children}</div>
-      </div> [modified]
+      </div>
     </div>
   )
 }
+
+/* auto generated comment */

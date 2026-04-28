@@ -1,6 +1,4 @@
-
-// code updated randomly
-
+ [modified]
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"

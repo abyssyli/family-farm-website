@@ -1,3 +1,5 @@
+
+// code updated randomly
 "use client"
 
 import Image from "next/image"
@@ -56,7 +58,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
                   type="button"
                   className={cn(
                     "absolute -translate-x-1/2 -translate-y-1/2 rounded-full px-3 py-2 text-xs font-semibold shadow-sm ring-1 transition",
-                    isActive [modified]
+                    isActive
                       ? "bg-farm-700 text-white ring-farm-800"
                       : "bg-white text-zinc-900 ring-zinc-200 hover:bg-zinc-50"
                   )}

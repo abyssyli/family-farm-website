@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
@@ -31,7 +33,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             </ButtonLink>
           </div>
         ) : null}
-      </div> [modified]
+      </div>
     </Card>
   )
 }

@@ -1,3 +1,5 @@
+
+/* auto generated comment */
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -33,7 +35,7 @@ export function CardHeader({
       <h3 className="text-base font-semibold">{title}</h3>
       {subtitle ? <p className="mt-1 text-sm text-zinc-600">{subtitle}</p> : null}
     </div>
-  ) [modified]
+  )
 }
 
 export function CardBody({ children }: { children: React.ReactNode }) {

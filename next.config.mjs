@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-# minor content update
+// code updated randomly

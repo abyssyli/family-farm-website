@@ -41,7 +41,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     const channel = supabase
       .channel("catalog-changes")
       .on(
-        "postgres_changes", [modified]
+        "postgres_changes",
         { event: "*", schema: "public", table: "products" },
         () => {
           setLastUpdate(new Date())
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+/* daily modify record */

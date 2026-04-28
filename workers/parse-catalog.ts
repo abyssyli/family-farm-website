@@ -28,4 +28,4 @@ export async function loadCatalogFromSource(): Promise<{
 
 // optimize code detail
 
-/* minor adjust */
+/* daily modify record */
