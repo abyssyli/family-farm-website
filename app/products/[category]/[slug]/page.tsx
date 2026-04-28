@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* daily modify record */
 
 # minor content update
 import { notFound, redirect } from "next/navigation"

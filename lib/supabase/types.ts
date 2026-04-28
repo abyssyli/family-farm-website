@@ -88,7 +88,7 @@ export type Database = {
         Row: {
           id: string
           slug: string
-          title: string [modified]
+          title: string
           description: string | null
           image_path: string | null
           cta_label: string | null
@@ -190,3 +190,5 @@ export type Database = {
 }
 
 // task4 project adjust
+
+# minor content update

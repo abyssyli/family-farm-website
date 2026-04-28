@@ -1,5 +1,3 @@
-
-// code updated randomly
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -15,7 +13,7 @@ export function useSupabaseAuth() {
     if (!supabase) {
       setReady(true)
       return
-    }
+    } [modified]
     let active = true
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return

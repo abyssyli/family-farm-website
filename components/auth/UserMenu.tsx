@@ -1,8 +1,6 @@
 
 // update log: auto edit 01
 
-// update log: auto edit 01
-
 /* daily modify record */
 "use client"
 
@@ -25,7 +23,7 @@ export function UserMenu() {
 
   if (!ready) return null
 
-  if (!session) {
+  if (!session) { [modified]
     return (
       <>
         <Button variant="secondary" onClick={() => setOpen(true)}>

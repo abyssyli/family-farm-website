@@ -30,7 +30,7 @@ export function BuyContactModal({
 
   const smsHref = useMemo(() => {
     const body = encodeURIComponent(message)
-    const digits = contactPhone.replace(/[^\d+]/g, "")
+    const digits = contactPhone.replace(/[^\d+]/g, "") [modified]
     return `sms:${digits}?&body=${body}`
   }, [contactPhone, message])
 
@@ -83,7 +83,7 @@ export function BuyContactModal({
             title={
               supabase
                 ? "Save inquiry"
-                : "Configure Supabase to save inquiries" [modified]
+                : "Configure Supabase to save inquiries"
             }
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}

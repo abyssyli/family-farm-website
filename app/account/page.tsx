@@ -13,7 +13,7 @@ export default async function AccountPage() {
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>
-        <p className="mt-2 text-sm text-zinc-700"> [modified]
+        <p className="mt-2 text-sm text-zinc-700">
           Sign in to save your preferences and track inquiries.
         </p>
       </div>
@@ -32,3 +32,4 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
+# minor content update

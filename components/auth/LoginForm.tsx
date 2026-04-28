@@ -1,5 +1,3 @@
-
-// code updated randomly
 "use client"
 
 import { useState } from "react"
@@ -42,7 +40,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
             Try again
           </Button>
         }
-      />
+      /> [modified]
     )
   }
 

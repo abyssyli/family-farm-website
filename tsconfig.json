@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -40,6 +42,6 @@
   "exclude": [
     "node_modules"
   ]
-} [modified]
+}
 
 /* daily modify record */

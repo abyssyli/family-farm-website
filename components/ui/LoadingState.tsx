@@ -1,5 +1,5 @@
 
-/* minor adjust */
+/* minor adjust */ [modified]
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -14,5 +14,3 @@ export function LoadingState({ label }: { label: string }) {
     </Card>
   )
 }
-
-# minor content update

@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 # minor content update
 @tailwind base;
 @tailwind components;
@@ -15,5 +13,5 @@ body {
   @apply bg-farm-50 text-zinc-900;
 }
 
-
+ [modified]
 /* minor adjust */

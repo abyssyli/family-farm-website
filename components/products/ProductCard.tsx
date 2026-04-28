@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -54,5 +56,3 @@ export function ProductCard({
 
 
 /* daily modify record */
-
-/* minor adjust */

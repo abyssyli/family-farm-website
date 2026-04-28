@@ -8,13 +8,13 @@ export function getPublicEnv() {
   const configuredSkincareUrl = process.env.NEXT_PUBLIC_SKINCARE_URL?.trim()
   const skincareUrl =
     configuredSkincareUrl &&
-    configuredSkincareUrl !== "https://beakergold.com" &&
+    configuredSkincareUrl !== "https://beakergold.com" && [modified]
     configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
       : defaultSkincareUrl
 
-  return { contactPhone, skincareUrl } [modified]
+  return { contactPhone, skincareUrl }
 }
 
 // task4 project adjust

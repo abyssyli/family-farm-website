@@ -1,5 +1,5 @@
 
-// code updated randomly
+# minor content update
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 

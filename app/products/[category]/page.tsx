@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 // update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
@@ -31,7 +33,7 @@ export default async function ProductCategoryPage({
           </Link>  [edited]
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
-          {category.name} [modified]
+          {category.name}
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Pick an item to see details and the best next step.

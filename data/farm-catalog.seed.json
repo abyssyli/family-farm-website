@@ -72,7 +72,7 @@
       "priceHint": "Made to order · Local pickup",
       "externalUrl": null,
       "isActive": true
-    },
+    }, [modified]
     {
       "id": "woodcraft-decor-sign",
       "categorySlug": "woodcraft",
@@ -164,4 +164,3 @@
     }
   ]
 }
-/* daily modify record */

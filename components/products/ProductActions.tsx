@@ -26,7 +26,7 @@ export function ProductActions({
   }
 
   return (
-    <>
+    <> [modified]
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
       </Button>
@@ -36,7 +36,7 @@ export function ProductActions({
         title="Buy / Contact"
         categorySlug={categorySlug}
         productId={product.id}
-        defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`} [modified]
+        defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
     </>
   )

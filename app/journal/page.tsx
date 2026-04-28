@@ -1,7 +1,5 @@
 
-/* daily modify record */
-
-// optimize code detail
+// optimize code detail [modified]
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"

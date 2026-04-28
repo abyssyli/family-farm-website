@@ -1,7 +1,7 @@
 
 // optimize code detail
 
-/* minor adjust */
+/* minor adjust */ [modified]
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {
@@ -31,5 +31,3 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
-
-# minor content update
