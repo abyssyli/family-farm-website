@@ -1,10 +1,8 @@
-
-# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
-import { UserMenu } from "@/components/auth/UserMenu"
+import { UserMenu } from "@/components/auth/UserMenu" [modified]
 
 export const metadata: Metadata = {
   title: "Paula’s Farm Family Marketplace",

@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"
@@ -5,7 +7,7 @@ import type { CatalogJournalPost } from "@/lib/catalog-schema"
 export function JournalCard({ post }: { post: CatalogJournalPost }) {
   return (
     <Card className="p-6">  [edited]
-      <h3 className="text-base font-semibold"> [modified]
+      <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
         </Link>

@@ -1,10 +1,12 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {}
-  } [modified]
+  }
 }
 
 

@@ -1,5 +1,3 @@
-
-// code updated randomly
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -8,7 +6,7 @@ export function ErrorState({
   action
 }: {
   title: string
-  message: string
+  message: string [modified]
   action?: React.ReactNode
 }) {
   return (

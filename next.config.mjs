@@ -1,8 +1,10 @@
 
+# minor content update
+
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
-  images: { [modified]
+  images: {
     formats: ["image/avif", "image/webp"]
   }
 }

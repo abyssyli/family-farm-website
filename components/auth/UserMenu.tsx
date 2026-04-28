@@ -46,7 +46,7 @@ export function UserMenu() {
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
         {email}
-      </span> [modified]
+      </span>
       <Button
         variant="ghost"
         onClick={() => {
@@ -59,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+// optimize code detail

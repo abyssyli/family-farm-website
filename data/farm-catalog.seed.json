@@ -47,7 +47,7 @@
       "name": "Hen Spotlight",
       "description": "A fun add-on to your pickup—ask which hens are laying today and what we’re seeing in the coop.",
       "imagePath": "/photos/chicken1.jpg",
-      "priceHint": "Included with pickup", [modified]
+      "priceHint": "Included with pickup",
       "externalUrl": null,
       "isActive": true
     },
@@ -164,3 +164,4 @@
     }
   ]
 }
+// update log: auto edit 01

@@ -29,13 +29,13 @@ export function ProductCard({
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
         </div>
-        {product.description ? ( [modified]
+        {product.description ? (
           <p className="mt-2 line-clamp-3 text-sm text-zinc-700">
             {product.description}
           </p>
         ) : null}
         {product.priceHint ? (
-          <p className="mt-3 text-xs font-medium text-zinc-600">
+          <p className="mt-3 text-xs font-medium text-zinc-600"> [modified]
             {product.priceHint}
           </p>
         ) : null}
