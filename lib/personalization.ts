@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 /* minor adjust */
 
 /* daily modify record */
@@ -14,4 +16,5 @@ export function sortCategorySlugsByPreference(
     if (ra !== rb) return ra - rb
     return a.localeCompare(b)
   })
-} [modified]
+}
+

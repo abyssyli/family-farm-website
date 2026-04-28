@@ -11,7 +11,7 @@ export function Card({
 }) {
   return (
     <div
-      className={cn(
+      className={cn( [modified]
         "rounded-2xl border border-zinc-200 bg-white shadow-sm",
         className
       )}
@@ -41,4 +41,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 }
 
 
-// optimize code detail [modified]
+// optimize code detail

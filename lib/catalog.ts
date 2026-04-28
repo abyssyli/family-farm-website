@@ -62,7 +62,7 @@ export async function getCatalog(): Promise<Catalog> {
         : "/photos/chicken.jpg"
     }
     if (slug === "woodshop") {
-      return imagePath && imagePath.includes("/photos/Wooden") ? imagePath : "/photos/Wooden1.jpg"
+      return imagePath && imagePath.includes("/photos/Wooden") ? imagePath : "/photos/Wooden1.jpg" [modified]
     }
     return imagePath
   }
@@ -82,7 +82,7 @@ export async function getCatalog(): Promise<Catalog> {
     imagePath:
       p.category_slug === "woodcraft"
         ? normalizeWoodcraftImagePath(p.slug, p.image_path)
-        : p.category_slug === "eggs" [modified]
+        : p.category_slug === "eggs"
           ? normalizeEggsImagePath(p.slug, p.image_path)
         : p.image_path,
     priceHint: p.price_hint,

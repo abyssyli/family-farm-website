@@ -1,4 +1,6 @@
 
+# minor content update
+
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -23,7 +25,7 @@
       {
         "name": "next"
       }
-    ], [modified]
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [

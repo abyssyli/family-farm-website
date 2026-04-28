@@ -34,7 +34,7 @@ export type Database = {
           id: string
           category_slug: string
           slug: string
-          name: string [modified]
+          name: string
           description?: string | null
           image_path?: string | null
           price_hint?: string | null
@@ -147,7 +147,7 @@ export type Database = {
           user_id?: string | null
           product_id?: string | null
           category_slug: string
-          message: string
+          message: string [modified]
           created_at?: string
         }
         Update: {

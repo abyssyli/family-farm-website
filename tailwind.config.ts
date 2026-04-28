@@ -1,5 +1,5 @@
 
-// task5 project adjust
+/* auto generated comment */
 import type { Config } from "tailwindcss"
 
 const config: Config = {

@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
@@ -19,5 +21,3 @@ export function createServiceRoleSupabaseClient() {
 
 
 // optimize code detail
-
-// code updated randomly

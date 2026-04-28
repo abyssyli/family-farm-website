@@ -9,7 +9,7 @@ export async function loadCatalogFromSource(): Promise<{
 }> {
   const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
   if (sourceUrl) {
-    const res = await fetch(sourceUrl, { headers: { accept: "application/json" } }) [modified]
+    const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
     if (!res.ok) {
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
@@ -27,3 +27,5 @@ export async function loadCatalogFromSource(): Promise<{
 
 
 // optimize code detail
+
+// update log: auto edit 01

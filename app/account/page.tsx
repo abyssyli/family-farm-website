@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -17,7 +19,7 @@ export default async function AccountPage() {
           Sign in to save your preferences and track inquiries.
         </p>
       </div>
- [modified]
+
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>

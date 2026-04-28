@@ -43,4 +43,4 @@ export function ProductActions({
 }
 
 # minor content update
-// optimize code detail
+/* minor adjust */

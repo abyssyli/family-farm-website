@@ -1,5 +1,5 @@
 
-// optimize code detail
+// code updated randomly
 
 // update log: auto edit 01
 

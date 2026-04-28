@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // task4 project adjust
 {
   "categories": [
@@ -34,7 +32,7 @@
     {
       "id": "eggs-coop-visit",
       "categorySlug": "eggs",
-      "slug": "coop-visit",
+      "slug": "coop-visit", [modified]
       "name": "Chicken Coop Visit",
       "description": "See the coop in action and meet the hens. Great for families and curious egg lovers.",
       "imagePath": "/photos/chicken.jpg",

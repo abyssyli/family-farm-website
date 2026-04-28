@@ -56,7 +56,7 @@ export function BuyContactModal({
 
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
           <p className="text-sm font-medium">Phone</p>
-          <p className="mt-1 font-mono text-sm">{contactPhone}</p>
+          <p className="mt-1 font-mono text-sm">{contactPhone}</p> [modified]
         </div>
 
         <label className="text-sm font-medium">
@@ -93,4 +93,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-// optimize code detail
