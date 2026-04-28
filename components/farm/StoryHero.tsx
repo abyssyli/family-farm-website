@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 /* minor adjust */
 
 // update log: auto edit 01
@@ -75,3 +73,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+/* daily modify record */

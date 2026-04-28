@@ -1,9 +1,7 @@
 
-// task5 project adjust
-
 // optimize code detail
 
-/* minor adjust */
+/* minor adjust */ [modified]
 import { test, expect } from "@playwright/test"
 
 test("homepage renders and navigation works", async ({ page }) => {

@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -32,7 +34,7 @@
     }
   },
   "include": [
-    "next-env.d.ts", [modified]
+    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"

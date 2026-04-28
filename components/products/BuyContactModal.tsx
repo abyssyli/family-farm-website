@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 // optimize code detail
 "use client"  [edited]
 
@@ -58,7 +60,7 @@ export function BuyContactModal({
           <p className="text-sm font-medium">Phone</p>
           <p className="mt-1 font-mono text-sm">{contactPhone}</p>
         </div>
- [modified]
+
         <label className="text-sm font-medium">
           Message
           <textarea

@@ -1,5 +1,5 @@
 
-// task5 project adjust
+/* auto generated comment */
 
 # minor content update
 export function getPublicEnv() {

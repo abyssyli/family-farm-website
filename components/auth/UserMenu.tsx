@@ -16,7 +16,7 @@ export function UserMenu() {
   const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
     if (!email) return "U"
-    const trimmed = email.trim() [modified]
+    const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"
   }, [email])
@@ -28,7 +28,7 @@ export function UserMenu() {
       <>
         <Button variant="secondary" onClick={() => setOpen(true)}>
           Sign in
-        </Button>
+        </Button> [modified]
         <Modal open={open} title="Sign in" onClose={() => setOpen(false)}>
           <LoginForm onSuccess={() => setOpen(false)} />
         </Modal>

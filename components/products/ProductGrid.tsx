@@ -1,10 +1,8 @@
-
-// code updated randomly
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
 export function ProductGrid({
-  products,
+  products, [modified]
   categorySlug
 }: {
   products: CatalogProduct[]

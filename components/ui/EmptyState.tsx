@@ -1,5 +1,5 @@
 
-// optimize code detail
+// task5 project adjust
 
 /* minor adjust */
 import { Card, CardBody } from "./Card"

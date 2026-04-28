@@ -42,4 +42,4 @@ export default async function JournalIndexPage() {
   )
 }
 
-/* daily modify record */
+// task5 project adjust

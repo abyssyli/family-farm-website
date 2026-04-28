@@ -1,5 +1,5 @@
 
-// code updated randomly
+// task5 project adjust
 import type { Config } from "tailwindcss"
 
 const config: Config = {

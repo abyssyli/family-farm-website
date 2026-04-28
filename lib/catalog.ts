@@ -1,5 +1,3 @@
-
-# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -88,7 +86,7 @@ export async function getCatalog(): Promise<Catalog> {
           ? normalizeEggsImagePath(p.slug, p.image_path)
         : p.image_path,
     priceHint: p.price_hint,
-    externalUrl: p.external_url,
+    externalUrl: p.external_url, [modified]
     isActive: p.is_active
   }))
 

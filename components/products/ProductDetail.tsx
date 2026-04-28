@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -17,7 +15,7 @@ export function ProductDetail({
   primaryAction: React.ReactNode
 }) {
   return (
-    <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
+    <div className="grid gap-10 lg:grid-cols-2 lg:items-start"> [modified]
       <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
         {product.imagePath ? (
           <Image
