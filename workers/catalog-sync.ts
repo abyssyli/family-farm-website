@@ -26,7 +26,7 @@ async function runOnce() {
     category_slug: p.categorySlug,
     slug: p.slug,
     name: p.name,
-    description: p.description, [modified]
+    description: p.description,
     image_path: p.imagePath,
     price_hint: p.priceHint,
     external_url: p.externalUrl,
@@ -116,3 +116,5 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
+
+/* minor adjust */

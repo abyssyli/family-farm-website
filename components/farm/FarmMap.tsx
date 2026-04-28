@@ -15,7 +15,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     [regions]
   )
   const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
-  const active = useMemo(
+  const active = useMemo( [modified]
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]
   )
@@ -44,7 +44,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               src={coverImagePath}
               alt="Farm map"
               width={1400}
-              height={900} [modified]
+              height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />

@@ -1,4 +1,4 @@
-import "./globals.css" [modified]
+import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+/* minor adjust */

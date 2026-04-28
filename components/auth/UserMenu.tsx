@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // update log: auto edit 01
 
 /* daily modify record */
@@ -16,7 +14,7 @@ export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
   const [open, setOpen] = useState(false)
   const email = useMemo(() => session?.user.email ?? null, [session])
-  const avatarLabel = useMemo(() => {
+  const avatarLabel = useMemo(() => { [modified]
     if (!email) return "U"
     const trimmed = email.trim()
     if (!trimmed) return "U"

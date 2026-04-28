@@ -11,10 +11,12 @@ export function getPublicEnv() {
     configuredSkincareUrl !== "https://beakergold.com" &&
     configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
-      ? configuredSkincareUrl [modified]
+      ? configuredSkincareUrl
       : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
 }
 
 // task4 project adjust
+
+/* minor adjust */

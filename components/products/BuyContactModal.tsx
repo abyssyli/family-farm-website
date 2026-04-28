@@ -90,7 +90,6 @@ export function BuyContactModal({
           </Button>
         </div>
       </div>
-    </Modal>
+    </Modal> [modified]
   )
 }
-// code updated randomly

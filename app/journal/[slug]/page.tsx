@@ -35,7 +35,7 @@ export default async function JournalPostPage({
         <CardBody>
           <div className="prose prose-zinc max-w-none">
             <p>{post.body}</p>
-          </div> [modified]
+          </div>
         </CardBody>
       </Card>
 
@@ -45,7 +45,7 @@ export default async function JournalPostPage({
         </ButtonLink>
       </div>
     </div>
-  )
+  ) [modified]
 }
 
 /* minor adjust */

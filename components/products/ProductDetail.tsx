@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -31,7 +33,7 @@ export function ProductDetail({
             No image
           </div>
         )}
-      </div> [modified]
+      </div>
 
       <div>
         <p className="text-sm font-medium text-farm-800">

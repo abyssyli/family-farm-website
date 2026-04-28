@@ -1,5 +1,5 @@
 
-// code updated randomly
+// update log: auto edit 01
 
 // task4 project adjust
 

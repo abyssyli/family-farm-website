@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -30,7 +28,7 @@ export function ProductCard({
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
-        </div>
+        </div> [modified]
         {product.description ? (
           <p className="mt-2 line-clamp-3 text-sm text-zinc-700">
             {product.description}

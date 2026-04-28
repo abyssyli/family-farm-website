@@ -1,5 +1,5 @@
 
-// code updated randomly
+# minor content update
 
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"

@@ -16,13 +16,13 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col gap-14">
-      <StoryHero /> [modified]
+      <StoryHero />
       <FarmMap regions={regions} />
 
       <section className="mt-2">
         <div className="flex items-end justify-between gap-6">
           <div>
-            <h2 className="text-xl font-semibold tracking-tight">
+            <h2 className="text-xl font-semibold tracking-tight"> [modified]
               Shop by category
             </h2>
             <p className="mt-2 text-sm text-zinc-700">

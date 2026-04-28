@@ -19,7 +19,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: window.location.origin }
+      options: { emailRedirectTo: window.location.origin } [modified]
     })
     if (error) {
       setError(error.message)
@@ -71,7 +71,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           <p className="font-medium">Login is not enabled yet.</p>
           <p className="mt-1">
             Add <span className="font-mono">NEXT_PUBLIC_SUPABASE_URL</span> and{" "}
-            <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "} [modified]
+            <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "}
             <span className="font-mono">.env.local</span>, then restart{" "}
             <span className="font-mono">npm run dev</span>.
           </p>

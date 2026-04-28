@@ -139,4 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
-// code updated randomly
+// optimize code detail

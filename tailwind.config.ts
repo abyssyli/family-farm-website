@@ -1,5 +1,3 @@
-
-// code updated randomly
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -27,7 +25,7 @@ const config: Config = {
   },
   plugins: []
 }
-
+ [modified]
 export default config
 
 /* daily modify record */
