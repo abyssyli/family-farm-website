@@ -12,7 +12,7 @@ import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false) [modified]
   const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
     if (!email) return "U"
@@ -59,5 +59,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-// update log: auto edit 01

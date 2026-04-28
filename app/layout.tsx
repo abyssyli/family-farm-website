@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -45,7 +47,7 @@ export default function RootLayout({
                 Journal
               </Link>
               <Link href="/account" className="hover:text-farm-700">
-                Account [modified]
+                Account
               </Link>
               <UserMenu />
             </nav>

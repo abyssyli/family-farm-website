@@ -40,11 +40,9 @@ export async function GET(
       }
     })
   } catch {
-    return new NextResponse("Not found", { status: 404 })
+    return new NextResponse("Not found", { status: 404 }) [modified]
   }
 }
 
-
-// update log: auto edit 01
 
 // update log: auto edit 01

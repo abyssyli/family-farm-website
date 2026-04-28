@@ -92,7 +92,7 @@ export type Database = {
           description: string | null
           image_path: string | null
           cta_label: string | null
-          cta_href: string | null [modified]
+          cta_href: string | null
           x: number
           y: number
         }
@@ -190,3 +190,5 @@ export type Database = {
 }
 
 // task4 project adjust
+
+/* minor adjust */

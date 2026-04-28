@@ -7,7 +7,7 @@ import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
 
 export default async function ProductCategoryPage({
-  params [modified]
+  params
 }: {
   params: { category: string }
 }) {
@@ -42,3 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+// update log: auto edit 01

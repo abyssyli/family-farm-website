@@ -94,7 +94,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           </p>
         </div>
         {lastUpdate ? (
-          <p className="text-xs text-zinc-600"> [modified]
+          <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}
           </p>
         ) : null}
@@ -103,7 +103,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {orderedCategorySlugs.map((slug) => {
           const category = categoryBySlug.get(slug)
-          if (!category) return null
+          if (!category) return null [modified]
           const count = catalog.products.filter((p) => p.categorySlug === slug)
             .length
           const isSkincare = slug === "skincare"

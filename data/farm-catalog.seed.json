@@ -97,7 +97,7 @@
     },
     {
       "id": "woodcraft-stool",
-      "categorySlug": "woodcraft", [modified]
+      "categorySlug": "woodcraft",
       "slug": "handmade-stool",
       "name": "Thoma's Handmade Stool",
       "description": "A sturdy little stool with clean lines—great as a step, seat, or plant stand.",
@@ -158,7 +158,7 @@
       "description": "Our small shop where woodcraft gets sketched, cut, sanded, and finished by hand.",
       "imagePath": "/photos/Wooden1.jpg",
       "ctaLabel": "Explore Woodcraft",
-      "ctaHref": "/products/woodcraft",
+      "ctaHref": "/products/woodcraft", [modified]
       "x": 70,
       "y": 40
     }

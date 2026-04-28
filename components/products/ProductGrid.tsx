@@ -7,13 +7,13 @@ export function ProductGrid({
 }: {
   products: CatalogProduct[]
   categorySlug: string
-}) { [modified]
+}) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
       {products.map((p) => (
         <ProductCard
           key={p.id}
-          product={p}
+          product={p} [modified]
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}

@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
@@ -10,3 +8,5 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+/* auto generated comment */
