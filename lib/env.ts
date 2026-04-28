@@ -3,7 +3,7 @@
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"
-  const defaultSkincareUrl = [modified]
+  const defaultSkincareUrl =
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   const configuredSkincareUrl = process.env.NEXT_PUBLIC_SKINCARE_URL?.trim()
   const skincareUrl =
@@ -18,3 +18,5 @@ export function getPublicEnv() {
 }
 
 // task4 project adjust
+
+/* auto generated comment */

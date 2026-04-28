@@ -91,7 +91,7 @@ async function main() {
   const intervalMs = Number(process.env.SYNC_INTERVAL_MS || "300000")
 
   if (once) {
-    await runOnce() [modified]
+    await runOnce()
     return
   }
 
@@ -116,3 +116,5 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
+
+/* daily modify record */

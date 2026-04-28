@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 /* minor adjust */
 "use client"
 
@@ -34,7 +32,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         .maybeSingle()
       if (pref?.preferred_categories) {
         setPreferred(pref.preferred_categories)
-      }
+      } [modified]
     })
   }, [supabase])
 

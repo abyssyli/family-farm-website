@@ -15,7 +15,7 @@ export function ProductActions({
 }) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
-
+ [modified]
   if (product.externalUrl) {
     const href = skincareUrl
     return (
@@ -43,4 +43,3 @@ export function ProductActions({
 }
 
 # minor content update
-/* minor adjust */

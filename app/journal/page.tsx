@@ -14,7 +14,7 @@ export default async function JournalIndexPage() {
   })
 
   if (posts.length === 0) {
-    return (
+    return ( [modified]
       <EmptyState
         title="No journal posts yet"
         message="When we share farm updates, they’ll show up here."
@@ -41,5 +41,3 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
-
-/* daily modify record */

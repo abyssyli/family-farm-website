@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -30,7 +28,7 @@ export function ProductDetail({
           />
         ) : (
           <div className="flex h-[360px] items-center justify-center text-sm text-zinc-500 sm:h-[440px]">
-            No image
+            No image [modified]
           </div>
         )}
       </div>

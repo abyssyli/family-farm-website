@@ -29,9 +29,8 @@ export function useSupabaseAuth() {
     }
   }, [supabase])
 
-  return { supabase, session, ready }
+  return { supabase, session, ready } [modified]
 }
 
 
 // update log: auto edit 01
-// optimize code detail

@@ -2,10 +2,12 @@
 /* minor adjust */
 module.exports = {
   plugins: {
-    tailwindcss: {}, [modified]
+    tailwindcss: {},
     autoprefixer: {}
   }
 }
 
 
 # minor content update
+
+// code updated randomly

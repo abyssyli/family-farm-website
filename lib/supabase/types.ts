@@ -26,7 +26,7 @@ export type Database = {
           description: string | null
           image_path: string | null
           price_hint: string | null
-          external_url: string | null
+          external_url: string | null [modified]
           is_active: boolean
           updated_at: string
         }
@@ -140,7 +140,7 @@ export type Database = {
           product_id: string | null
           category_slug: string
           message: string
-          created_at: string [modified]
+          created_at: string
         }
         Insert: {
           id?: string

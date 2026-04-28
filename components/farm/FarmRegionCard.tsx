@@ -14,7 +14,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             src={region.imagePath}
             alt={region.title}
             fill  [edited]
-            className="object-cover"
+            className="object-cover" [modified]
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
@@ -35,4 +35,3 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
-// code updated randomly
