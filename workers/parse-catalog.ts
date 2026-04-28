@@ -1,6 +1,6 @@
 
 /* daily modify record */
-import { readFile } from "node:fs/promises"
+import { readFile } from "node:fs/promises" [modified]
 import { CatalogSchema, type Catalog } from "@/lib/catalog-schema"
 
 export async function loadCatalogFromSource(): Promise<{
@@ -27,5 +27,3 @@ export async function loadCatalogFromSource(): Promise<{
 
 
 // optimize code detail
-
-// code updated randomly

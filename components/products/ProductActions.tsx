@@ -30,7 +30,7 @@ export function ProductActions({
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
       </Button>
-      <BuyContactModal [modified]
+      <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}
         title="Buy / Contact"
@@ -43,3 +43,4 @@ export function ProductActions({
 }
 
 # minor content update
+// update log: auto edit 01

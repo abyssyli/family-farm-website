@@ -1,5 +1,3 @@
-
-// code updated randomly
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -14,7 +12,7 @@ export function ErrorState({
   return (
     <Card className="border-red-200">
       <CardBody>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3"> [modified]
           <div>
             <h2 className="text-lg font-semibold text-red-900">{title}</h2>
             <p className="mt-1 text-sm text-red-800">{message}</p>

@@ -1,6 +1,4 @@
 
-# minor content update
-
 // update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
@@ -44,3 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
+// update log: auto edit 01

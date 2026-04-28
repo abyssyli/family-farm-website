@@ -4,7 +4,7 @@
 // update log: auto edit 01
 "use client"
 
-import Image from "next/image" [modified]
+import Image from "next/image"
 import { ButtonLink } from "@/components/ui/Button"
 import { useEffect, useState } from "react"
 
@@ -14,7 +14,7 @@ export function StoryHero() {
   useEffect(() => {
     const hour = new Date().getHours()
     setIsDay(hour >= 6 && hour < 18)
-  }, [])
+  }, []) [modified]
 
   const hoursBackground =
     isDay === null

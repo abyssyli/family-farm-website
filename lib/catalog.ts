@@ -31,7 +31,7 @@ export async function getCatalog(): Promise<Catalog> {
       "handmade-stool": "/photos/Wooden.jpg"
     }
 
-    return imagePath && imagePath.includes("/photos/Wooden") [modified]
+    return imagePath && imagePath.includes("/photos/Wooden")
       ? imagePath
       : fallbackBySlug[slug] ?? "/photos/Wooden1.jpg"
   }
@@ -49,7 +49,7 @@ export async function getCatalog(): Promise<Catalog> {
       "coop-morning": "/photos/chicken2.jpg"
     }
 
-    const fallback = fallbackBySlug[slug]
+    const fallback = fallbackBySlug[slug] [modified]
     if (!fallback) return imagePath
     return imagePath === fallback ? imagePath : fallback
   }

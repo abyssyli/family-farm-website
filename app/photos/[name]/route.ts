@@ -9,7 +9,7 @@ function contentTypeFromExt(ext: string) {
     case ".jpg":
     case ".jpeg":
       return "image/jpeg"
-    case ".png": [modified]
+    case ".png":
       return "image/png"
     case ".webp":
       return "image/webp"
@@ -46,3 +46,5 @@ export async function GET(
 
 
 // update log: auto edit 01
+
+/* auto generated comment */

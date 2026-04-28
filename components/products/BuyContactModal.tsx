@@ -61,7 +61,7 @@ export function BuyContactModal({
 
         <label className="text-sm font-medium">
           Message
-          <textarea [modified]
+          <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
@@ -93,3 +93,4 @@ export function BuyContactModal({
     </Modal>
   )
 }
+// update log: auto edit 01

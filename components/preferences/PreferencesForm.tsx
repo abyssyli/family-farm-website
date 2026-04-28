@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 /* minor adjust */
 "use client"
 
@@ -52,7 +50,7 @@ export function PreferencesForm({
         subtitle="Choose what you want to see first when browsing products."
       />
       <CardBody>
-        {!supabase ? (
+        {!supabase ? ( [modified]
           <p className="text-sm text-zinc-700">
             Supabase isn’t configured in this environment. Add env vars to enable
             saved preferences.

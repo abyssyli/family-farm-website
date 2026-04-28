@@ -1,7 +1,7 @@
 import { ButtonLink } from "@/components/ui/Button"  [edited]
 import { EmptyState } from "@/components/ui/EmptyState"
 
-export default function NotFound() { [modified]
+export default function NotFound() {
   return (
     <EmptyState
       title="Page not found"
@@ -12,4 +12,4 @@ export default function NotFound() { [modified]
 }
 
 
-// task4 project adjust
+// task4 project adjust [modified]

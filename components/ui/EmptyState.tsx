@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -26,7 +24,7 @@ export function EmptyState({
       </CardBody>
     </Card>
   )
-}
+} [modified]
 
 
 /* minor adjust */
