@@ -21,13 +21,13 @@ const variants: Record<Variant, string> = {
 export const Button = forwardRef<
   HTMLButtonElement,
   React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
->(function Button({ className, variant = "primary", ...props }, ref) {
+>(function Button({ className, variant = "primary", ...props }, ref) { [modified]
   return (
     <button
       ref={ref}
       className={cn(base, variants[variant], className)}
       {...props}
-    /> [modified]
+    />
   )
 })
 

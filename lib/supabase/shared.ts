@@ -13,4 +13,4 @@ export function getSupabaseServiceRoleKey() {
 }
 
 
-/* auto generated comment */
+# minor content update

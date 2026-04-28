@@ -29,7 +29,7 @@ export function ProductCard({
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
         </div>
-        {product.description ? (
+        {product.description ? ( [modified]
           <p className="mt-2 line-clamp-3 text-sm text-zinc-700">
             {product.description}
           </p>
@@ -42,7 +42,7 @@ export function ProductCard({
         <div className="mt-5">
           <Link
             href={href}
-            className="text-sm font-medium text-farm-800 hover:text-farm-900" [modified]
+            className="text-sm font-medium text-farm-800 hover:text-farm-900"
           >
             View details →
           </Link>

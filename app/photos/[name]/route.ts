@@ -1,7 +1,7 @@
 
 /* minor adjust */
 import { readFile } from "node:fs/promises"
-import { extname, join } from "node:path" [modified]
+import { extname, join } from "node:path"
 import { NextResponse } from "next/server"
 
 function contentTypeFromExt(ext: string) {
@@ -18,7 +18,7 @@ function contentTypeFromExt(ext: string) {
     default:
       return "application/octet-stream"
   }
-}
+} [modified]
 
 export async function GET(
   _request: Request,

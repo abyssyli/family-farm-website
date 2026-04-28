@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 // task4 project adjust
 {
   "categories": [
@@ -49,7 +47,7 @@
       "name": "Hen Spotlight",
       "description": "A fun add-on to your pickup—ask which hens are laying today and what we’re seeing in the coop.",
       "imagePath": "/photos/chicken1.jpg",
-      "priceHint": "Included with pickup",
+      "priceHint": "Included with pickup", [modified]
       "externalUrl": null,
       "isActive": true
     },

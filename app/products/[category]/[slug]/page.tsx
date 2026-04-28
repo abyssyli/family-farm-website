@@ -1,5 +1,5 @@
 
-// task5 project adjust
+// optimize code detail
 
 # minor content update
 import { notFound, redirect } from "next/navigation"

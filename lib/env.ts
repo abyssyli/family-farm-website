@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -17,6 +15,6 @@ export function getPublicEnv() {
       : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
-}
+} [modified]
 
 // task4 project adjust

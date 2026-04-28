@@ -10,7 +10,7 @@ export function EmptyState({
   title: string
   message: string
   action?: React.ReactNode
-}) {
+}) { [modified]
   return (
     <Card>
       <CardBody>
@@ -28,5 +28,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-/* auto generated comment */

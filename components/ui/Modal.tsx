@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // update log: auto edit 01
 "use client"
 
@@ -19,7 +17,7 @@ export function Modal({
 }: {
   open: boolean
   title: string
-  children: React.ReactNode
+  children: React.ReactNode [modified]
   onClose: () => void
   className?: string
 }) {

@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 // update log: auto edit 01
 
 /* daily modify record */
@@ -48,7 +46,7 @@ export function UserMenu() {
       </div>
       <span className="hidden max-w-[180px] truncate text-sm text-zinc-600 sm:inline">
         {email}
-      </span>
+      </span> [modified]
       <Button
         variant="ghost"
         onClick={() => {

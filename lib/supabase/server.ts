@@ -1,4 +1,6 @@
- [modified]
+
+/* minor adjust */
+
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"

@@ -85,7 +85,7 @@ export function PreferencesForm({
                     <span className="font-medium">{c.name}</span>
                   </label>
                 )
-              })}
+              })} [modified]
             </div>
             <div className="flex items-center gap-3">
               <Button
@@ -110,5 +110,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-// update log: auto edit 01

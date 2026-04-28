@@ -31,7 +31,6 @@ export function useSupabaseAuth() {
 
   return { supabase, session, ready }
 }
-
+ [modified]
 
 // update log: auto edit 01
-/* minor adjust */

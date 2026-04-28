@@ -1,5 +1,3 @@
-
-/* auto generated comment */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -21,7 +19,7 @@ const config: Config = {
           700: "#4c5d2c",
           800: "#3f4b27",
           900: "#354022"
-        }
+        } [modified]
       }
     }
   },
