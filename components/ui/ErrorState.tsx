@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -5,7 +7,7 @@ export function ErrorState({
   message,
   action
 }: {
-  title: string [modified]
+  title: string
   message: string
   action?: React.ReactNode
 }) {

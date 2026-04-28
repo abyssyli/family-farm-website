@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button"
 import { ErrorState } from "@/components/ui/ErrorState"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
-export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
+export function LoginForm({ onSuccess }: { onSuccess?: () => void }) { [modified]
   const { supabase } = useSupabaseAuth()
   const isConfigured = Boolean(supabase)
   const [email, setEmail] = useState("")
@@ -65,7 +65,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         <p className="text-sm text-zinc-600">
           Check your inbox for a sign-in link.
         </p>
-      ) : null} [modified]
+      ) : null}
       {!isConfigured ? (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
           <p className="font-medium">Login is not enabled yet.</p>

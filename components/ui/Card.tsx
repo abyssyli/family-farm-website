@@ -7,7 +7,7 @@ export function Card({
   className
 }: {
   children: React.ReactNode
-  className?: string
+  className?: string [modified]
 }) {
   return (
     <div
@@ -42,4 +42,3 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-/* auto generated comment */

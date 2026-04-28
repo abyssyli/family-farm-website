@@ -36,7 +36,7 @@ export function ProductCard({
         ) : null}
         {product.priceHint ? (
           <p className="mt-3 text-xs font-medium text-zinc-600">
-            {product.priceHint} [modified]
+            {product.priceHint}
           </p>
         ) : null}
         <div className="mt-5">
@@ -54,3 +54,5 @@ export function ProductCard({
 
 
 /* daily modify record */
+
+# minor content update

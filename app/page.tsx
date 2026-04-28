@@ -37,7 +37,7 @@ export default async function HomePage() {
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((c) => (
-            <Card key={c.slug} className="p-6"> [modified]
+            <Card key={c.slug} className="p-6">
               <h3 className="text-base font-semibold">{c.name}</h3>
               <p className="mt-2 text-sm text-zinc-700">
                 Explore {c.name.toLowerCase()} from our family.
@@ -70,3 +70,5 @@ export default async function HomePage() {
 }
 
 // update log: auto edit 01
+
+/* minor adjust */

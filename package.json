@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 # minor content update
 
 // task4 project adjust
@@ -38,4 +40,4 @@
     "tsx": "^4.19.2",
     "typescript": "^5.4.5"
   }
-} [modified]
+}

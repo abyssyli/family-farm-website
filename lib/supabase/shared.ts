@@ -1,5 +1,5 @@
 
-/* daily modify record */
+// code updated randomly
 
 // task4 project adjust
 

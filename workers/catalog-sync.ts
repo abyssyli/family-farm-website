@@ -1,3 +1,5 @@
+
+/* minor adjust */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -116,5 +118,3 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
-
-/* minor adjust */

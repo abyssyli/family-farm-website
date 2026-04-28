@@ -21,7 +21,7 @@ export function StoryHero() {
       ? "/photos/background.jpg"
       : isDay
         ? "/photos/background.jpg"
-        : "/photos/background1.jpg"
+        : "/photos/background1.jpg" [modified]
 
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
@@ -39,7 +39,7 @@ export function StoryHero() {
           family shop, and Lisa’s skincare connects to our natural, small-batch
           way of life.
         </p>
-        <div className="mt-5 max-w-prose rounded-2xl border border-zinc-200 bg-white/70 p-4 text-sm text-zinc-700"> [modified]
+        <div className="mt-5 max-w-prose rounded-2xl border border-zinc-200 bg-white/70 p-4 text-sm text-zinc-700">
           Business hours: 7:00 AM – 10:00 PM
         </div>
         <div

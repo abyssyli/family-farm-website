@@ -1,4 +1,6 @@
-"use client" [modified]
+
+// code updated randomly
+"use client"
 
 import Image from "next/image"
 import { useMemo, useState } from "react"

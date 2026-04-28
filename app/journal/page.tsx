@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -37,7 +39,7 @@ export default async function JournalIndexPage() {
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}
-      </div> [modified]
+      </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 
-// optimize code detail
+// code updated randomly
 import type { Config } from "tailwindcss"
 
 const config: Config = {

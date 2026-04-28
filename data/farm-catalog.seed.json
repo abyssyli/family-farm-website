@@ -30,7 +30,7 @@
       "isActive": true
     },
     {
-      "id": "eggs-coop-visit",
+      "id": "eggs-coop-visit", [modified]
       "categorySlug": "eggs",
       "slug": "coop-visit",
       "name": "Chicken Coop Visit",
@@ -137,7 +137,7 @@
       "excerpt": "Longer days mean more coop checks, more stories, and a little more dust on our boots.",
       "body": "Spring is our favorite season on the farm. The hens are active, the air is warm, and mornings start with a quick walk to the coop. If you want eggs this week, call or text and we’ll let you know what we have ready for pickup.",
       "publishedAt": "2026-04-15T12:00:00.000Z"
-    } [modified]
+    }
   ],
   "farmRegions": [
     {

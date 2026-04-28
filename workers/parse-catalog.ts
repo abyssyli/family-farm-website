@@ -7,14 +7,14 @@ export async function loadCatalogFromSource(): Promise<{
   catalog: Catalog
   sourceLabel: string
 }> {
-  const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim()
+  const sourceUrl = process.env.PRODUCT_SOURCE_URL?.trim() [modified]
   if (sourceUrl) {
     const res = await fetch(sourceUrl, { headers: { accept: "application/json" } })
     if (!res.ok) {
       throw new Error(`Source fetch failed: ${res.status} ${res.statusText}`)
     }
     const json = await res.json()
-    const catalog = CatalogSchema.parse(json) [modified]
+    const catalog = CatalogSchema.parse(json)
     return { catalog, sourceLabel: sourceUrl }
   }
 

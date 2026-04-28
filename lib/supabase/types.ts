@@ -168,7 +168,7 @@ export type Database = {
         }
         Insert: {
           id?: string
-          status: "success" | "error" [modified]
+          status: "success" | "error"
           source: string
           message?: string | null
           ran_at?: string
@@ -190,3 +190,5 @@ export type Database = {
 }
 
 // task4 project adjust
+
+// task5 project adjust

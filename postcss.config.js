@@ -10,4 +10,4 @@ module.exports = {
 
 # minor content update
 
-/* auto generated comment */
+// optimize code detail

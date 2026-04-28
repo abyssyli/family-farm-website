@@ -42,4 +42,4 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-// optimize code detail
+# minor content update

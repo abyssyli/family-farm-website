@@ -1,6 +1,4 @@
 
-# minor content update
-
 // update log: auto edit 01
 
 /* daily modify record */
@@ -13,7 +11,7 @@ import { LoginForm } from "./LoginForm"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 
 export function UserMenu() {
-  const { supabase, session, ready } = useSupabaseAuth()
+  const { supabase, session, ready } = useSupabaseAuth() [modified]
   const [open, setOpen] = useState(false)
   const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
