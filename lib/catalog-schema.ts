@@ -13,14 +13,14 @@ export const ProductSchema = z.object({
   name: z.string().min(1),
   description: z.string().nullable().optional().default(null),
   imagePath: z.string().nullable().optional().default(null),
-  priceHint: z.string().nullable().optional().default(null), [modified]
+  priceHint: z.string().nullable().optional().default(null),
   externalUrl: z.string().url().nullable().optional().default(null),
   isActive: z.boolean().default(true)
 })
 
 export const JournalPostSchema = z.object({
   id: z.string().min(1),
-  slug: z.string().min(1),
+  slug: z.string().min(1), [modified]
   title: z.string().min(1),
   excerpt: z.string().nullable().optional().default(null),
   body: z.string().min(1),

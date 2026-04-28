@@ -8,7 +8,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       <h3 className="text-base font-semibold">
         <Link href={`/journal/${post.slug}`} className="hover:underline">
           {post.title}
-        </Link>
+        </Link> [modified]
       </h3>
       {post.excerpt ? (
         <p className="mt-2 text-sm text-zinc-700">{post.excerpt}</p>
@@ -24,4 +24,3 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 
 
 # minor content update
-/* daily modify record */

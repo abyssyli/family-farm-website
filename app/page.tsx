@@ -1,7 +1,5 @@
 
 /* daily modify record */
-
-/* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
@@ -66,7 +64,7 @@ export default async function HomePage() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> [modified]
     </div>
   )
 }

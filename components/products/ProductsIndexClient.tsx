@@ -119,7 +119,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     href={skincareUrl}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                     rel="noreferrer"
-                    target="_blank" [modified]
+                    target="_blank"
                   >
                     Browse {category.name} →
                   </a>
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+// task5 project adjust

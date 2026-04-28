@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"

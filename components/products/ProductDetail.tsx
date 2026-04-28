@@ -65,4 +65,4 @@ export function ProductDetail({
   )
 }
 
-/* daily modify record */
+// optimize code detail
