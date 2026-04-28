@@ -111,7 +111,7 @@ values
     'woodcraft-stool',
     'woodcraft',
     'handmade-stool',
-    'Thoma''s Handmade Stool',
+    'Thomas''s Handmade Stool',
     'A sturdy little stool with clean lines—great as a step, seat, or plant stand.',
     '/photos/Wooden.jpg',
     'Limited batches · Local pickup',

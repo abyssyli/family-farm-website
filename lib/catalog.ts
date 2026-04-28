@@ -37,7 +37,7 @@ export async function getCatalog(): Promise<Catalog> {
   }
 
   const normalizeWoodcraftName = (slug: string, name: string) => {
-    return slug === "handmade-stool" ? "Thoma's Handmade Stool" : name
+    return slug === "handmade-stool" ? "Thomas's Handmade Stool" : name
   }
 
   const normalizeEggsImagePath = (slug: string, imagePath: string | null) => {
