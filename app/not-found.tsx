@@ -8,9 +8,8 @@ export default function NotFound() {
       message="That link doesn’t exist. Try heading back to the homepage."
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
-  )
+  ) [modified]
 }
 
 
 // task4 project adjust
-# minor content update

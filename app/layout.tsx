@@ -1,5 +1,3 @@
-
-// optimize code detail
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -18,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en"> [modified]
       <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">

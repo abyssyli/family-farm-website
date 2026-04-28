@@ -1,6 +1,4 @@
 
-# minor content update
-
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -16,3 +14,5 @@ export function LoadingState({ label }: { label: string }) {
     </Card>
   )
 }
+
+// update log: auto edit 01

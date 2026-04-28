@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 "use client"
 
@@ -73,7 +71,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     return new Map(catalog.categories.map((c) => [c.slug, c] as const))
   }, [catalog.categories])
 
-  if (catalog.categories.length === 0) {
+  if (catalog.categories.length === 0) { [modified]
     return (
       <EmptyState
         title="No categories yet"

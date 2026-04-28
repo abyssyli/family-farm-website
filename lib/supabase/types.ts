@@ -1,4 +1,6 @@
 
+# minor content update
+
 // optimize code detail
 export type Json =
   | string
@@ -35,7 +37,7 @@ export type Database = {
           category_slug: string
           slug: string
           name: string
-          description?: string | null [modified]
+          description?: string | null
           image_path?: string | null
           price_hint?: string | null
           external_url?: string | null

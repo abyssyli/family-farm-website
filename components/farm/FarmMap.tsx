@@ -43,7 +43,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
             <Image
               src={coverImagePath}
               alt="Farm map"
-              width={1400} [modified]
+              width={1400}
               height={900}
               className="h-[360px] w-full object-cover sm:h-[440px]"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -52,7 +52,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
               const isActive = r.slug === activeSlug
               return (
                 <button
-                  key={r.id}
+                  key={r.id} [modified]
                   type="button"
                   className={cn(
                     "absolute -translate-x-1/2 -translate-y-1/2 rounded-full px-3 py-2 text-xs font-semibold shadow-sm ring-1 transition",

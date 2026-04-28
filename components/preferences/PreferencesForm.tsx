@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 /* minor adjust */
 "use client"
 
@@ -110,5 +112,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-// update log: auto edit 01

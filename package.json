@@ -22,7 +22,7 @@
     "@supabase/supabase-js": "^2.49.1",
     "next": "^14.2.20",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.3.1", [modified]
     "zod": "^3.24.1"
   },
   "devDependencies": {
@@ -39,5 +39,3 @@
     "typescript": "^5.4.5"
   }
 }
-
-// code updated randomly

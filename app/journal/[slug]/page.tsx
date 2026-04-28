@@ -1,5 +1,5 @@
 
-# minor content update
+/* minor adjust */
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"

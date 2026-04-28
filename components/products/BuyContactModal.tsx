@@ -41,7 +41,7 @@ export function BuyContactModal({
       user_id: session?.user.id ?? null,
       product_id: productId,
       category_slug: categorySlug,
-      message [modified]
+      message
     })
     setStatus("saved")
   }
@@ -93,3 +93,4 @@ export function BuyContactModal({
     </Modal>
   )
 }
+/* auto generated comment */

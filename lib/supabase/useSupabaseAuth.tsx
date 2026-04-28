@@ -34,4 +34,4 @@ export function useSupabaseAuth() {
 
 
 // update log: auto edit 01
-// task5 project adjust
+# minor content update

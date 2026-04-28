@@ -71,4 +71,4 @@ export default async function HomePage() {
 
 // update log: auto edit 01
 
-# minor content update
+/* minor adjust */

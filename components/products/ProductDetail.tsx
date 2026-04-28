@@ -3,7 +3,7 @@
 import Image from "next/image"  [edited]
 import Link from "next/link"
 import { ButtonLink } from "@/components/ui/Button"
-import type { CatalogProduct } from "@/lib/catalog-schema" [modified]
+import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductDetail({
   product,
@@ -31,7 +31,7 @@ export function ProductDetail({
             No image
           </div>
         )}
-      </div>
+      </div> [modified]
 
       <div>
         <p className="text-sm font-medium text-farm-800">

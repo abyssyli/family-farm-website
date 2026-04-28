@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
@@ -22,3 +20,4 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
+// optimize code detail

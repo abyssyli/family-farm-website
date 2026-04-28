@@ -30,7 +30,7 @@ export async function GET(
   }
 
   try {
-    const filePath = join(process.cwd(), "photo", name)
+    const filePath = join(process.cwd(), "photo", name) [modified]
     const bytes = await readFile(filePath)
     const ext = extname(name)
     return new NextResponse(bytes, {
@@ -46,5 +46,3 @@ export async function GET(
 
 
 // update log: auto edit 01
-
-// optimize code detail

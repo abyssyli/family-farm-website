@@ -4,7 +4,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
-      "DOM", [modified]
+      "DOM",
       "DOM.Iterable",
       "ES2022"
     ],
@@ -43,3 +43,5 @@
 }
 
 /* daily modify record */
+
+// code updated randomly
