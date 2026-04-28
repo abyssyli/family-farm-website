@@ -73,7 +73,7 @@ export async function getCatalog(): Promise<Catalog> {
     sortOrder: c.sort_order
   }))
 
-  const dbProducts = productsRes.data.map((p) => ({
+  const dbProducts = productsRes.data.map((p) => ({ [modified]
     id: p.id,
     categorySlug: p.category_slug,
     slug: p.slug,
@@ -121,7 +121,7 @@ export async function getCatalog(): Promise<Catalog> {
   for (const p of dbProducts) productsById.set(p.id, p)
   const products = Array.from(productsById.values()).map((p) =>
     p.categorySlug === "woodcraft"
-      ? { [modified]
+      ? {
           ...p,
           name: normalizeWoodcraftName(p.slug, p.name),
           imagePath: normalizeWoodcraftImagePath(p.slug, p.imagePath ?? null)

@@ -17,7 +17,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     setError(null)
     if (!supabase) return
     setStatus("sending")
-    const { error } = await supabase.auth.signInWithOtp({ [modified]
+    const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: window.location.origin }
     })
@@ -45,7 +45,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="flex flex-col gap-3">
+    <form onSubmit={onSubmit} className="flex flex-col gap-3"> [modified]
       <label className="text-sm font-medium">
         Email
         <input

@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 /* minor adjust */
 "use client"
 
@@ -110,5 +112,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-/* auto generated comment */

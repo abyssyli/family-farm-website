@@ -48,7 +48,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
           router.refresh()
         }
       )
-      .on(
+      .on( [modified]
         "postgres_changes",
         { event: "*", schema: "public", table: "categories" },
         () => {
@@ -139,4 +139,3 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
-/* minor adjust */

@@ -1,7 +1,7 @@
 
 /* daily modify record */
 import Link from "next/link"
-import { StoryHero } from "@/components/farm/StoryHero"
+import { StoryHero } from "@/components/farm/StoryHero" [modified]
 import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -11,7 +11,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function HomePage() {
   const catalog = await getCatalog()
   const categories = catalog.categories
-  const regions = catalog.farmRegions [modified]
+  const regions = catalog.farmRegions
   const { skincareUrl } = getPublicEnv()
 
   return (

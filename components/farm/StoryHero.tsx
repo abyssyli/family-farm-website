@@ -11,7 +11,7 @@ import { useEffect, useState } from "react"
 export function StoryHero() {
   const [isDay, setIsDay] = useState<boolean | null>(null)
 
-  useEffect(() => { [modified]
+  useEffect(() => {
     const hour = new Date().getHours()
     setIsDay(hour >= 6 && hour < 18)
   }, [])
@@ -73,3 +73,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// update log: auto edit 01

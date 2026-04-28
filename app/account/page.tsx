@@ -32,4 +32,4 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
-// update log: auto edit 01
+# minor content update

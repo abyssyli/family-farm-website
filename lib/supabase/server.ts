@@ -1,13 +1,11 @@
 
-// task5 project adjust
-
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
-  const { url, anonKey } = getSupabasePublicConfig()
+  const { url, anonKey } = getSupabasePublicConfig() [modified]
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }

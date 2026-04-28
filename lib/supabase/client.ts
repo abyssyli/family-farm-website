@@ -6,4 +6,5 @@ export function createBrowserSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
   if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)  [edited]
-} [modified]
+}
+/* minor adjust */

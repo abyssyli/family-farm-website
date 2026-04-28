@@ -1,4 +1,6 @@
 
+# minor content update
+
 // optimize code detail
 import Image from "next/image"  [edited]
 import Link from "next/link"
@@ -64,5 +66,3 @@ export function ProductDetail({
     </div>
   )
 }
-
-// update log: auto edit 01

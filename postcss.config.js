@@ -1,6 +1,8 @@
 
 /* minor adjust */
-module.exports = { [modified]
+
+/* minor adjust */
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {}

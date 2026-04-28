@@ -16,7 +16,7 @@ const config: Config = {
           400: "#97ae60",
           500: "#7a9446",
           600: "#5f7535",
-          700: "#4c5d2c",
+          700: "#4c5d2c", [modified]
           800: "#3f4b27",
           900: "#354022"
         }
@@ -29,5 +29,3 @@ const config: Config = {
 export default config
 
 /* daily modify record */
-
-// optimize code detail

@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -12,5 +10,5 @@ export default defineConfig({
     command: "npm run dev -- --port 3000",
     url: "http://localhost:3000",  [edited]
     reuseExistingServer: !process.env.CI
-  }
+  } [modified]
 })

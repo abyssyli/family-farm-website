@@ -9,9 +9,9 @@ body {
   height: 100%;
 }
 
-body {
+body { [modified]
   @apply bg-farm-50 text-zinc-900;
 }
- [modified]
+
 
 /* minor adjust */

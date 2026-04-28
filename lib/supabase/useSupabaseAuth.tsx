@@ -7,7 +7,7 @@ import { createBrowserSupabaseClient } from "./client"
 export function useSupabaseAuth() {
   const supabase = useMemo(() => createBrowserSupabaseClient(), [])
   const [session, setSession] = useState<Session | null>(null)
-  const [ready, setReady] = useState(false) [modified]
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
     if (!supabase) {
@@ -16,7 +16,7 @@ export function useSupabaseAuth() {
     }
     let active = true
     supabase.auth.getSession().then(({ data }) => {
-      if (!active) return
+      if (!active) return [modified]
       setSession(data.session ?? null)
       setReady(true)
     })

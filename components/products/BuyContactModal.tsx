@@ -3,7 +3,7 @@
 "use client"  [edited]
 
 import { useMemo, useState } from "react"
-import { Modal } from "@/components/ui/Modal" [modified]
+import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
 import { getPublicEnv } from "@/lib/env"
@@ -93,3 +93,4 @@ export function BuyContactModal({
     </Modal>
   )
 }
+# minor content update

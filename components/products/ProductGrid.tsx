@@ -1,5 +1,3 @@
-
-// optimize code detail
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
@@ -11,7 +9,7 @@ export function ProductGrid({
   categorySlug: string
 }) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited] [modified]
       {products.map((p) => (
         <ProductCard
           key={p.id}

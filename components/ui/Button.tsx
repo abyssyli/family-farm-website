@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 /* daily modify record */
 import Link from "next/link"
 import { forwardRef } from "react"
@@ -33,7 +35,7 @@ export const Button = forwardRef<
 
 export function ButtonLink({
   href,
-  children, [modified]
+  children,
   variant = "primary",
   className
 }: {

@@ -1,4 +1,4 @@
-
+ [modified]
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -9,7 +9,7 @@ function contentTypeFromExt(ext: string) {
     case ".jpg":
     case ".jpeg":
       return "image/jpeg"
-    case ".png": [modified]
+    case ".png":
       return "image/png"
     case ".webp":
       return "image/webp"

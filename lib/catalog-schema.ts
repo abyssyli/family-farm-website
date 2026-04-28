@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -43,7 +41,7 @@ export const FarmRegionSchema = z.object({
 
 export const CatalogSchema = z.object({
   categories: z.array(CategorySchema),
-  products: z.array(ProductSchema),
+  products: z.array(ProductSchema), [modified]
   journalPosts: z.array(JournalPostSchema).default([]),
   farmRegions: z.array(FarmRegionSchema).default([])
 })
