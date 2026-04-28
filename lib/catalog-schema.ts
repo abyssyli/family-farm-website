@@ -1,4 +1,4 @@
-import { z } from "zod" [modified]
+import { z } from "zod"
 
 export const CategorySchema = z.object({
   slug: z.string().min(1),
@@ -44,7 +44,7 @@ export const CatalogSchema = z.object({
   products: z.array(ProductSchema),
   journalPosts: z.array(JournalPostSchema).default([]),
   farmRegions: z.array(FarmRegionSchema).default([])
-})
+}) [modified]
 
 export type Catalog = z.infer<typeof CatalogSchema>
 export type CatalogCategory = z.infer<typeof CategorySchema>

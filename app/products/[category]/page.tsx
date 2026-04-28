@@ -38,7 +38,7 @@ export default async function ProductCategoryPage({
         </p>
       </div>
 
-      <ProductGrid products={products} categorySlug={category.slug} /> [modified]
-    </div>
+      <ProductGrid products={products} categorySlug={category.slug} />
+    </div> [modified]
   )
 }

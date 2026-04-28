@@ -2,7 +2,7 @@
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
-export function EmptyState({
+export function EmptyState({ [modified]
   title,
   message,
   action
@@ -28,5 +28,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-# minor content update

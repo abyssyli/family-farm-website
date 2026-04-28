@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // update log: auto edit 01
 
 /* daily modify record */
@@ -17,7 +15,7 @@ export function UserMenu() {
   const [open, setOpen] = useState(false)
   const email = useMemo(() => session?.user.email ?? null, [session])
   const avatarLabel = useMemo(() => {
-    if (!email) return "U"
+    if (!email) return "U" [modified]
     const trimmed = email.trim()
     if (!trimmed) return "U"
     return trimmed[0]?.toUpperCase() ?? "U"

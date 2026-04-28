@@ -37,7 +37,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [supabase])
 
   useEffect(() => {
-    if (!supabase) return
+    if (!supabase) return [modified]
     const channel = supabase
       .channel("catalog-changes")
       .on(
@@ -87,7 +87,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
             Products
-          </h1> [modified]
+          </h1>
           <p className="mt-2 text-sm text-zinc-700">
             Browse what we’re making. Eggs and woodcraft are local pickup.
             Skincare ships via Lisa’s shop.

@@ -1,5 +1,5 @@
 
-# minor content update
+/* auto generated comment */
 
 /* minor adjust */
 

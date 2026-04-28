@@ -4,7 +4,7 @@ function cn(...parts: Array<string | false | null | undefined>) {
 
 export function Card({
   children,
-  className
+  className [modified]
 }: {
   children: React.ReactNode
   className?: string
@@ -42,4 +42,3 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-/* auto generated comment */

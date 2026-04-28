@@ -1,5 +1,5 @@
 
-# minor content update
+// optimize code detail
 import type { Config } from "tailwindcss"
 
 const config: Config = {

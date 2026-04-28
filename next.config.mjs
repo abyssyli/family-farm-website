@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
@@ -8,5 +10,3 @@ const nextConfig = {
 }
 
 export default nextConfig
-
-/* daily modify record */

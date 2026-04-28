@@ -17,6 +17,7 @@ export function ProductGrid({
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}
-    </div> [modified]
+    </div>
   )
 }  [edited]
+// update log: auto edit 01

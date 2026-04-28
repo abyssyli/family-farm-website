@@ -130,7 +130,7 @@ export async function getCatalog(): Promise<Catalog> {
         ? { ...p, imagePath: normalizeEggsImagePath(p.slug, p.imagePath ?? null) }
       : p
   )
- [modified]
+
   const regionsBySlug = new Map(seedCatalog.farmRegions.map((r) => [r.slug, r] as const))
   for (const r of dbFarmRegions) regionsBySlug.set(r.slug, r)  [edited]
   const farmRegions = Array.from(regionsBySlug.values()).map((r) => ({
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+// update log: auto edit 01

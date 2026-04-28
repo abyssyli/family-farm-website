@@ -1,3 +1,5 @@
+
+// update log: auto edit 01
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -41,7 +43,7 @@ async function runOnce() {
     excerpt: j.excerpt,
     body: j.body,
     published_at: j.publishedAt,
-    updated_at: new Date().toISOString() [modified]
+    updated_at: new Date().toISOString()
   }))
 
   const farmRegions = catalog.farmRegions.map((r) => ({

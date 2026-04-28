@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -9,7 +11,7 @@ export default async function AccountPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div> [modified]
+      <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>

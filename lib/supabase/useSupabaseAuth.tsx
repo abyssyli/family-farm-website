@@ -1,5 +1,3 @@
-
-// task5 project adjust
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -16,7 +14,7 @@ export function useSupabaseAuth() {
       setReady(true)
       return
     }
-    let active = true
+    let active = true [modified]
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return
       setSession(data.session ?? null)
