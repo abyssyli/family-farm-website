@@ -1,3 +1,5 @@
+
+# minor content update
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -10,7 +12,7 @@ export function ErrorState({
   action?: React.ReactNode
 }) {
   return (
-    <Card className="border-red-200"> [modified]
+    <Card className="border-red-200">
       <CardBody>
         <div className="flex flex-col gap-3">
           <div>

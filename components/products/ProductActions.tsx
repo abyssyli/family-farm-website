@@ -1,5 +1,5 @@
 
-// optimize code detail
+/* auto generated comment */
 "use client"
 
 import { useState } from "react"  [edited]

@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -27,7 +29,7 @@ export default async function JournalIndexPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-          Farm Journal [modified]
+          Farm Journal
         </h1>
         <p className="mt-2 text-sm text-zinc-700">
           Small stories from the farm, the shop, and the family.

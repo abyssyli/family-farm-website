@@ -1,5 +1,3 @@
-
-# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -76,7 +74,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbProducts = productsRes.data.map((p) => ({
-    id: p.id,
+    id: p.id, [modified]
     categorySlug: p.category_slug,
     slug: p.slug,
     name: p.category_slug === "woodcraft" ? normalizeWoodcraftName(p.slug, p.name) : p.name,

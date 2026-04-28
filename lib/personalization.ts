@@ -1,6 +1,8 @@
 
 /* minor adjust */
 
+/* minor adjust */
+
 /* daily modify record */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
@@ -12,6 +14,7 @@ export function sortCategorySlugsByPreference(
     const ra = rank.has(a) ? rank.get(a)! : Number.POSITIVE_INFINITY
     const rb = rank.has(b) ? rank.get(b)! : Number.POSITIVE_INFINITY
     if (ra !== rb) return ra - rb
-    return a.localeCompare(b) [modified]
+    return a.localeCompare(b)
   })
 }
+

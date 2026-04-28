@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 /* daily modify record */
 import Link from "next/link"
 import { forwardRef } from "react"
@@ -21,7 +19,7 @@ const variants: Record<Variant, string> = {
 }
 
 export const Button = forwardRef<
-  HTMLButtonElement,
+  HTMLButtonElement, [modified]
   React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
 >(function Button({ className, variant = "primary", ...props }, ref) {
   return (

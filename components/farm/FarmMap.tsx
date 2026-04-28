@@ -92,7 +92,9 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     </section>
   )
 }
- [modified]
+
 // task4 project adjust
 
 /* minor adjust */
+
+/* daily modify record */

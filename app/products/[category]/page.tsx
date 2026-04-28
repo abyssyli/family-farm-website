@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // update log: auto edit 01
 import Link from "next/link"
 import { notFound, redirect } from "next/navigation"
@@ -17,7 +15,7 @@ export default async function ProductCategoryPage({
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
   }
-
+ [modified]
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()

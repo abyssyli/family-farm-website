@@ -18,7 +18,7 @@ export function ProductDetail({
     <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
       <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
         {product.imagePath ? (
-          <Image [modified]
+          <Image
             src={product.imagePath}
             alt={product.name}
             width={1400}
@@ -44,7 +44,7 @@ export function ProductDetail({
         </h1>
         {product.description ? (
           <p className="mt-4 max-w-prose text-base text-zinc-700">
-            {product.description}
+            {product.description} [modified]
           </p>
         ) : null}
         {product.priceHint ? (

@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // optimize code detail
 import Image from "next/image"
 import Link from "next/link"
@@ -19,7 +17,7 @@ export function ProductCard({
       {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image
-            src={product.imagePath}
+            src={product.imagePath} [modified]
             alt={product.name}
             fill
             className="object-cover"

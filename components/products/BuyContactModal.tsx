@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 // optimize code detail
 "use client"  [edited]
 
@@ -93,4 +95,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-/* daily modify record */
