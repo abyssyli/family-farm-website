@@ -14,9 +14,7 @@ export function getPublicEnv() {
       ? configuredSkincareUrl
       : defaultSkincareUrl
 
-  return { contactPhone, skincareUrl }
+  return { contactPhone, skincareUrl } [modified]
 }
 
 // task4 project adjust
-
-/* auto generated comment */

@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -14,7 +16,7 @@ export default async function JournalIndexPage() {
   })
 
   if (posts.length === 0) {
-    return ( [modified]
+    return (
       <EmptyState
         title="No journal posts yet"
         message="When we share farm updates, they’ll show up here."

@@ -1,3 +1,5 @@
+
+// code updated randomly
 "use client"
 
 import { useState } from "react"
@@ -32,7 +34,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
 
   if (error) {
     return (
-      <ErrorState [modified]
+      <ErrorState
         title="Sign-in failed"
         message={error}
         action={  [edited]

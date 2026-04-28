@@ -32,7 +32,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         .maybeSingle()
       if (pref?.preferred_categories) {
         setPreferred(pref.preferred_categories)
-      } [modified]
+      }
     })
   }, [supabase])
 
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+/* daily modify record */

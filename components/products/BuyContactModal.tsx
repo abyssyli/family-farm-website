@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 // optimize code detail
 "use client"  [edited]
 
@@ -85,7 +83,7 @@ export function BuyContactModal({
             title={
               supabase
                 ? "Save inquiry"
-                : "Configure Supabase to save inquiries"
+                : "Configure Supabase to save inquiries" [modified]
             }
           >
             {status === "saved" ? "Saved" : status === "saving" ? "Saving…" : "Save"}

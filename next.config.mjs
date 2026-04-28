@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-/* minor adjust */
+// code updated randomly

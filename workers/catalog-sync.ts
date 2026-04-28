@@ -54,7 +54,7 @@ async function runOnce() {
     cta_href: r.ctaHref,
     x: r.x,
     y: r.y
-  }))
+  })) [modified]
 
   const startedAt = Date.now()
   try {
@@ -116,5 +116,3 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
-
-/* daily modify record */

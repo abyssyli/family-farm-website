@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 /* minor adjust */
 module.exports = {
   plugins: {
@@ -9,5 +11,3 @@ module.exports = {
 
 
 # minor content update
-
-// code updated randomly

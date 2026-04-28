@@ -1,3 +1,5 @@
+
+// code updated randomly
 "use client"
 
 import Image from "next/image"
@@ -96,5 +98,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
-
-// code updated randomly

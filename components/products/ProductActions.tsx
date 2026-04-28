@@ -15,7 +15,7 @@ export function ProductActions({
 }) {
   const { skincareUrl } = getPublicEnv()
   const [open, setOpen] = useState(false)
- [modified]
+
   if (product.externalUrl) {
     const href = skincareUrl
     return (
@@ -36,7 +36,7 @@ export function ProductActions({
         title="Buy / Contact"
         categorySlug={categorySlug}
         productId={product.id}
-        defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
+        defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`} [modified]
       />
     </>
   )

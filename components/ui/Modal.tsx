@@ -1,4 +1,4 @@
-
+ [modified]
 // update log: auto edit 01
 "use client"
 
@@ -63,5 +63,3 @@ export function Modal({
     </div>
   )
 }
-
-/* daily modify record */

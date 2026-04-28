@@ -28,7 +28,7 @@ export function ProductDetail({
           />
         ) : (
           <div className="flex h-[360px] items-center justify-center text-sm text-zinc-500 sm:h-[440px]">
-            No image [modified]
+            No image
           </div>
         )}
       </div>
@@ -64,3 +64,5 @@ export function ProductDetail({
     </div>
   )
 }
+
+// update log: auto edit 01

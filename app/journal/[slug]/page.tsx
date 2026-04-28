@@ -24,7 +24,7 @@ export default async function JournalPostPage({
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {post.title}
         </h1>
-        {post.publishedAt ? (
+        {post.publishedAt ? ( [modified]
           <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
@@ -42,7 +42,7 @@ export default async function JournalPostPage({
       <div>
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal
-        </ButtonLink> [modified]
+        </ButtonLink>
       </div>
     </div>
   )

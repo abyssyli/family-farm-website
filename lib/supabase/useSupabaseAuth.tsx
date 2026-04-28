@@ -1,3 +1,5 @@
+
+// code updated randomly
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -29,7 +31,7 @@ export function useSupabaseAuth() {
     }
   }, [supabase])
 
-  return { supabase, session, ready } [modified]
+  return { supabase, session, ready }
 }
 
 

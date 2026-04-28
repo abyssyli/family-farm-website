@@ -26,7 +26,7 @@ export type Database = {
           description: string | null
           image_path: string | null
           price_hint: string | null
-          external_url: string | null [modified]
+          external_url: string | null
           is_active: boolean
           updated_at: string
         }
@@ -88,7 +88,7 @@ export type Database = {
         Row: {
           id: string
           slug: string
-          title: string
+          title: string [modified]
           description: string | null
           image_path: string | null
           cta_label: string | null
