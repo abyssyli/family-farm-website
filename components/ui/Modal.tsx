@@ -1,4 +1,6 @@
 
+/* daily modify record */
+
 // update log: auto edit 01
 "use client"
 
@@ -6,7 +8,7 @@ import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
-} [modified]
+}
 
 export function Modal({
   open,

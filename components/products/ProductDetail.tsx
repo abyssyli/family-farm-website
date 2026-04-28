@@ -44,7 +44,7 @@ export function ProductDetail({
         </h1>
         {product.description ? (
           <p className="mt-4 max-w-prose text-base text-zinc-700">
-            {product.description} [modified]
+            {product.description}
           </p>
         ) : null}
         {product.priceHint ? (
@@ -55,7 +55,7 @@ export function ProductDetail({
 
         <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 
-        <div className="mt-8">
+        <div className="mt-8"> [modified]
           <ButtonLink href="/products" variant="ghost">
             ← Back to products
           </ButtonLink>

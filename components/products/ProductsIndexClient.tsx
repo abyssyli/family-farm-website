@@ -132,11 +132,10 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                   </Link>
                 )}
               </div>
-            </Card>
+            </Card> [modified]
           )
         })}
       </div>
     </div>  [edited]
   )
 }
-// task5 project adjust

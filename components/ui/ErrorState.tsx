@@ -1,5 +1,3 @@
-
-# minor content update
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -25,3 +23,4 @@ export function ErrorState({
     </Card>
   )
 }  [edited]
+/* minor adjust */

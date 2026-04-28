@@ -5,7 +5,7 @@ import { notFound, redirect } from "next/navigation"
 import { ProductGrid } from "@/components/products/ProductGrid"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
-
+ [modified]
 export default async function ProductCategoryPage({
   params
 }: {
@@ -15,7 +15,7 @@ export default async function ProductCategoryPage({
     const { skincareUrl } = getPublicEnv()
     redirect(skincareUrl)
   }
- [modified]
+
   const catalog = await getCatalog()
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()

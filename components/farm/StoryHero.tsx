@@ -74,4 +74,4 @@ export function StoryHero() {
   )
 }
 
-// optimize code detail
+/* auto generated comment */

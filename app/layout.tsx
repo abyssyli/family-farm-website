@@ -48,7 +48,7 @@ export default function RootLayout({
                 Account
               </Link>
               <UserMenu />
-            </nav>
+            </nav> [modified]
           </header>
           <main className="flex-1 pb-16">{children}</main>
           <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600">
@@ -64,7 +64,5 @@ export default function RootLayout({
 }
 
 /* minor adjust */
-
-# minor content update
 
 # minor content update

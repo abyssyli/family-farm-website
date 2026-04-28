@@ -1,5 +1,5 @@
 
-// optimize code detail
+// code updated randomly
 
 /* minor adjust */
 import { readFile } from "node:fs/promises"

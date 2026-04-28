@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 // update log: auto edit 01
 
 /* daily modify record */
@@ -59,5 +61,3 @@ export function UserMenu() {
     </div>
   )
 }
-
-/* auto generated comment */

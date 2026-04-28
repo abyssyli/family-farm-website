@@ -35,7 +35,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       <ErrorState
         title="Sign-in failed"
         message={error}
-        action={  [edited]
+        action={  [edited] [modified]
           <Button variant="secondary" onClick={() => setError(null)}>
             Try again
           </Button>
@@ -81,5 +81,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
-
-/* auto generated comment */

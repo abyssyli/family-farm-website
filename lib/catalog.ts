@@ -10,7 +10,7 @@ export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()
   if (!supabase) return getSeedCatalog()
 
-  const seedCatalog = getSeedCatalog()
+  const seedCatalog = getSeedCatalog() [modified]
 
   const [categoriesRes, productsRes, journalRes, regionsRes] = await Promise.all([
     supabase.from("categories").select("*").order("sort_order", { ascending: true }),
@@ -74,7 +74,7 @@ export async function getCatalog(): Promise<Catalog> {
   }))
 
   const dbProducts = productsRes.data.map((p) => ({
-    id: p.id, [modified]
+    id: p.id,
     categorySlug: p.category_slug,
     slug: p.slug,
     name: p.category_slug === "woodcraft" ? normalizeWoodcraftName(p.slug, p.name) : p.name,

@@ -19,7 +19,7 @@ const variants: Record<Variant, string> = {
 }
 
 export const Button = forwardRef<
-  HTMLButtonElement, [modified]
+  HTMLButtonElement,
   React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant }
 >(function Button({ className, variant = "primary", ...props }, ref) {
   return (
@@ -61,3 +61,4 @@ export function ButtonLink({
     </Link>
   )
 }
+// task5 project adjust

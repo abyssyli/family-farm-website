@@ -17,7 +17,7 @@ export function ProductCard({
       {product.imagePath ? (
         <div className="relative h-48 w-full">
           <Image
-            src={product.imagePath} [modified]
+            src={product.imagePath}
             alt={product.name}
             fill
             className="object-cover"
@@ -51,6 +51,6 @@ export function ProductCard({
     </Card>
   )
 }
-
+ [modified]
 
 /* daily modify record */

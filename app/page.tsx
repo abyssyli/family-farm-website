@@ -1,5 +1,5 @@
 
-// code updated randomly
+// update log: auto edit 01
 
 /* daily modify record */
 import Link from "next/link"
