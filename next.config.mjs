@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-// optimize code detail
+// task5 project adjust

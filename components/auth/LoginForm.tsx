@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"
@@ -59,7 +61,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
         />
       </label>
       <Button type="submit" disabled={!isConfigured || status === "sending"}>
-        {status === "sending" ? "Sending…" : "Send magic link"} [modified]
+        {status === "sending" ? "Sending…" : "Send magic link"}
       </Button>
       {status === "sent" ? (
         <p className="text-sm text-zinc-600">

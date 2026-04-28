@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useState } from "react"  [edited]
@@ -9,7 +11,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 export function ProductActions({
   product,
   categorySlug
-}: { [modified]
+}: {
   product: CatalogProduct
   categorySlug: string
 }) {

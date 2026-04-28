@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 /* minor adjust */
 
 // update log: auto edit 01
@@ -73,5 +75,3 @@ export function StoryHero() {
     </section>
   )
 }
-
-// code updated randomly

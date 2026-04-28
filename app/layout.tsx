@@ -1,5 +1,3 @@
-
-// optimize code detail
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -68,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// update log: auto edit 01

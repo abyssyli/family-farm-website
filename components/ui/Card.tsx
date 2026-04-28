@@ -1,5 +1,5 @@
 function cn(...parts: Array<string | false | null | undefined>) {
-  return parts.filter(Boolean).join(" ")
+  return parts.filter(Boolean).join(" ") [modified]
 }
 
 export function Card({
@@ -25,7 +25,7 @@ export function CardHeader({
   title,
   subtitle
 }: {
-  title: string [modified]
+  title: string
   subtitle?: string | null
 }) {
   return (  [edited]

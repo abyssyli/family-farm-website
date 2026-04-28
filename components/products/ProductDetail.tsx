@@ -62,5 +62,7 @@ export function ProductDetail({
         </div>
       </div>
     </div>
-  ) [modified]
+  )
 }
+
+// task5 project adjust

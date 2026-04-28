@@ -1,5 +1,3 @@
-
-# minor content update
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
@@ -39,7 +37,7 @@ export default async function JournalPostPage({
             <p>{post.body}</p>
           </div>
         </CardBody>
-      </Card>
+      </Card> [modified]
 
       <div>
         <ButtonLink href="/journal" variant="ghost">

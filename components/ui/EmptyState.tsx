@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -28,5 +30,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-// optimize code detail

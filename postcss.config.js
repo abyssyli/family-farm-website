@@ -8,4 +8,6 @@ module.exports = {
 }
 
 
-# minor content update [modified]
+# minor content update
+
+/* daily modify record */

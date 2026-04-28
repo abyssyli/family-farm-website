@@ -21,7 +21,7 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next" [modified]
+        "name": "next"
       }
     ],
     "baseUrl": ".",
@@ -43,3 +43,5 @@
 }
 
 /* daily modify record */
+
+// code updated randomly
