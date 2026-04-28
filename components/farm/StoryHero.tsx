@@ -1,12 +1,10 @@
 
-/* daily modify record */
-
 /* minor adjust */
 
 // update log: auto edit 01
 "use client"
 
-import Image from "next/image"
+import Image from "next/image" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 import { useEffect, useState } from "react"
 

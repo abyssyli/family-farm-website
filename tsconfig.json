@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -24,7 +22,7 @@
     "plugins": [
       {
         "name": "next"
-      }
+      } [modified]
     ],
     "baseUrl": ".",
     "paths": {

@@ -12,4 +12,4 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI
   }
 })
-// update log: auto edit 01
+// optimize code detail

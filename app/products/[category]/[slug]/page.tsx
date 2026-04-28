@@ -1,5 +1,5 @@
 
-# minor content update
+# minor content update [modified]
 import { notFound, redirect } from "next/navigation"
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
@@ -32,6 +32,6 @@ export default async function ProductDetailPage({
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />
   )
-} [modified]
+}
 
 /* daily modify record */

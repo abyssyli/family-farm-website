@@ -1,5 +1,3 @@
-
-/* auto generated comment */
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ")
 }
@@ -9,7 +7,7 @@ export function Card({
   className
 }: {
   children: React.ReactNode
-  className?: string
+  className?: string [modified]
 }) {
   return (
     <div

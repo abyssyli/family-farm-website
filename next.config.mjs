@@ -1,5 +1,5 @@
 
-// optimize code detail
+// optimize code detail [modified]
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
   images: {
@@ -8,5 +8,3 @@ const nextConfig = {
 }
 
 export default nextConfig
-
-// code updated randomly

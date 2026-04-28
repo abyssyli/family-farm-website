@@ -20,4 +20,4 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
-/* auto generated comment */
+/* minor adjust */

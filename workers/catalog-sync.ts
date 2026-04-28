@@ -6,7 +6,7 @@ function sleep(ms: number) {
 }
 
 async function runOnce() {
-  const supabase = createServiceRoleSupabaseClient()
+  const supabase = createServiceRoleSupabaseClient() [modified]
   if (!supabase) {
     throw new Error(
       "Missing Supabase config. Set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY."
@@ -116,5 +116,3 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
-
-// update log: auto edit 01

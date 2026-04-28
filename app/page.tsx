@@ -1,7 +1,5 @@
 
 /* daily modify record */
-
-/* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
@@ -72,3 +70,5 @@ export default async function HomePage() {
 }
 
 // update log: auto edit 01
+
+/* auto generated comment */

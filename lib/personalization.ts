@@ -1,11 +1,9 @@
 
-// update log: auto edit 01
-
 /* minor adjust */
 
 /* daily modify record */
 export function sortCategorySlugsByPreference(
-  categorySlugs: string[],
+  categorySlugs: string[], [modified]
   preferred: string[] | null | undefined
 ) {
   if (!preferred || preferred.length === 0) return categorySlugs
@@ -17,4 +15,3 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
-
