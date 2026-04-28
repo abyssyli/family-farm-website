@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 
 // update log: auto edit 01
@@ -22,7 +20,7 @@ export function StoryHero() {
     isDay === null
       ? "/photos/background.jpg"
       : isDay
-        ? "/photos/background.jpg"
+        ? "/photos/background.jpg" [modified]
         : "/photos/background1.jpg"
 
   return (

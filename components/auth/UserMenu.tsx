@@ -60,4 +60,4 @@ export function UserMenu() {
   )
 }
 
-/* minor adjust */
+/* auto generated comment */

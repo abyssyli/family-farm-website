@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 /* minor adjust */
 
 /* daily modify record */
@@ -16,5 +18,3 @@ export function sortCategorySlugsByPreference(
   })
 }
 
-
-// code updated randomly

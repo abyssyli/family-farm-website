@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // optimize code detail
 "use client"  [edited]
 
@@ -43,7 +45,7 @@ export function BuyContactModal({
       category_slug: categorySlug,
       message
     })
-    setStatus("saved") [modified]
+    setStatus("saved")
   }
 
   return (

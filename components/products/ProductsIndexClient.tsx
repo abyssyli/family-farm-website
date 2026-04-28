@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 /* minor adjust */
 "use client"
 
@@ -92,7 +94,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
             Browse what we’re making. Eggs and woodcraft are local pickup.
             Skincare ships via Lisa’s shop.
           </p>
-        </div> [modified]
+        </div>
         {lastUpdate ? (
           <p className="text-xs text-zinc-600">
             Updated {lastUpdate.toLocaleTimeString()}

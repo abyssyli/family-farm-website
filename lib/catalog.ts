@@ -96,7 +96,7 @@ export async function getCatalog(): Promise<Catalog> {
     title: j.title,
     excerpt: j.excerpt,
     body: j.body,
-    publishedAt: j.published_at [modified]
+    publishedAt: j.published_at
   }))
 
   const dbFarmRegions = regionsRes.data.map((r) => ({
@@ -106,7 +106,7 @@ export async function getCatalog(): Promise<Catalog> {
     description: r.description,
     imagePath: normalizeFarmRegionImagePath(r.slug, r.image_path),
     ctaLabel: r.cta_label,
-    ctaHref: r.cta_href,
+    ctaHref: r.cta_href, [modified]
     x: r.x,
     y: r.y
   }))

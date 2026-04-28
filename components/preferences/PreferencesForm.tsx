@@ -2,7 +2,7 @@
 /* minor adjust */
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react" [modified]
 import { Button } from "@/components/ui/Button"  [edited]
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
@@ -23,7 +23,7 @@ export function PreferencesForm({
       const id = data.user?.id ?? null
       setUserId(id)
       if (!id) return
-      const { data: pref } = await supabase [modified]
+      const { data: pref } = await supabase
         .from("user_preferences")
         .select("preferred_categories")
         .eq("user_id", id)

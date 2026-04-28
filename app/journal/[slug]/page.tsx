@@ -32,7 +32,7 @@ export default async function JournalPostPage({
       </div>
 
       <Card>
-        <CardBody>
+        <CardBody> [modified]
           <div className="prose prose-zinc max-w-none">
             <p>{post.body}</p>
           </div>
@@ -49,5 +49,3 @@ export default async function JournalPostPage({
 }
 
 /* minor adjust */
-
-# minor content update

@@ -1,6 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
-import Link from "next/link" [modified]
+import Link from "next/link"
 import Image from "next/image"
 import { UserMenu } from "@/components/auth/UserMenu"
 
@@ -25,7 +25,7 @@ export default function RootLayout({
                 PF
               </span>
               <span className="font-semibold tracking-tight">
-                Paula’s Farm Family Marketplace
+                Paula’s Farm Family Marketplace [modified]
               </span>
             </Link>
             <nav className="flex items-center gap-6 text-sm">

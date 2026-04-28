@@ -10,4 +10,4 @@ module.exports = {
 
 # minor content update
 
-// task5 project adjust
+/* daily modify record */

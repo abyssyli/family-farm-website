@@ -2,14 +2,14 @@
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
-export function EmptyState({ [modified]
+export function EmptyState({
   title,
   message,
   action
 }: {
   title: string
   message: string
-  action?: React.ReactNode
+  action?: React.ReactNode [modified]
 }) {
   return (
     <Card>

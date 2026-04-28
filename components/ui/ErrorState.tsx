@@ -2,12 +2,12 @@ import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
   title,
-  message,
+  message, [modified]
   action
 }: {
   title: string
   message: string
-  action?: React.ReactNode [modified]
+  action?: React.ReactNode
 }) {
   return (
     <Card className="border-red-200">

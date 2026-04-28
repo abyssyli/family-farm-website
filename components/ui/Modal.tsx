@@ -64,4 +64,4 @@ export function Modal({
   )
 }
 
-/* minor adjust */
+// optimize code detail

@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -16,7 +18,7 @@ async function runOnce() {
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 
   const categories = catalog.categories.map((c) => ({
-    slug: c.slug, [modified]
+    slug: c.slug,
     name: c.name,
     sort_order: c.sortOrder
   }))

@@ -22,7 +22,7 @@ function contentTypeFromExt(ext: string) {
 
 export async function GET(
   _request: Request,
-  { params }: { params: { name: string } }
+  { params }: { params: { name: string } } [modified]
 ) {
   const name = params.name
   if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
@@ -46,5 +46,3 @@ export async function GET(
 
 
 // update log: auto edit 01
-
-// optimize code detail

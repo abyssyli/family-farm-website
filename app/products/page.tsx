@@ -8,4 +8,4 @@ export default async function ProductsPage() {
   return <ProductsIndexClient catalog={catalog} />
 }  [edited]
 
-/* daily modify record */
+// optimize code detail

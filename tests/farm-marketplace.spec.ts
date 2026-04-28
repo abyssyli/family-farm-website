@@ -19,7 +19,7 @@ test("homepage renders and navigation works", async ({ page }) => {
 
   await page.getByRole("button", { name: /Buy \/ Contact/i }).click()
   await expect(page.getByText(/Call or text Paula/i)).toBeVisible()
-  await expect(page.getByText(/\+18065550123/)).toBeVisible() [modified]
+  await expect(page.getByText(/\+18065550123/)).toBeVisible()
 })
 
 test("skincare category points to BeakerGold", async ({ page }) => {
@@ -31,3 +31,5 @@ test("skincare category points to BeakerGold", async ({ page }) => {
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   )
 })
+
+// optimize code detail
