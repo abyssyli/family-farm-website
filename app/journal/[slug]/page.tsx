@@ -43,9 +43,11 @@ export default async function JournalPostPage({
         <ButtonLink href="/journal" variant="ghost">
           ← Back to journal
         </ButtonLink>
-      </div> [modified]
+      </div>
     </div>
   )
 }
 
 /* minor adjust */
+
+# minor content update

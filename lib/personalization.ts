@@ -1,8 +1,6 @@
 
 /* minor adjust */
 
-/* minor adjust */
-
 /* daily modify record */
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
@@ -18,3 +16,5 @@ export function sortCategorySlugsByPreference(
   })
 }
 
+
+// code updated randomly

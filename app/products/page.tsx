@@ -8,4 +8,4 @@ export default async function ProductsPage() {
   return <ProductsIndexClient catalog={catalog} />
 }  [edited]
 
-// update log: auto edit 01
+/* daily modify record */

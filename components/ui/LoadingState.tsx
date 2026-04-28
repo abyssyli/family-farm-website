@@ -1,4 +1,6 @@
- [modified]
+
+/* daily modify record */
+
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 

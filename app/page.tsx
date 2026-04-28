@@ -1,5 +1,5 @@
 
-/* minor adjust */
+/* auto generated comment */
 
 /* daily modify record */
 import Link from "next/link"

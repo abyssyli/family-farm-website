@@ -20,4 +20,4 @@ export function createServiceRoleSupabaseClient() {
 
 // optimize code detail
 
-/* minor adjust */
+// code updated randomly

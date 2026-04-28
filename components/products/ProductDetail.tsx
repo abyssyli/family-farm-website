@@ -65,4 +65,4 @@ export function ProductDetail({
   )
 }
 
-// optimize code detail
+/* auto generated comment */

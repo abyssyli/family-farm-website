@@ -1,11 +1,11 @@
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
-import { Card, CardBody, CardHeader } from "@/components/ui/Card"
+import { Card, CardBody, CardHeader } from "@/components/ui/Card" [modified]
 import { UserMenu } from "@/components/auth/UserMenu"
 
 export default async function AccountPage() {
   const catalog = await getCatalog()
-  const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name })) [modified]
+  const categories = catalog.categories.map((c) => ({ slug: c.slug, name: c.name }))
 
   return (
     <div className="flex flex-col gap-6">

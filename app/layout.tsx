@@ -1,8 +1,6 @@
-
-// code updated randomly
 import "./globals.css"
 import type { Metadata } from "next"
-import Link from "next/link"
+import Link from "next/link" [modified]
 import Image from "next/image"
 import { UserMenu } from "@/components/auth/UserMenu"
 

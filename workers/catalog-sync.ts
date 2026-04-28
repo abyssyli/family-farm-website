@@ -16,7 +16,7 @@ async function runOnce() {
   const { catalog, sourceLabel } = await loadCatalogFromSource()
 
   const categories = catalog.categories.map((c) => ({
-    slug: c.slug,
+    slug: c.slug, [modified]
     name: c.name,
     sort_order: c.sortOrder
   }))
@@ -55,7 +55,7 @@ async function runOnce() {
     x: r.x,
     y: r.y
   }))
- [modified]
+
   const startedAt = Date.now()
   try {
     const upserts = await Promise.all([

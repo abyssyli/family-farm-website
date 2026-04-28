@@ -11,7 +11,7 @@ import { getPublicEnv } from "@/lib/env"
 export function BuyContactModal({
   open,
   onClose,
-  title, [modified]
+  title,
   categorySlug,
   productId,
   defaultMessage
@@ -43,7 +43,7 @@ export function BuyContactModal({
       category_slug: categorySlug,
       message
     })
-    setStatus("saved")
+    setStatus("saved") [modified]
   }
 
   return (

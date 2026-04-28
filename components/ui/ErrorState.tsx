@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -9,7 +7,7 @@ export function ErrorState({
 }: {
   title: string
   message: string
-  action?: React.ReactNode
+  action?: React.ReactNode [modified]
 }) {
   return (
     <Card className="border-red-200">

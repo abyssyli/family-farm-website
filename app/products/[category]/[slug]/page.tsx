@@ -30,8 +30,10 @@ export default async function ProductDetailPage({
       product={product}
       categoryName={category.name}
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
-    /> [modified]
+    />
   )
 }
 
 /* daily modify record */
+
+// update log: auto edit 01

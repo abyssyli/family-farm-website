@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 
-export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
+export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) { [modified]
   return (
     <Card className="overflow-hidden">
       {region.imagePath ? (
@@ -35,4 +35,3 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
     </Card>
   )
 }
-/* minor adjust */

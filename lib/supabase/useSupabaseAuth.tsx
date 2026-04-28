@@ -1,5 +1,3 @@
-
-// code updated randomly
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -36,3 +34,4 @@ export function useSupabaseAuth() {
 
 
 // update log: auto edit 01
+/* minor adjust */

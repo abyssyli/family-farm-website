@@ -1,3 +1,5 @@
+
+/* daily modify record */
 "use client"
 
 import Image from "next/image"
@@ -96,5 +98,3 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
-
-// update log: auto edit 01

@@ -1,10 +1,8 @@
 
-// task5 project adjust
-
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]
 const nextConfig = {
-  images: {
+  images: { [modified]
     formats: ["image/avif", "image/webp"]
   }
 }
