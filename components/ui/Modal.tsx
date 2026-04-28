@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // update log: auto edit 01
 "use client"
 
@@ -54,7 +52,7 @@ export function Modal({
           <h2 className="text-base font-semibold">{title}</h2>
           <button
             type="button"
-            onClick={onClose}
+            onClick={onClose} [modified]
             className="rounded-lg px-2 py-1 text-sm text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
           >
             Close

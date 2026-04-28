@@ -17,7 +17,7 @@ export function Card({
       )}
     >
       {children}
-    </div>
+    </div> [modified]
   )
 }
 
@@ -42,4 +42,3 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-/* auto generated comment */

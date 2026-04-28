@@ -6,7 +6,7 @@
   "name": "paulas-farm-family-marketplace",
   "version": "0.1.0",
   "private": true,
-  "scripts": { [modified]
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -39,3 +39,5 @@
     "typescript": "^5.4.5"
   }
 }
+
+// code updated randomly

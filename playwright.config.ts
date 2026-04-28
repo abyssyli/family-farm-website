@@ -1,3 +1,5 @@
+
+// code updated randomly
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
@@ -8,7 +10,7 @@ export default defineConfig({
   },  [edited]
   webServer: {
     command: "npm run dev -- --port 3000",
-    url: "http://localhost:3000",  [edited] [modified]
+    url: "http://localhost:3000",  [edited]
     reuseExistingServer: !process.env.CI
   }
 })

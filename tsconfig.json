@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // update log: auto edit 01
 {
   "compilerOptions": {
@@ -34,7 +32,7 @@
     }
   },
   "include": [
-    "next-env.d.ts",
+    "next-env.d.ts", [modified]
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"

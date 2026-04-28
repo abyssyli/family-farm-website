@@ -1,3 +1,5 @@
+
+// code updated randomly
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -29,5 +31,3 @@ const config: Config = {
 export default config
 
 /* daily modify record */
-
-// task5 project adjust

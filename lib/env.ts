@@ -1,5 +1,7 @@
 
-# minor content update [modified]
+// task5 project adjust
+
+# minor content update
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"

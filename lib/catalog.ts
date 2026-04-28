@@ -1,3 +1,5 @@
+
+# minor content update
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -144,4 +146,3 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
-// optimize code detail

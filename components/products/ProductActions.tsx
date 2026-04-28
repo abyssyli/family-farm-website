@@ -21,7 +21,7 @@ export function ProductActions({
     return (
       <ButtonLink href={href} variant="primary" className="w-fit">
         Shop on BeakerGold
-      </ButtonLink>
+      </ButtonLink> [modified]
     )
   }
 
@@ -43,4 +43,3 @@ export function ProductActions({
 }
 
 # minor content update
-/* daily modify record */

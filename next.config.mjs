@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 
 // optimize code detail
 /** @type {import('next').NextConfig} */  [edited]

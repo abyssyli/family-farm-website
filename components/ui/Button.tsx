@@ -37,7 +37,7 @@ export function ButtonLink({
   variant = "primary",
   className
 }: {
-  href: string [modified]
+  href: string
   children: React.ReactNode
   variant?: Variant
   className?: string
@@ -61,3 +61,4 @@ export function ButtonLink({
     </Link>
   )
 }
+/* daily modify record */

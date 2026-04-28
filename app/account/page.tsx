@@ -9,7 +9,7 @@ export default async function AccountPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div> [modified]
+      <div>
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
           Account
         </h1>
@@ -32,3 +32,4 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
+# minor content update

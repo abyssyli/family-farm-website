@@ -1,5 +1,5 @@
 
-# minor content update
+// code updated randomly
 
 /* minor adjust */
 "use client"

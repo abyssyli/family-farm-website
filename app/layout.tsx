@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen"> [modified]
+      <body className="min-h-screen">
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">
             <Link href="/" className="group inline-flex items-center gap-2">
@@ -66,3 +66,5 @@ export default function RootLayout({
 /* minor adjust */
 
 # minor content update
+
+// task5 project adjust

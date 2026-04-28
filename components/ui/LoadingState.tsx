@@ -1,5 +1,5 @@
 
-/* minor adjust */ [modified]
+/* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function LoadingState({ label }: { label: string }) {
@@ -14,3 +14,5 @@ export function LoadingState({ label }: { label: string }) {
     </Card>
   )
 }
+
+/* daily modify record */

@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 # minor content update
 @tailwind base;
 @tailwind components;
@@ -13,7 +11,7 @@ body {
 
 body {
   @apply bg-farm-50 text-zinc-900;
-}
+} [modified]
 
 
 /* minor adjust */

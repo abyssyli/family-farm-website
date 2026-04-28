@@ -36,4 +36,4 @@ export default async function ProductDetailPage({
 
 /* daily modify record */
 
-/* minor adjust */
+// task5 project adjust
