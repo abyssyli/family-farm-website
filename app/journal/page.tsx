@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -43,3 +41,5 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
+/* daily modify record */

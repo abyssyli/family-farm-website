@@ -9,7 +9,8 @@ export default function NotFound() {
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )
-} [modified]
+}
 
 
 // task4 project adjust
+/* auto generated comment */

@@ -1,5 +1,5 @@
 
-// optimize code detail
+# minor content update
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig } from "./shared"
 import type { Database } from "./types"  [edited]

@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import Image from "next/image"
@@ -78,7 +80,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
             .filter((r) => r.slug !== activeSlug)
             .slice(0, 2)
             .map((r) => (
-              <button [modified]
+              <button
                 key={r.id}
                 type="button"
                 className="text-left"

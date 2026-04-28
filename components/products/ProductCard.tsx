@@ -8,7 +8,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 export function ProductCard({
   product,
   href
-}: {
+}: { [modified]
   product: CatalogProduct
   href: string
 }) {
@@ -34,7 +34,7 @@ export function ProductCard({
             {product.description}
           </p>
         ) : null}
-        {product.priceHint ? ( [modified]
+        {product.priceHint ? (
           <p className="mt-3 text-xs font-medium text-zinc-600">
             {product.priceHint}
           </p>

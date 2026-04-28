@@ -1,5 +1,5 @@
 
-// task5 project adjust
+# minor content update
 import Link from "next/link"
 import { Card } from "@/components/ui/Card"
 import type { CatalogJournalPost } from "@/lib/catalog-schema"

@@ -20,7 +20,7 @@ export default async function ProductCategoryPage({
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
 
-  const products = catalog.products.filter((p) => p.categorySlug === category.slug)
+  const products = catalog.products.filter((p) => p.categorySlug === category.slug) [modified]
 
   return (
     <div className="flex flex-col gap-8">
@@ -42,4 +42,3 @@ export default async function ProductCategoryPage({
     </div>
   )
 }
-/* minor adjust */

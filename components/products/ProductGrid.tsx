@@ -4,7 +4,7 @@ import { ProductCard } from "./ProductCard"
 export function ProductGrid({
   products,
   categorySlug
-}: {
+}: { [modified]
   products: CatalogProduct[]
   categorySlug: string
 }) {
@@ -13,7 +13,7 @@ export function ProductGrid({
       {products.map((p) => (
         <ProductCard
           key={p.id}
-          product={p} [modified]
+          product={p}
           href={`/products/${categorySlug}/${p.slug}`}
         />
       ))}

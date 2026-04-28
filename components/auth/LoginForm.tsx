@@ -1,3 +1,5 @@
+
+/* minor adjust */
 "use client"
 
 import { useState } from "react"
@@ -31,7 +33,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   }
 
   if (error) {
-    return ( [modified]
+    return (
       <ErrorState
         title="Sign-in failed"
         message={error}

@@ -1,5 +1,5 @@
 
-// code updated randomly
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"

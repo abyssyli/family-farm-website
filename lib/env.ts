@@ -1,6 +1,6 @@
 
 # minor content update
-export function getPublicEnv() { [modified]
+export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"
   const defaultSkincareUrl =
@@ -18,3 +18,5 @@ export function getPublicEnv() { [modified]
 }
 
 // task4 project adjust
+
+// task5 project adjust

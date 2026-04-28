@@ -8,12 +8,10 @@ html,
 body {
   height: 100%;
 }
-
+ [modified]
 body {
   @apply bg-farm-50 text-zinc-900;
 }
 
 
 /* minor adjust */
-
-// update log: auto edit 01
