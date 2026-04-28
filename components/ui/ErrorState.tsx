@@ -1,5 +1,3 @@
-
-/* minor adjust */
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
@@ -20,7 +18,7 @@ export function ErrorState({
             <p className="mt-1 text-sm text-red-800">{message}</p>
           </div>
           {action ? <div>{action}</div> : null}
-        </div>
+        </div> [modified]
       </CardBody>
     </Card>
   )

@@ -1,8 +1,6 @@
 
-# minor content update
-
 // update log: auto edit 01
-{
+{ [modified]
   "compilerOptions": {
     "target": "ES2022",
     "lib": [

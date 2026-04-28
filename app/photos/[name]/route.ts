@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -7,7 +9,7 @@ import { NextResponse } from "next/server"
 function contentTypeFromExt(ext: string) {
   switch (ext.toLowerCase()) {
     case ".jpg":
-    case ".jpeg": [modified]
+    case ".jpeg":
       return "image/jpeg"
     case ".png":
       return "image/png"

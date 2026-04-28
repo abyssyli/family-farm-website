@@ -1,3 +1,5 @@
+
+# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -46,7 +48,7 @@ export default function RootLayout({
               </Link>
               <Link href="/account" className="hover:text-farm-700">
                 Account
-              </Link> [modified]
+              </Link>
               <UserMenu />
             </nav>
           </header>

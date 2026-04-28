@@ -25,7 +25,5 @@ export async function loadCatalogFromSource(): Promise<{
   return { catalog, sourceLabel: localPath }
 }
 
-
+ [modified]
 // optimize code detail
-
-# minor content update

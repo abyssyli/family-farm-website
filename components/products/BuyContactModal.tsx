@@ -1,8 +1,10 @@
 
+/* minor adjust */
+
 // optimize code detail
 "use client"  [edited]
 
-import { useMemo, useState } from "react" [modified]
+import { useMemo, useState } from "react"
 import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"

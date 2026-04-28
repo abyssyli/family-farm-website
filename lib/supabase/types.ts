@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // optimize code detail
 export type Json =
   | string
@@ -63,7 +65,7 @@ export type Database = {
           excerpt: string | null
           body: string
           published_at: string | null
-          updated_at: string [modified]
+          updated_at: string
         }
         Insert: {
           id: string

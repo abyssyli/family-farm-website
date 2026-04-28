@@ -1,5 +1,3 @@
-
-// code updated randomly
 "use client"
 
 import { useState } from "react"  [edited]
@@ -26,7 +24,7 @@ export function ProductActions({
       </ButtonLink>
     )
   }
-
+ [modified]
   return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>

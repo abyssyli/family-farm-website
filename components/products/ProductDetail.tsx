@@ -41,7 +41,7 @@ export function ProductDetail({
         </p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
           {product.name}
-        </h1>
+        </h1> [modified]
         {product.description ? (
           <p className="mt-4 max-w-prose text-base text-zinc-700">
             {product.description}
@@ -64,5 +64,3 @@ export function ProductDetail({
     </div>
   )
 }
-
-// task5 project adjust

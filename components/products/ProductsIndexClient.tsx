@@ -1,7 +1,5 @@
 
 /* minor adjust */
-
-/* minor adjust */
 "use client"
 
 import Link from "next/link"
@@ -44,7 +42,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       .channel("catalog-changes")
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "products" },
+        { event: "*", schema: "public", table: "products" }, [modified]
         () => {
           setLastUpdate(new Date())
           router.refresh()

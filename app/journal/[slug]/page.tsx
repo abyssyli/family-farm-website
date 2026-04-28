@@ -1,3 +1,5 @@
+
+// code updated randomly
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
@@ -19,7 +21,7 @@ export default async function JournalPostPage({
         <p className="text-sm font-medium text-farm-800">
           <Link href="/journal" className="hover:underline">
             Farm Journal
-          </Link> [modified]
+          </Link>
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
           {post.title}

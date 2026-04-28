@@ -1,4 +1,6 @@
 
+# minor content update
+
 /* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -43,7 +45,7 @@ export default async function HomePage() {
                 Explore {c.name.toLowerCase()} from our family.
               </p>
               <div className="mt-5">
-                {c.slug === "skincare" ? ( [modified]
+                {c.slug === "skincare" ? (
                   <a
                     href={skincareUrl}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
