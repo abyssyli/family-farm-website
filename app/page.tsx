@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 /* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -18,7 +16,7 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col gap-14">
-      <StoryHero />
+      <StoryHero /> [modified]
       <FarmMap regions={regions} />
 
       <section className="mt-2">

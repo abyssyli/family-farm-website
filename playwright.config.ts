@@ -11,4 +11,5 @@ export default defineConfig({
     url: "http://localhost:3000",  [edited]
     reuseExistingServer: !process.env.CI
   }
-}) [modified]
+})
+// optimize code detail

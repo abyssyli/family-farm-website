@@ -5,7 +5,7 @@ export function ProductGrid({
   products,
   categorySlug
 }: {
-  products: CatalogProduct[] [modified]
+  products: CatalogProduct[]
   categorySlug: string
 }) {
   return (
@@ -20,3 +20,4 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
+/* minor adjust */

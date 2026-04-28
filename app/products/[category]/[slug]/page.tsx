@@ -17,10 +17,10 @@ export default async function ProductDetailPage({
   }
 
   const catalog = await getCatalog()
-  const category = catalog.categories.find((c) => c.slug === params.category)
+  const category = catalog.categories.find((c) => c.slug === params.category) [modified]
   if (!category) notFound()
 
-  const product = catalog.products.find( [modified]
+  const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
   if (!product) notFound()

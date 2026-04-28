@@ -1,3 +1,5 @@
+
+/* auto generated comment */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -10,7 +12,7 @@ export async function getCatalog(): Promise<Catalog> {
   const supabase = createServerSupabaseClient()
   if (!supabase) return getSeedCatalog()
 
-  const seedCatalog = getSeedCatalog() [modified]
+  const seedCatalog = getSeedCatalog()
 
   const [categoriesRes, productsRes, journalRes, regionsRes] = await Promise.all([
     supabase.from("categories").select("*").order("sort_order", { ascending: true }),

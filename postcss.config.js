@@ -1,4 +1,4 @@
- [modified]
+
 /* minor adjust */
 module.exports = {
   plugins: {
@@ -9,3 +9,5 @@ module.exports = {
 
 
 # minor content update
+
+/* minor adjust */

@@ -9,9 +9,9 @@ export function getPublicEnv() {
   const skincareUrl =
     configuredSkincareUrl &&
     configuredSkincareUrl !== "https://beakergold.com" &&
-    configuredSkincareUrl !== "https://beakergold.com/" && [modified]
+    configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
-      ? configuredSkincareUrl
+      ? configuredSkincareUrl [modified]
       : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }

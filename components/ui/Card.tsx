@@ -42,4 +42,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-/* daily modify record */
+// code updated randomly

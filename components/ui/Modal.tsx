@@ -1,6 +1,4 @@
 
-/* daily modify record */
-
 // update log: auto edit 01
 "use client"
 
@@ -65,3 +63,5 @@ export function Modal({
     </div>
   )
 }
+
+// task5 project adjust

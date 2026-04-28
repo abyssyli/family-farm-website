@@ -1,4 +1,4 @@
-import "./globals.css"
+import "./globals.css" [modified]
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
@@ -48,7 +48,7 @@ export default function RootLayout({
                 Account
               </Link>
               <UserMenu />
-            </nav> [modified]
+            </nav>
           </header>
           <main className="flex-1 pb-16">{children}</main>
           <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600">

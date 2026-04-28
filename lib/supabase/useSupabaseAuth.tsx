@@ -27,10 +27,11 @@ export function useSupabaseAuth() {
       active = false
       data.subscription.unsubscribe()
     }
-  }, [supabase]) [modified]
+  }, [supabase])
 
   return { supabase, session, ready }
 }
 
 
 // update log: auto edit 01
+/* auto generated comment */

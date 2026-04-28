@@ -31,7 +31,7 @@ export function ProductDetail({
             No image
           </div>
         )}
-      </div>
+      </div> [modified]
 
       <div>
         <p className="text-sm font-medium text-farm-800">
@@ -55,7 +55,7 @@ export function ProductDetail({
 
         <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 
-        <div className="mt-8"> [modified]
+        <div className="mt-8">
           <ButtonLink href="/products" variant="ghost">
             ← Back to products
           </ButtonLink>

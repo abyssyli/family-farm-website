@@ -1,6 +1,6 @@
 
 # minor content update
-
+ [modified]
 // task4 project adjust
 {
   "name": "paulas-farm-family-marketplace",
@@ -39,5 +39,3 @@
     "typescript": "^5.4.5"
   }
 }
-
-/* minor adjust */

@@ -35,7 +35,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       <ErrorState
         title="Sign-in failed"
         message={error}
-        action={  [edited] [modified]
+        action={  [edited]
           <Button variant="secondary" onClick={() => setError(null)}>
             Try again
           </Button>
@@ -71,7 +71,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           <p className="font-medium">Login is not enabled yet.</p>
           <p className="mt-1">
             Add <span className="font-mono">NEXT_PUBLIC_SUPABASE_URL</span> and{" "}
-            <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "}
+            <span className="font-mono">NEXT_PUBLIC_SUPABASE_ANON_KEY</span> in{" "} [modified]
             <span className="font-mono">.env.local</span>, then restart{" "}
             <span className="font-mono">npm run dev</span>.
           </p>

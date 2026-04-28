@@ -1,3 +1,5 @@
+
+// task5 project adjust
 "use client"
 
 import { useState } from "react"  [edited]
@@ -22,7 +24,7 @@ export function ProductActions({
       <ButtonLink href={href} variant="primary" className="w-fit">
         Shop on BeakerGold
       </ButtonLink>
-    ) [modified]
+    )
   }
 
   return (

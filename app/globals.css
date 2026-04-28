@@ -1,7 +1,7 @@
 
 # minor content update
 @tailwind base;
-@tailwind components; [modified]
+@tailwind components;
 @tailwind utilities;
 
 html,
@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  @apply bg-farm-50 text-zinc-900;
+  @apply bg-farm-50 text-zinc-900; [modified]
 }
 
 

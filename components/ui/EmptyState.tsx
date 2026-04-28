@@ -8,7 +8,7 @@ export function EmptyState({
   action
 }: {
   title: string
-  message: string
+  message: string [modified]
   action?: React.ReactNode
 }) {
   return (
@@ -28,5 +28,3 @@ export function EmptyState({
 
 
 /* minor adjust */
-
-/* auto generated comment */
