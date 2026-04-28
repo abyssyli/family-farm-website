@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss"
 
 const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}", [modified]
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
@@ -25,7 +25,7 @@ const config: Config = {
   },
   plugins: []
 }
- [modified]
+
 export default config
 
 /* daily modify record */

@@ -15,7 +15,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
     [regions]
   )
   const [activeSlug, setActiveSlug] = useState(sorted[0]?.slug ?? null)
-  const active = useMemo( [modified]
+  const active = useMemo(
     () => sorted.find((r) => r.slug === activeSlug) ?? sorted[0] ?? null,
     [activeSlug, sorted]
   )
@@ -96,3 +96,5 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 // task4 project adjust
 
 /* minor adjust */
+
+// optimize code detail

@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+// code updated randomly
 import { z } from "zod"
 
 export const CategorySchema = z.object({

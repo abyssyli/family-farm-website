@@ -14,7 +14,7 @@ export function UserMenu() {
   const { supabase, session, ready } = useSupabaseAuth()
   const [open, setOpen] = useState(false)
   const email = useMemo(() => session?.user.email ?? null, [session])
-  const avatarLabel = useMemo(() => { [modified]
+  const avatarLabel = useMemo(() => {
     if (!email) return "U"
     const trimmed = email.trim()
     if (!trimmed) return "U"
@@ -59,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* minor adjust */

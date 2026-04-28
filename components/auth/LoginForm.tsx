@@ -19,7 +19,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     setStatus("sending")
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: window.location.origin } [modified]
+      options: { emailRedirectTo: window.location.origin }
     })
     if (error) {
       setError(error.message)
@@ -81,3 +81,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
+
+# minor content update

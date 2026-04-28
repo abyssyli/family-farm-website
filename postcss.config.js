@@ -1,5 +1,7 @@
 
 /* minor adjust */
+
+/* minor adjust */
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -9,5 +11,3 @@ module.exports = {
 
 
 # minor content update
-
-/* daily modify record */

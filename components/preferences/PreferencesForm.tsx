@@ -56,7 +56,7 @@ export function PreferencesForm({
             saved preferences.
           </p>
         ) : !userId ? (
-          <p className="text-sm text-zinc-700">
+          <p className="text-sm text-zinc-700"> [modified]
             Sign in to save preferences to your account.
           </p>
         ) : (
@@ -110,5 +110,3 @@ export function PreferencesForm({
     </Card>
   )
 }
-
-/* daily modify record */

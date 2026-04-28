@@ -11,7 +11,7 @@ export default async function JournalPostPage({
 }) {
   const catalog = await getCatalog()
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
-  if (!post) notFound()
+  if (!post) notFound() [modified]
 
   return (
     <div className="flex flex-col gap-6">
@@ -45,7 +45,7 @@ export default async function JournalPostPage({
         </ButtonLink>
       </div>
     </div>
-  ) [modified]
+  )
 }
 
 /* minor adjust */

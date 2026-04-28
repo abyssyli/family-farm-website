@@ -1,5 +1,5 @@
 
-// code updated randomly
+/* auto generated comment */
 import { defineConfig } from "@playwright/test"
 
 export default defineConfig({

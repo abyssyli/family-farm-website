@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// optimize code detail
 
 /* minor adjust */
 

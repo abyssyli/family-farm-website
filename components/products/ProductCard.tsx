@@ -28,12 +28,12 @@ export function ProductCard({
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold">{product.name}</h3>
-        </div> [modified]
+        </div>
         {product.description ? (
           <p className="mt-2 line-clamp-3 text-sm text-zinc-700">
             {product.description}
           </p>
-        ) : null}
+        ) : null} [modified]
         {product.priceHint ? (
           <p className="mt-3 text-xs font-medium text-zinc-600">
             {product.priceHint}

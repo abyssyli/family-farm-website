@@ -1,4 +1,4 @@
-"use client"
+"use client" [modified]
 
 import { useState } from "react"  [edited]
 import { Button, ButtonLink } from "@/components/ui/Button"
@@ -40,6 +40,6 @@ export function ProductActions({
       />
     </>
   )
-} [modified]
+}
 
 # minor content update

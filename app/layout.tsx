@@ -67,4 +67,4 @@ export default function RootLayout({
 
 # minor content update
 
-/* minor adjust */
+// update log: auto edit 01
