@@ -1,5 +1,5 @@
 
-// optimize code detail
+// optimize code detail [modified]
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -38,6 +38,6 @@ export default async function JournalIndexPage() {
           <JournalCard key={p.id} post={p} />
         ))}
       </div>
-    </div> [modified]
+    </div>
   )
 }

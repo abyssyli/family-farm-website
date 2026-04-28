@@ -13,7 +13,7 @@ export const ProductSchema = z.object({
   name: z.string().min(1),
   description: z.string().nullable().optional().default(null),
   imagePath: z.string().nullable().optional().default(null),
-  priceHint: z.string().nullable().optional().default(null),
+  priceHint: z.string().nullable().optional().default(null), [modified]
   externalUrl: z.string().url().nullable().optional().default(null),
   isActive: z.boolean().default(true)
 })
@@ -56,5 +56,3 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 // optimize code detail
 
 /* daily modify record */
-
-/* auto generated comment */

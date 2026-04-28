@@ -8,7 +8,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 
-  await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
+  await page.getByRole("navigation").getByRole("link", { name: "Products" }).click() [modified]
   await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
 
   await page.getByRole("link", { name: /Farm Eggs/i }).click()
@@ -18,7 +18,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByRole("button", { name: /Buy \/ Contact/i })).toBeVisible()
 
   await page.getByRole("button", { name: /Buy \/ Contact/i }).click()
-  await expect(page.getByText(/Call or text Paula/i)).toBeVisible() [modified]
+  await expect(page.getByText(/Call or text Paula/i)).toBeVisible()
   await expect(page.getByText(/\+18065550123/)).toBeVisible()
 })
 

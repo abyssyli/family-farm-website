@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"  [edited]
@@ -30,7 +32,7 @@ export function ProductActions({
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
       </Button>
-      <BuyContactModal [modified]
+      <BuyContactModal
         open={open}
         onClose={() => setOpen(false)}
         title="Buy / Contact"

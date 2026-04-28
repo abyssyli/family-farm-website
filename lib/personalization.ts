@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 /* minor adjust */
 
 /* daily modify record */
@@ -8,7 +6,7 @@ export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
 ) {
-  if (!preferred || preferred.length === 0) return categorySlugs
+  if (!preferred || preferred.length === 0) return categorySlugs [modified]
   const rank = new Map(preferred.map((slug, idx) => [slug, idx]))
   return [...categorySlugs].sort((a, b) => {
     const ra = rank.has(a) ? rank.get(a)! : Number.POSITIVE_INFINITY
@@ -17,4 +15,3 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
-

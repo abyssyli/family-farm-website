@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 /* minor adjust */
 "use client"
 
@@ -121,7 +119,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     href={skincareUrl}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"
                     rel="noreferrer"
-                    target="_blank"
+                    target="_blank" [modified]
                   >
                     Browse {category.name} →
                   </a>

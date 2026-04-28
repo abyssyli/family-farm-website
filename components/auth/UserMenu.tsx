@@ -1,8 +1,6 @@
 
 // update log: auto edit 01
 
-// update log: auto edit 01
-
 /* daily modify record */
 "use client"
 
@@ -61,3 +59,5 @@ export function UserMenu() {
     </div>
   )
 }
+
+/* daily modify record */

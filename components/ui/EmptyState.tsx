@@ -1,11 +1,9 @@
 
-/* daily modify record */
-
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
 export function EmptyState({
-  title,
+  title, [modified]
   message,
   action
 }: {

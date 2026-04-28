@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-// update log: auto edit 01
+// task5 project adjust

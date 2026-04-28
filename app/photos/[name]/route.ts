@@ -37,7 +37,7 @@ export async function GET(
       headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
-      } [modified]
+      }
     })
   } catch {
     return new NextResponse("Not found", { status: 404 })
@@ -46,3 +46,5 @@ export async function GET(
 
 
 // update log: auto edit 01
+
+// optimize code detail

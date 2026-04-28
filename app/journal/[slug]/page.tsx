@@ -10,7 +10,7 @@ export default async function JournalPostPage({
   params: { slug: string }
 }) {
   const catalog = await getCatalog()
-  const post = catalog.journalPosts.find((p) => p.slug === params.slug)
+  const post = catalog.journalPosts.find((p) => p.slug === params.slug) [modified]
   if (!post) notFound()
 
   return (
@@ -25,7 +25,7 @@ export default async function JournalPostPage({
           {post.title}
         </h1>
         {post.publishedAt ? (
-          <p className="mt-2 text-sm text-zinc-600"> [modified]
+          <p className="mt-2 text-sm text-zinc-600">
             {new Date(post.publishedAt).toLocaleDateString()}
           </p>
         ) : null}
