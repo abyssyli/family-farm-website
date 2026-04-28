@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 // optimize code detail
 
 /* minor adjust */
@@ -11,7 +9,7 @@ test("homepage renders and navigation works", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /marketplace/i })).toBeVisible()
 
   await page.getByRole("navigation").getByRole("link", { name: "Products" }).click()
-  await expect(page.getByRole("heading", { name: "Products" })).toBeVisible()
+  await expect(page.getByRole("heading", { name: "Products" })).toBeVisible() [modified]
 
   await page.getByRole("link", { name: /Farm Eggs/i }).click()
   await expect(page.getByRole("heading", { name: /Farm Eggs/i })).toBeVisible()

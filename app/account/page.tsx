@@ -1,3 +1,5 @@
+
+// optimize code detail
 import { getCatalog } from "@/lib/catalog"  [edited]
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
@@ -32,4 +34,3 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
-// task5 project adjust

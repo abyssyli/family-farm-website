@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+// code updated randomly
 
 /* minor adjust */
 import { Card, CardBody } from "./Card"

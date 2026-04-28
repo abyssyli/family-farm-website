@@ -1,5 +1,3 @@
-
-/* minor adjust */
 "use client"
 
 import { useState } from "react"  [edited]
@@ -36,7 +34,7 @@ export function ProductActions({
         open={open}
         onClose={() => setOpen(false)}
         title="Buy / Contact"
-        categorySlug={categorySlug}
+        categorySlug={categorySlug} [modified]
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />

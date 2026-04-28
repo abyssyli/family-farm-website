@@ -1,5 +1,3 @@
-
-// update log: auto edit 01
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -137,7 +135,7 @@ export async function getCatalog(): Promise<Catalog> {
   for (const r of dbFarmRegions) regionsBySlug.set(r.slug, r)  [edited]
   const farmRegions = Array.from(regionsBySlug.values()).map((r) => ({
     ...r,
-    imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null)
+    imagePath: normalizeFarmRegionImagePath(r.slug, r.imagePath ?? null) [modified]
   }))
 
   return CatalogSchema.parse({ categories, products, journalPosts, farmRegions })

@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -14,5 +16,3 @@ export function LoadingState({ label }: { label: string }) {
     </Card>
   )
 }
-
-/* minor adjust */

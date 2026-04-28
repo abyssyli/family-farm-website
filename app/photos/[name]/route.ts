@@ -33,7 +33,7 @@ export async function GET(
     const filePath = join(process.cwd(), "photo", name)
     const bytes = await readFile(filePath)
     const ext = extname(name)
-    return new NextResponse(bytes, {
+    return new NextResponse(bytes, { [modified]
       headers: {
         "content-type": contentTypeFromExt(ext),
         "cache-control": "public, max-age=31536000, immutable"
@@ -46,5 +46,3 @@ export async function GET(
 
 
 // update log: auto edit 01
-
-/* minor adjust */

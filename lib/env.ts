@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -12,7 +14,7 @@ export function getPublicEnv() {
     configuredSkincareUrl !== "https://beakergold.com/" &&
     !configuredSkincareUrl.endsWith("beakergold.com")
       ? configuredSkincareUrl
-      : defaultSkincareUrl [modified]
+      : defaultSkincareUrl
 
   return { contactPhone, skincareUrl }
 }

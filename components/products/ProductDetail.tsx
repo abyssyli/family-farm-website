@@ -65,4 +65,4 @@ export function ProductDetail({
   )
 }
 
-// task5 project adjust
+/* daily modify record */

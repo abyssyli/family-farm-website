@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* minor adjust */
 
 /* daily modify record */
@@ -18,3 +16,5 @@ export function sortCategorySlugsByPreference(
   })
 }
 
+
+// optimize code detail

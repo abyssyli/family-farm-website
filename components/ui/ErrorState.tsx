@@ -1,5 +1,5 @@
 
-/* minor adjust */
+# minor content update
 import { Card, CardBody } from "./Card"  [edited]
 
 export function ErrorState({
