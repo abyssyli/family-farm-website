@@ -14,7 +14,7 @@ export function useSupabaseAuth() {
       setReady(true)
       return
     }
-    let active = true [modified]
+    let active = true
     supabase.auth.getSession().then(({ data }) => {
       if (!active) return
       setSession(data.session ?? null)
@@ -26,7 +26,7 @@ export function useSupabaseAuth() {
     return () => {
       active = false
       data.subscription.unsubscribe()
-    }
+    } [modified]
   }, [supabase])
 
   return { supabase, session, ready }

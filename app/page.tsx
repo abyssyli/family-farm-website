@@ -1,6 +1,4 @@
 
-/* auto generated comment */
-
 /* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
@@ -69,6 +67,6 @@ export default async function HomePage() {
       </section>
     </div>
   )
-}
+} [modified]
 
 // update log: auto edit 01

@@ -25,7 +25,7 @@ export async function GET(
   { params }: { params: { name: string } }
 ) {
   const name = params.name
-  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) { [modified]
+  if (!name || name.includes("..") || name.includes("/") || name.includes("\\")) {
     return new NextResponse("Not found", { status: 404 })
   }
 
@@ -46,3 +46,5 @@ export async function GET(
 
 
 // update log: auto edit 01
+
+// code updated randomly

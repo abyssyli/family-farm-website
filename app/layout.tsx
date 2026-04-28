@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -49,7 +51,7 @@ export default function RootLayout({
               </Link>
               <UserMenu />
             </nav>
-          </header> [modified]
+          </header>
           <main className="flex-1 pb-16">{children}</main>
           <footer className="border-t border-zinc-200 py-10 text-sm text-zinc-600">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">

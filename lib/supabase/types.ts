@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 // optimize code detail
 export type Json =
   | string
@@ -57,7 +55,7 @@ export type Database = {
         }
         Relationships: []
       }
-      journal_posts: {
+      journal_posts: { [modified]
         Row: {
           id: string
           slug: string

@@ -1,4 +1,4 @@
-import Link from "next/link" [modified]
+import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -44,7 +44,7 @@ export default async function JournalPostPage({
           ← Back to journal
         </ButtonLink>
       </div>
-    </div>
+    </div> [modified]
   )
 }
 

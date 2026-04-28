@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 /* minor adjust */
 "use client"
 
@@ -37,7 +39,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
   }, [supabase])
 
   useEffect(() => {
-    if (!supabase) return [modified]
+    if (!supabase) return
     const channel = supabase
       .channel("catalog-changes")
       .on(

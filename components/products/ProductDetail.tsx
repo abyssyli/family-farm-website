@@ -52,7 +52,7 @@ export function ProductDetail({
             {product.priceHint}
           </p>
         ) : null}
-
+ [modified]
         <div className="mt-7 flex flex-wrap gap-3">{primaryAction}</div>
 
         <div className="mt-8">
@@ -64,5 +64,3 @@ export function ProductDetail({
     </div>
   )
 }
-
-// optimize code detail

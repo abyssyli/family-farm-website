@@ -39,6 +39,7 @@ export default async function ProductCategoryPage({
       </div>
 
       <ProductGrid products={products} categorySlug={category.slug} />
-    </div> [modified]
+    </div>
   )
 }
+// task5 project adjust

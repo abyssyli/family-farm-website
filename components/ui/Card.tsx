@@ -3,8 +3,8 @@ function cn(...parts: Array<string | false | null | undefined>) {
 }
 
 export function Card({
-  children,
-  className [modified]
+  children, [modified]
+  className
 }: {
   children: React.ReactNode
   className?: string

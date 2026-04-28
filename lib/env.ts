@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -17,4 +19,4 @@ export function getPublicEnv() {
   return { contactPhone, skincareUrl }
 }
 
-// task4 project adjust [modified]
+// task4 project adjust

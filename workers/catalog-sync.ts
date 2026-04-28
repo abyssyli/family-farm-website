@@ -1,5 +1,5 @@
 
-// update log: auto edit 01
+/* minor adjust */
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 

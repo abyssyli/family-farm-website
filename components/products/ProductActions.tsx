@@ -8,7 +8,7 @@ import type { CatalogProduct } from "@/lib/catalog-schema"
 
 export function ProductActions({
   product,
-  categorySlug
+  categorySlug [modified]
 }: {
   product: CatalogProduct
   categorySlug: string
@@ -25,7 +25,7 @@ export function ProductActions({
     )
   }
 
-  return ( [modified]
+  return (
     <>
       <Button type="button" onClick={() => setOpen(true)}>
         Buy / Contact
