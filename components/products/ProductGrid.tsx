@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import type { CatalogProduct } from "@/lib/catalog-schema"
 import { ProductCard } from "./ProductCard"
 
@@ -5,7 +7,7 @@ export function ProductGrid({
   products,
   categorySlug
 }: {
-  products: CatalogProduct[] [modified]
+  products: CatalogProduct[]
   categorySlug: string
 }) {
   return (

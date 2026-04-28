@@ -16,7 +16,7 @@ export default async function ProductDetailPage({
     redirect(skincareUrl)
   }
 
-  const catalog = await getCatalog()
+  const catalog = await getCatalog() [modified]
   const category = catalog.categories.find((c) => c.slug === params.category)
   if (!category) notFound()
 
@@ -35,5 +35,3 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
-
-// code updated randomly

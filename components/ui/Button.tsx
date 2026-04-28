@@ -1,8 +1,6 @@
 
 /* daily modify record */
-
-/* daily modify record */
-import Link from "next/link"
+import Link from "next/link" [modified]
 import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"

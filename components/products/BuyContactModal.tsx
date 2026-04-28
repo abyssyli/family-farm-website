@@ -93,4 +93,4 @@ export function BuyContactModal({
     </Modal>
   )
 }
-// code updated randomly
+// optimize code detail

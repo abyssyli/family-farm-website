@@ -131,7 +131,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
                     Browse {category.name} →
                   </Link>
                 )}
-              </div> [modified]
+              </div>
             </Card>
           )
         })}
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+/* daily modify record */

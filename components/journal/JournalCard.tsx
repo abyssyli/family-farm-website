@@ -16,7 +16,7 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
       {post.publishedAt ? (
         <p className="mt-4 text-xs text-zinc-600">
           {new Date(post.publishedAt).toLocaleDateString()}
-        </p> [modified]
+        </p>
       ) : null}
     </Card>
   )
@@ -24,3 +24,4 @@ export function JournalCard({ post }: { post: CatalogJournalPost }) {
 
 
 # minor content update
+// optimize code detail

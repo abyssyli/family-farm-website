@@ -1,5 +1,3 @@
-
-// code updated randomly
 import { z } from "zod"
 
 export const CategorySchema = z.object({
@@ -44,7 +42,7 @@ export const FarmRegionSchema = z.object({
 export const CatalogSchema = z.object({
   categories: z.array(CategorySchema),
   products: z.array(ProductSchema),
-  journalPosts: z.array(JournalPostSchema).default([]),
+  journalPosts: z.array(JournalPostSchema).default([]), [modified]
   farmRegions: z.array(FarmRegionSchema).default([])
 })
 

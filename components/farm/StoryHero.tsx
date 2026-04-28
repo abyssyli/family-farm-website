@@ -1,11 +1,9 @@
 
-// optimize code detail
-
 /* minor adjust */
 
 // update log: auto edit 01
 "use client"
-
+ [modified]
 import Image from "next/image"
 import { ButtonLink } from "@/components/ui/Button"
 import { useEffect, useState } from "react"

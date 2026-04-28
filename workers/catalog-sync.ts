@@ -75,7 +75,7 @@ async function runOnce() {
       source: sourceLabel,
       message: `Upserted ${products.length} products in ${ms}ms`
     })
-  } catch (e) { [modified]
+  } catch (e) {
     const message = e instanceof Error ? e.message : "Unknown error"
     await supabase.from("sync_runs").insert({
       status: "error",
@@ -116,3 +116,5 @@ main().catch((e) => {
 // optimize code detail
 
 // optimize code detail
+
+/* daily modify record */

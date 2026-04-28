@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
@@ -6,7 +8,7 @@ import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
-  if (!url || !anonKey) return null [modified]
+  if (!url || !anonKey) return null
   return createClient<Database>(url, anonKey)
 }
 

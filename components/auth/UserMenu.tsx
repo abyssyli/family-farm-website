@@ -58,6 +58,4 @@ export function UserMenu() {
       </Button>
     </div>
   )
-}
-
-/* minor adjust */
+} [modified]

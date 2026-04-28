@@ -75,7 +75,7 @@
     },
     {
       "id": "woodcraft-decor-sign",
-      "categorySlug": "woodcraft", [modified]
+      "categorySlug": "woodcraft",
       "slug": "farmhouse-sign",
       "name": "Farmhouse Decor Sign",
       "description": "Rustic wood signage for your kitchen, porch, or pantry. Custom text available.",
@@ -122,7 +122,7 @@
       "categorySlug": "skincare",
       "slug": "muscle-creme",
       "name": "Muscle Crème",
-      "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.",
+      "description": "A soothing crème made with botanicals like boswellia, comfrey, peppermint, and eucalyptus.", [modified]
       "imagePath": "/photos/background.jpg",
       "priceHint": "Ships from Lisa’s shop",
       "externalUrl": "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR",

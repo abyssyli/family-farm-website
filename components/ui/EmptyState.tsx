@@ -4,7 +4,7 @@ import { Card, CardBody } from "./Card"
 
 export function EmptyState({
   title,
-  message,
+  message, [modified]
   action
 }: {
   title: string
@@ -26,7 +26,5 @@ export function EmptyState({
   )
 }
 
-
-/* minor adjust */
 
 /* minor adjust */

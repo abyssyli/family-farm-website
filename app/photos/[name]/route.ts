@@ -1,6 +1,4 @@
 
-// update log: auto edit 01
-
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -11,7 +9,7 @@ function contentTypeFromExt(ext: string) {
     case ".jpg":
     case ".jpeg":
       return "image/jpeg"
-    case ".png":
+    case ".png": [modified]
       return "image/png"
     case ".webp":
       return "image/webp"

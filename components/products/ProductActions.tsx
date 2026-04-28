@@ -1,4 +1,4 @@
-"use client" [modified]
+"use client"
 
 import { useState } from "react"  [edited]
 import { Button, ButtonLink } from "@/components/ui/Button"
@@ -38,7 +38,7 @@ export function ProductActions({
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
-    </>
+    </> [modified]
   )
 }
 

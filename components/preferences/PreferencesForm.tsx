@@ -1,4 +1,6 @@
 
+# minor content update
+
 /* minor adjust */
 "use client"
 
@@ -56,7 +58,7 @@ export function PreferencesForm({
             saved preferences.
           </p>
         ) : !userId ? (
-          <p className="text-sm text-zinc-700"> [modified]
+          <p className="text-sm text-zinc-700">
             Sign in to save preferences to your account.
           </p>
         ) : (

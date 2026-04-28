@@ -1,5 +1,5 @@
 
-/* minor adjust */
+// code updated randomly
 
 /* daily modify record */
 import Link from "next/link"

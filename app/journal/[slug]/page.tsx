@@ -1,3 +1,5 @@
+
+/* auto generated comment */
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
@@ -11,7 +13,7 @@ export default async function JournalPostPage({
 }) {
   const catalog = await getCatalog()
   const post = catalog.journalPosts.find((p) => p.slug === params.slug)
-  if (!post) notFound() [modified]
+  if (!post) notFound()
 
   return (
     <div className="flex flex-col gap-6">

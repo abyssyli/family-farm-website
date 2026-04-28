@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
@@ -6,7 +8,7 @@ export function getPublicEnv() {
   const defaultSkincareUrl =
     "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
   const configuredSkincareUrl = process.env.NEXT_PUBLIC_SKINCARE_URL?.trim()
-  const skincareUrl = [modified]
+  const skincareUrl =
     configuredSkincareUrl &&
     configuredSkincareUrl !== "https://beakergold.com" &&
     configuredSkincareUrl !== "https://beakergold.com/" &&
