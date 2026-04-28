@@ -1,5 +1,3 @@
-
-# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -19,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen">
+      <body className="min-h-screen"> [modified]
         <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4">
           <header className="flex items-center justify-between py-6">
             <Link href="/" className="group inline-flex items-center gap-2">

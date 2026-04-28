@@ -1,6 +1,6 @@
 "use client"  [edited]
 
-import { useEffect, useMemo, useState } from "react" [modified]
+import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
 import { createBrowserSupabaseClient } from "./client"
 
@@ -33,4 +33,5 @@ export function useSupabaseAuth() {
 }
 
 
+// update log: auto edit 01
 // update log: auto edit 01

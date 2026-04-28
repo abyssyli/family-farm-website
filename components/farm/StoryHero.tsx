@@ -1,6 +1,4 @@
 
-# minor content update
-
 /* minor adjust */
 
 // update log: auto edit 01
@@ -10,7 +8,7 @@ import Image from "next/image"
 import { ButtonLink } from "@/components/ui/Button"
 import { useEffect, useState } from "react"
 
-export function StoryHero() {
+export function StoryHero() { [modified]
   const [isDay, setIsDay] = useState<boolean | null>(null)
 
   useEffect(() => {

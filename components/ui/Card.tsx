@@ -23,7 +23,7 @@ export function Card({
 
 export function CardHeader({
   title,
-  subtitle [modified]
+  subtitle
 }: {
   title: string
   subtitle?: string | null
@@ -42,3 +42,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
+/* auto generated comment */

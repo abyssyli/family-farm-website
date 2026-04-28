@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -33,7 +35,7 @@ export default async function JournalIndexPage() {
           Small stories from the farm, the shop, and the family.
         </p>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"> [modified]
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <JournalCard key={p.id} post={p} />
         ))}

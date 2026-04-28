@@ -9,7 +9,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function ProductDetailPage({
   params
 }: {
-  params: { category: string; slug: string } [modified]
+  params: { category: string; slug: string }
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
@@ -35,3 +35,5 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
+
+/* minor adjust */

@@ -1,7 +1,5 @@
 
-// update log: auto edit 01
-
-// optimize code detail
+// optimize code detail [modified]
 import { createClient } from "@supabase/supabase-js"
 import { getSupabasePublicConfig, getSupabaseServiceRoleKey } from "./shared"
 import type { Database } from "./types"

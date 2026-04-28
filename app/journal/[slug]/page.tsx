@@ -1,12 +1,12 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"  [edited]
 import { Card, CardBody } from "@/components/ui/Card"
-import { ButtonLink } from "@/components/ui/Button" [modified]
+import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 
 export default async function JournalPostPage({
   params
-}: {
+}: { [modified]
   params: { slug: string }
 }) {
   const catalog = await getCatalog()

@@ -1,4 +1,6 @@
 
+// update log: auto edit 01
+
 // optimize code detail
 "use client"  [edited]
 
@@ -32,7 +34,7 @@ export function BuyContactModal({
     const body = encodeURIComponent(message)
     const digits = contactPhone.replace(/[^\d+]/g, "")
     return `sms:${digits}?&body=${body}`
-  }, [contactPhone, message]) [modified]
+  }, [contactPhone, message])
 
   async function saveInquiry() {
     if (!supabase) return

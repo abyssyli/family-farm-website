@@ -57,12 +57,10 @@ export function ProductDetail({
 
         <div className="mt-8">
           <ButtonLink href="/products" variant="ghost">
-            ← Back to products
+            ← Back to products [modified]
           </ButtonLink>
         </div>
       </div>
     </div>
   )
 }
-
-/* daily modify record */

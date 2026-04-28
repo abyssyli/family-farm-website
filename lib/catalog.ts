@@ -116,7 +116,7 @@ export async function getCatalog(): Promise<Catalog> {
   const categories = Array.from(categoriesBySlug.values()).sort(
     (a, b) => a.sortOrder - b.sortOrder
   )
- [modified]
+
   const productsById = new Map(seedCatalog.products.map((p) => [p.id, p] as const))
   for (const p of dbProducts) productsById.set(p.id, p)
   const products = Array.from(productsById.values()).map((p) =>
@@ -144,3 +144,4 @@ export async function getCatalog(): Promise<Catalog> {
 export function isExternalProduct(product: CatalogProduct) {
   return Boolean(product.externalUrl)
 }
+// optimize code detail

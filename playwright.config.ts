@@ -1,4 +1,4 @@
-import { defineConfig } from "@playwright/test" [modified]
+import { defineConfig } from "@playwright/test"
 
 export default defineConfig({
   testDir: "./tests",
@@ -8,7 +8,7 @@ export default defineConfig({
   },  [edited]
   webServer: {
     command: "npm run dev -- --port 3000",
-    url: "http://localhost:3000",  [edited]
+    url: "http://localhost:3000",  [edited] [modified]
     reuseExistingServer: !process.env.CI
   }
 })

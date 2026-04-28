@@ -66,7 +66,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           Check your inbox for a sign-in link.
         </p>
       ) : null}
-      {!isConfigured ? ( [modified]
+      {!isConfigured ? (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
           <p className="font-medium">Login is not enabled yet.</p>
           <p className="mt-1">
@@ -81,3 +81,5 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
   )
 }
 // optimize code detail
+
+// task5 project adjust

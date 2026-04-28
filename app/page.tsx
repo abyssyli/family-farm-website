@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
-import { Card } from "@/components/ui/Card" [modified]
+import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
@@ -20,7 +20,7 @@ export default async function HomePage() {
       <FarmMap regions={regions} />
 
       <section className="mt-2">
-        <div className="flex items-end justify-between gap-6">
+        <div className="flex items-end justify-between gap-6"> [modified]
           <div>
             <h2 className="text-xl font-semibold tracking-tight">
               Shop by category

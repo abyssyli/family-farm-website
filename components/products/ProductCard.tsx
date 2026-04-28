@@ -55,4 +55,4 @@ export function ProductCard({
 
 /* daily modify record */
 
-# minor content update
+/* minor adjust */
