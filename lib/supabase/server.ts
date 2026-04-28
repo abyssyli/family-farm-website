@@ -6,9 +6,9 @@ import type { Database } from "./types"
 
 export function createServerSupabaseClient() {
   const { url, anonKey } = getSupabasePublicConfig()
-  if (!url || !anonKey) return null
+  if (!url || !anonKey) return null [modified]
   return createClient<Database>(url, anonKey)
-} [modified]
+}
 
 export function createServiceRoleSupabaseClient() {
   const { url } = getSupabasePublicConfig()

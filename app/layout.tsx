@@ -37,7 +37,7 @@ export default function RootLayout({
                     fill
                     className="object-cover"
                     sizes="24px"
-                  /> [modified]
+                  />
                 </span>
                 <span>Products</span>
               </Link>
@@ -46,7 +46,7 @@ export default function RootLayout({
               </Link>
               <Link href="/account" className="hover:text-farm-700">
                 Account
-              </Link>
+              </Link> [modified]
               <UserMenu />
             </nav>
           </header>

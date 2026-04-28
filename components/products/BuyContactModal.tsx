@@ -2,7 +2,7 @@
 // optimize code detail
 "use client"  [edited]
 
-import { useMemo, useState } from "react"
+import { useMemo, useState } from "react" [modified]
 import { Modal } from "@/components/ui/Modal"
 import { Button } from "@/components/ui/Button"
 import { useSupabaseAuth } from "@/lib/supabase/useSupabaseAuth"
@@ -93,4 +93,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-/* auto generated comment */

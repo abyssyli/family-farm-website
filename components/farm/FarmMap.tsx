@@ -1,4 +1,4 @@
-"use client" [modified]
+"use client"
 
 import Image from "next/image"
 import { useMemo, useState } from "react"
@@ -94,5 +94,7 @@ export function FarmMap({ regions }: { regions: CatalogFarmRegion[] }) {
 }
 
 // task4 project adjust
+
+/* minor adjust */
 
 /* minor adjust */

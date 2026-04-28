@@ -63,7 +63,7 @@ export type Database = {
           excerpt: string | null
           body: string
           published_at: string | null
-          updated_at: string
+          updated_at: string [modified]
         }
         Insert: {
           id: string
@@ -135,7 +135,7 @@ export type Database = {
       }
       inquiries: {
         Row: {
-          id: string [modified]
+          id: string
           user_id: string | null
           product_id: string | null
           category_slug: string

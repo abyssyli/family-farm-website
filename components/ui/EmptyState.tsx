@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* auto generated comment */
 
 /* minor adjust */
 import { Card, CardBody } from "./Card"

@@ -9,7 +9,7 @@ export function ProductGrid({
   categorySlug: string
 }) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited]
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">  [edited] [modified]
       {products.map((p) => (
         <ProductCard
           key={p.id}
@@ -20,4 +20,3 @@ export function ProductGrid({
     </div>
   )
 }  [edited]
-// task5 project adjust

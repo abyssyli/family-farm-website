@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // task4 project adjust
 {
   "categories": [
@@ -155,7 +157,7 @@
       "id": "region-woodshop",
       "slug": "woodshop",
       "title": "Family Woodshop",
-      "description": "Our small shop where woodcraft gets sketched, cut, sanded, and finished by hand.", [modified]
+      "description": "Our small shop where woodcraft gets sketched, cut, sanded, and finished by hand.",
       "imagePath": "/photos/Wooden1.jpg",
       "ctaLabel": "Explore Woodcraft",
       "ctaHref": "/products/woodcraft",

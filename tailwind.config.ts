@@ -5,7 +5,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
-  theme: {
+  theme: { [modified]
     extend: {
       colors: {
         farm: {
@@ -24,7 +24,7 @@ const config: Config = {
     }
   },
   plugins: []
-} [modified]
+}
 
 export default config
 

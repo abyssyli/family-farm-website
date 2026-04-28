@@ -9,4 +9,4 @@ const nextConfig = {
 
 export default nextConfig
 
-/* daily modify record */
+/* minor adjust */

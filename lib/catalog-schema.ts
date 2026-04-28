@@ -1,5 +1,5 @@
 
-/* daily modify record */
+/* minor adjust */
 import { z } from "zod"
 
 export const CategorySchema = z.object({

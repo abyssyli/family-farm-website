@@ -1,7 +1,7 @@
 
 /* daily modify record */
 import Link from "next/link"
-import { StoryHero } from "@/components/farm/StoryHero" [modified]
+import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -43,7 +43,7 @@ export default async function HomePage() {
                 Explore {c.name.toLowerCase()} from our family.
               </p>
               <div className="mt-5">
-                {c.slug === "skincare" ? (
+                {c.slug === "skincare" ? ( [modified]
                   <a
                     href={skincareUrl}
                     className="text-sm font-medium text-farm-800 hover:text-farm-900"

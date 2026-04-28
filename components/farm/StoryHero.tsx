@@ -66,10 +66,10 @@ export function StoryHero() {
           alt="Paula’s farm home"
           width={1200}
           height={900}
-          className="h-[320px] w-full object-cover sm:h-[420px]"
+          className="h-[320px] w-full object-cover sm:h-[420px]" [modified]
           priority
         />
       </div>
     </section>
-  ) [modified]
+  )
 }

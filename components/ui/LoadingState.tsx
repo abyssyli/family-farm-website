@@ -1,4 +1,6 @@
 
+// code updated randomly
+
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -12,5 +14,5 @@ export function LoadingState({ label }: { label: string }) {
         </div>  [edited]
       </CardBody>
     </Card>
-  ) [modified]
+  )
 }

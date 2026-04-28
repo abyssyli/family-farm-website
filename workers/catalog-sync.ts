@@ -1,3 +1,5 @@
+
+// task5 project adjust
 import { createServiceRoleSupabaseClient } from "@/lib/supabase/server"
 import { loadCatalogFromSource } from "./parse-catalog"
 
@@ -46,7 +48,7 @@ async function runOnce() {
 
   const farmRegions = catalog.farmRegions.map((r) => ({
     id: r.id,
-    slug: r.slug, [modified]
+    slug: r.slug,
     title: r.title,
     description: r.description,
     image_path: r.imagePath,
