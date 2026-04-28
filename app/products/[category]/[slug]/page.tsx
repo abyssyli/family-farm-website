@@ -9,7 +9,7 @@ import { getPublicEnv } from "@/lib/env"
 export default async function ProductDetailPage({
   params
 }: {
-  params: { category: string; slug: string }
+  params: { category: string; slug: string } [modified]
 }) {
   if (params.category === "skincare") {
     const { skincareUrl } = getPublicEnv()
@@ -35,5 +35,3 @@ export default async function ProductDetailPage({
 }
 
 /* daily modify record */
-
-// task5 project adjust

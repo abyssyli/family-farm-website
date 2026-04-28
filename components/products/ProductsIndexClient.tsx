@@ -4,7 +4,7 @@
 
 import Link from "next/link"
 import { useEffect, useMemo, useState } from "react"
-import { useRouter } from "next/navigation"
+import { useRouter } from "next/navigation" [modified]
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -34,7 +34,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
         setPreferred(pref.preferred_categories)
       }
     })
-  }, [supabase]) [modified]
+  }, [supabase])
 
   useEffect(() => {
     if (!supabase) return

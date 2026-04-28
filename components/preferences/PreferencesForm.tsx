@@ -1,4 +1,6 @@
 
+/* auto generated comment */
+
 /* minor adjust */
 "use client"
 
@@ -94,7 +96,7 @@ export function PreferencesForm({
                 disabled={status === "saving"}
               >
                 {status === "saved"
-                  ? "Saved" [modified]
+                  ? "Saved"
                   : status === "saving"
                     ? "Saving…"
                     : "Save preferences"}

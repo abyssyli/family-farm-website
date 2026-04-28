@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
-import { Card } from "@/components/ui/Card"
+import { Card } from "@/components/ui/Card" [modified]
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
 import { getPublicEnv } from "@/lib/env"
@@ -70,5 +70,3 @@ export default async function HomePage() {
 }
 
 // update log: auto edit 01
-
-/* daily modify record */

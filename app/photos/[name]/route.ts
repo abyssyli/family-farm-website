@@ -1,4 +1,6 @@
 
+// task5 project adjust
+
 /* minor adjust */
 import { readFile } from "node:fs/promises"
 import { extname, join } from "node:path"
@@ -10,7 +12,7 @@ function contentTypeFromExt(ext: string) {
     case ".jpeg":
       return "image/jpeg"
     case ".png":
-      return "image/png" [modified]
+      return "image/png"
     case ".webp":
       return "image/webp"
     case ".gif":

@@ -1,6 +1,6 @@
 
-// task4 project adjust [modified]
-import { getCatalog } from "@/lib/catalog"
+// task4 project adjust
+import { getCatalog } from "@/lib/catalog" [modified]
 import { ProductsIndexClient } from "@/components/products/ProductsIndexClient"
 
 export default async function ProductsPage() {

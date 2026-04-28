@@ -55,4 +55,4 @@ export function ProductCard({
 
 /* daily modify record */
 
-// task5 project adjust
+# minor content update

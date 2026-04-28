@@ -33,7 +33,7 @@ export type Database = {
         Insert: {
           id: string
           category_slug: string
-          slug: string [modified]
+          slug: string
           name: string
           description?: string | null
           image_path?: string | null
@@ -190,3 +190,5 @@ export type Database = {
 }
 
 // task4 project adjust
+
+/* daily modify record */

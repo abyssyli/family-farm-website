@@ -21,7 +21,7 @@ export function ProductDetail({
           <Image
             src={product.imagePath}
             alt={product.name}
-            width={1400} [modified]
+            width={1400}
             height={1000}
             className="h-[360px] w-full object-cover sm:h-[440px]"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -64,3 +64,5 @@ export function ProductDetail({
     </div>
   )
 }
+
+/* daily modify record */

@@ -1,5 +1,5 @@
 
-// task5 project adjust
+/* minor adjust */
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

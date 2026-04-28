@@ -1,4 +1,6 @@
 
+/* minor adjust */
+
 // update log: auto edit 01
 
 /* daily modify record */
@@ -34,7 +36,7 @@ export function UserMenu() {
         </Modal>
       </>
     )
-  } [modified]
+  }
 
   return (
     <div className="flex items-center gap-3">

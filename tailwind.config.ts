@@ -1,3 +1,5 @@
+
+// code updated randomly
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -14,7 +16,7 @@ const config: Config = {
           200: "#d9dfbe",
           300: "#b9c98c",  [edited]
           400: "#97ae60",
-          500: "#7a9446", [modified]
+          500: "#7a9446",
           600: "#5f7535",
           700: "#4c5d2c",
           800: "#3f4b27",

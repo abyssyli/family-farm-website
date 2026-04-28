@@ -16,7 +16,7 @@ export function BuyContactModal({
   productId,
   defaultMessage
 }: {
-  open: boolean [modified]
+  open: boolean
   onClose: () => void
   title: string
   categorySlug: string
@@ -32,7 +32,7 @@ export function BuyContactModal({
     const body = encodeURIComponent(message)
     const digits = contactPhone.replace(/[^\d+]/g, "")
     return `sms:${digits}?&body=${body}`
-  }, [contactPhone, message])
+  }, [contactPhone, message]) [modified]
 
   async function saveInquiry() {
     if (!supabase) return

@@ -7,7 +7,7 @@ export function ErrorState({
 }: {
   title: string
   message: string
-  action?: React.ReactNode [modified]
+  action?: React.ReactNode
 }) {
   return (
     <Card className="border-red-200">
@@ -23,3 +23,4 @@ export function ErrorState({
     </Card>
   )
 }  [edited]
+/* daily modify record */

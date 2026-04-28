@@ -13,4 +13,4 @@ export default function NotFound() {
 
 
 // task4 project adjust
-/* auto generated comment */
+# minor content update

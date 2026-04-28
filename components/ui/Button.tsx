@@ -39,7 +39,7 @@ export function ButtonLink({
 }: {
   href: string
   children: React.ReactNode
-  variant?: Variant [modified]
+  variant?: Variant
   className?: string
 }) {
   const external = /^https?:\/\//i.test(href)
@@ -61,3 +61,4 @@ export function ButtonLink({
     </Link>
   )
 }
+// code updated randomly

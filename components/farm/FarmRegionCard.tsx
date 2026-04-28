@@ -1,6 +1,4 @@
 
-// optimize code detail
-
 // task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
@@ -10,7 +8,7 @@ import type { CatalogFarmRegion } from "@/lib/catalog-schema"
 export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
   return (
     <Card className="overflow-hidden">
-      {region.imagePath ? (
+      {region.imagePath ? ( [modified]
         <div className="relative h-56 w-full sm:h-64">
           <Image
             src={region.imagePath}
