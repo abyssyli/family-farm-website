@@ -32,6 +32,8 @@ export default async function ProductDetailPage({
       primaryAction={<ProductActions product={product} categorySlug={category.slug} />}
     />
   )
-} [modified]
+}
 
 /* daily modify record */
+
+// optimize code detail

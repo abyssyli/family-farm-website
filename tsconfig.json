@@ -1,6 +1,6 @@
 
 // update log: auto edit 01
-{ [modified]
+{
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
@@ -23,7 +23,7 @@
       {
         "name": "next"
       }
-    ],
+    ], [modified]
     "baseUrl": ".",
     "paths": {
       "@/*": [

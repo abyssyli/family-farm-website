@@ -41,5 +41,4 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 }
 
 
-// optimize code detail
-# minor content update
+// optimize code detail [modified]

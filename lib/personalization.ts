@@ -6,7 +6,7 @@ export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
 ) {
-  if (!preferred || preferred.length === 0) return categorySlugs [modified]
+  if (!preferred || preferred.length === 0) return categorySlugs
   const rank = new Map(preferred.map((slug, idx) => [slug, idx]))
   return [...categorySlugs].sort((a, b) => {
     const ra = rank.has(a) ? rank.get(a)! : Number.POSITIVE_INFINITY
@@ -14,4 +14,4 @@ export function sortCategorySlugsByPreference(
     if (ra !== rb) return ra - rb
     return a.localeCompare(b)
   })
-}
+} [modified]

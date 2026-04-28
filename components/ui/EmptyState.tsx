@@ -1,4 +1,6 @@
 
+// optimize code detail
+
 /* minor adjust */
 import { Card, CardBody } from "./Card"
 
@@ -26,5 +28,5 @@ export function EmptyState({
   )
 }
 
- [modified]
+
 /* minor adjust */

@@ -1,12 +1,10 @@
 
-/* auto generated comment */
-
 # minor content update
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"
   const defaultSkincareUrl =
-    "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR"
+    "https://beakergold.com/?srsltid=AfmBOoryko08_1LDeogRpEWca9eUNONUfYgzEcHan-g1G7SlziXYTyvR" [modified]
   const configuredSkincareUrl = process.env.NEXT_PUBLIC_SKINCARE_URL?.trim()
   const skincareUrl =
     configuredSkincareUrl &&

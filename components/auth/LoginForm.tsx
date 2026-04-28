@@ -1,3 +1,5 @@
+
+# minor content update
 "use client"
 
 import { useState } from "react"
@@ -77,7 +79,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
           </p>
         </div>
       ) : null}
-    </form> [modified]
+    </form>
   )
 }
 // optimize code detail

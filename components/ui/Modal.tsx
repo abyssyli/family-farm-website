@@ -1,7 +1,9 @@
 
+// task5 project adjust
+
 // update log: auto edit 01
 "use client"
- [modified]
+
 import { useEffect } from "react"
 
 function cn(...parts: Array<string | false | null | undefined>) {

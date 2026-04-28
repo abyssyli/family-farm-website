@@ -1,12 +1,10 @@
-
-# minor content update
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { UserMenu } from "@/components/auth/UserMenu"
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { [modified]
   title: "Paula’s Farm Family Marketplace",
   description:
     "Explore farm eggs, handmade woodcraft, and Lisa’s skincare—rooted in a Texas family farm story."

@@ -1,5 +1,5 @@
 
-/* auto generated comment */
+// code updated randomly
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

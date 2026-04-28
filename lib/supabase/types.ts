@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // optimize code detail
 export type Json =
   | string
@@ -36,7 +34,7 @@ export type Database = {
           id: string
           category_slug: string
           slug: string
-          name: string
+          name: string [modified]
           description?: string | null
           image_path?: string | null
           price_hint?: string | null

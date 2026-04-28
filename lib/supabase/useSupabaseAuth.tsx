@@ -1,5 +1,3 @@
-
-// optimize code detail
 "use client"  [edited]
 
 import { useEffect, useMemo, useState } from "react"
@@ -11,7 +9,7 @@ export function useSupabaseAuth() {
   const [session, setSession] = useState<Session | null>(null)
   const [ready, setReady] = useState(false)
 
-  useEffect(() => {
+  useEffect(() => { [modified]
     if (!supabase) {
       setReady(true)
       return

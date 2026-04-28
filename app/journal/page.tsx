@@ -1,6 +1,4 @@
 
-/* minor adjust */
-
 // optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
@@ -18,7 +16,7 @@ export default async function JournalIndexPage() {
   if (posts.length === 0) {
     return (
       <EmptyState
-        title="No journal posts yet"
+        title="No journal posts yet" [modified]
         message="When we share farm updates, they’ll show up here."
         action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
       />

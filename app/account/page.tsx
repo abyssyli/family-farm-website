@@ -17,7 +17,7 @@ export default async function AccountPage() {
           Sign in to save your preferences and track inquiries.
         </p>
       </div>
-
+ [modified]
       <Card>
         <CardHeader title="Sign in" subtitle="Use email magic link." />
         <CardBody>
@@ -32,4 +32,3 @@ export default async function AccountPage() {
 
 
 // task4 project adjust
-// optimize code detail

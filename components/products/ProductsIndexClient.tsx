@@ -42,7 +42,7 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
       .channel("catalog-changes")
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "products" }, [modified]
+        { event: "*", schema: "public", table: "products" },
         () => {
           setLastUpdate(new Date())
           router.refresh()
@@ -139,3 +139,4 @@ export function ProductsIndexClient({ catalog }: { catalog: Catalog }) {
     </div>  [edited]
   )
 }
+// update log: auto edit 01

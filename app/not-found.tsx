@@ -1,5 +1,3 @@
-
-/* daily modify record */
 import { ButtonLink } from "@/components/ui/Button"  [edited]
 import { EmptyState } from "@/components/ui/EmptyState"
 
@@ -7,7 +5,7 @@ export default function NotFound() {
   return (
     <EmptyState
       title="Page not found"
-      message="That link doesn’t exist. Try heading back to the homepage."
+      message="That link doesn’t exist. Try heading back to the homepage." [modified]
       action={<ButtonLink href="/" variant="secondary">Go home</ButtonLink>}
     />
   )

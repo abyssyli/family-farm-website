@@ -1,5 +1,3 @@
-
-/* auto generated comment */
 import seedJson from "@/data/farm-catalog.seed.json"
 import { CatalogSchema, type Catalog, type CatalogProduct } from "./catalog-schema"
 import { createServerSupabaseClient } from "./supabase/server"
@@ -84,7 +82,7 @@ export async function getCatalog(): Promise<Catalog> {
     imagePath:
       p.category_slug === "woodcraft"
         ? normalizeWoodcraftImagePath(p.slug, p.image_path)
-        : p.category_slug === "eggs"
+        : p.category_slug === "eggs" [modified]
           ? normalizeEggsImagePath(p.slug, p.image_path)
         : p.image_path,
     priceHint: p.price_hint,
