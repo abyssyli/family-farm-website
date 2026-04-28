@@ -1,11 +1,7 @@
-
-# minor content update
-
-/* minor adjust */
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { Button } from "@/components/ui/Button"  [edited]
+import { Button } from "@/components/ui/Button"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { createBrowserSupabaseClient } from "@/lib/supabase/client"
 
@@ -112,3 +108,4 @@ export function PreferencesForm({
     </Card>
   )
 }
+

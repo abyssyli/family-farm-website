@@ -1,7 +1,5 @@
-
-/* auto generated comment */
 import Link from "next/link"
-import { notFound } from "next/navigation"  [edited]
+import { notFound } from "next/navigation"
 import { Card, CardBody } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"
@@ -50,4 +48,3 @@ export default async function JournalPostPage({
   )
 }
 
-/* minor adjust */

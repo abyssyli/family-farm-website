@@ -1,6 +1,4 @@
-
-/* daily modify record */
-import Link from "next/link" [modified]
+import Link from "next/link"
 import { forwardRef } from "react"
 
 type Variant = "primary" | "secondary" | "ghost"
@@ -43,7 +41,7 @@ export function ButtonLink({
   className?: string
 }) {
   const external = /^https?:\/\//i.test(href)
-  if (external) {  [edited]
+  if (external) {
     return (
       <a
         href={href}

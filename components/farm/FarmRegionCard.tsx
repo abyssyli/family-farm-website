@@ -1,5 +1,3 @@
-
-// task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
@@ -13,7 +11,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
           <Image
             src={region.imagePath}
             alt={region.title}
-            fill  [edited]
+            fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
@@ -28,7 +26,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
           <div className="mt-5">
             <ButtonLink href={region.ctaHref} variant="secondary">
               {region.ctaLabel || "Explore"}
-            </ButtonLink> [modified]
+            </ButtonLink>
           </div>
         ) : null}
       </div>

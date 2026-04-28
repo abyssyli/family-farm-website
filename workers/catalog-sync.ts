@@ -112,9 +112,3 @@ main().catch((e) => {
   process.exit(1)
 })
 
-
-// optimize code detail
-
-// optimize code detail
-
-/* daily modify record */

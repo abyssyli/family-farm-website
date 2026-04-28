@@ -1,6 +1,4 @@
-
-/* daily modify record */
-"use client"  [edited]
+"use client"
 
 import { useEffect, useMemo, useState } from "react"
 import type { Session } from "@supabase/supabase-js"
@@ -34,5 +32,3 @@ export function useSupabaseAuth() {
   return { supabase, session, ready }
 }
 
-
-// update log: auto edit 01

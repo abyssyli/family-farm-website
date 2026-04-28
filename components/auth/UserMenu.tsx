@@ -1,7 +1,3 @@
-
-// update log: auto edit 01
-
-/* daily modify record */
 "use client"
 
 import { useMemo, useState } from "react"
@@ -58,4 +54,4 @@ export function UserMenu() {
       </Button>
     </div>
   )
-} [modified]
+}

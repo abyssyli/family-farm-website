@@ -1,6 +1,4 @@
-
-// code updated randomly
-import { ButtonLink } from "@/components/ui/Button"  [edited]
+import { ButtonLink } from "@/components/ui/Button"
 import { EmptyState } from "@/components/ui/EmptyState"
 
 export default function NotFound() {
@@ -13,5 +11,3 @@ export default function NotFound() {
   )
 }
 
-
-// task4 project adjust

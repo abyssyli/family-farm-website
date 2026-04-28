@@ -1,5 +1,3 @@
-
-# minor content update
 "use client"
 
 import { useState } from "react"
@@ -37,7 +35,7 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
       <ErrorState
         title="Sign-in failed"
         message={error}
-        action={  [edited]
+        action={
           <Button variant="secondary" onClick={() => setError(null)}>
             Try again
           </Button>
@@ -82,4 +80,3 @@ export function LoginForm({ onSuccess }: { onSuccess?: () => void }) {
     </form>
   )
 }
-// optimize code detail

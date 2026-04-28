@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"  [edited]
+import { useState } from "react"
 import { Button, ButtonLink } from "@/components/ui/Button"
 import { BuyContactModal } from "./BuyContactModal"
 import { getPublicEnv } from "@/lib/env"
@@ -38,8 +38,6 @@ export function ProductActions({
         productId={product.id}
         defaultMessage={`Hi Paula! I’m interested in “${product.name}”. Is it available this week?`}
       />
-    </> [modified]
+    </>
   )
 }
-
-# minor content update

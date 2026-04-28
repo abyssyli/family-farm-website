@@ -1,7 +1,3 @@
-
-// code updated randomly
-
-/* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
 import { FarmMap } from "@/components/farm/FarmMap"
@@ -70,5 +66,3 @@ export default async function HomePage() {
     </div>
   )
 }
-
-// update log: auto edit 01

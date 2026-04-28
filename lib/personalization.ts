@@ -1,7 +1,3 @@
-
-/* minor adjust */
-
-/* daily modify record */ [modified]
 export function sortCategorySlugsByPreference(
   categorySlugs: string[],
   preferred: string[] | null | undefined
@@ -15,3 +11,4 @@ export function sortCategorySlugsByPreference(
     return a.localeCompare(b)
   })
 }
+

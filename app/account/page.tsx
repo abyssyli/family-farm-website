@@ -1,6 +1,4 @@
-
-/* auto generated comment */
-import { getCatalog } from "@/lib/catalog"  [edited]
+import { getCatalog } from "@/lib/catalog"
 import { PreferencesForm } from "@/components/preferences/PreferencesForm"
 import { Card, CardBody, CardHeader } from "@/components/ui/Card"
 import { UserMenu } from "@/components/auth/UserMenu"
@@ -32,5 +30,3 @@ export default async function AccountPage() {
   )
 }
 
-
-// task4 project adjust

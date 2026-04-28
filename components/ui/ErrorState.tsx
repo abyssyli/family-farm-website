@@ -1,6 +1,4 @@
-
-/* minor adjust */
-import { Card, CardBody } from "./Card"  [edited]
+import { Card, CardBody } from "./Card"
 
 export function ErrorState({
   title,
@@ -24,4 +22,5 @@ export function ErrorState({
       </CardBody>
     </Card>
   )
-}  [edited]
+}
+

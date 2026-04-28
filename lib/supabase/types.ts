@@ -1,5 +1,3 @@
-
-// optimize code detail
 export type Json =
   | string
   | number
@@ -188,7 +186,3 @@ export type Database = {
     CompositeTypes: { [_ in never]: never }
   }
 }
-
-// task4 project adjust
-
-// code updated randomly

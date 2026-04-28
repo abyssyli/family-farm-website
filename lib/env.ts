@@ -1,7 +1,3 @@
-
-// code updated randomly
-
-# minor content update
 export function getPublicEnv() {
   const contactPhone =
     process.env.NEXT_PUBLIC_CONTACT_PHONE?.trim() || "+18065550123"
@@ -18,5 +14,3 @@ export function getPublicEnv() {
 
   return { contactPhone, skincareUrl }
 }
-
-// task4 project adjust

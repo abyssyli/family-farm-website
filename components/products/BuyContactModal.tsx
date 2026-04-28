@@ -1,6 +1,4 @@
-
-// optimize code detail
-"use client"  [edited]
+"use client"
 
 import { useMemo, useState } from "react"
 import { Modal } from "@/components/ui/Modal"
@@ -93,4 +91,3 @@ export function BuyContactModal({
     </Modal>
   )
 }
-// optimize code detail

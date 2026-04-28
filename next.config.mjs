@@ -1,8 +1,4 @@
-
-/* auto generated comment */
-
-// optimize code detail
-/** @type {import('next').NextConfig} */  [edited]
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"]
@@ -10,3 +6,4 @@ const nextConfig = {
 }
 
 export default nextConfig
+

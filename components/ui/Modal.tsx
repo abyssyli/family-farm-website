@@ -1,7 +1,3 @@
-
-// update log: auto edit 01
-
-// update log: auto edit 01
 "use client"
 
 import { useEffect } from "react"
@@ -43,7 +39,7 @@ export function Modal({
         onClick={onClose}
       />
       <div
-        role="dialog"  [edited]
+        role="dialog"
         aria-modal="true"
         className={cn(
           "relative w-full max-w-lg rounded-2xl bg-white shadow-xl",
@@ -65,3 +61,4 @@ export function Modal({
     </div>
   )
 }
+

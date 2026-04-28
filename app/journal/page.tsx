@@ -1,7 +1,3 @@
-
-# minor content update
-
-// optimize code detail
 import { getCatalog } from "@/lib/catalog"
 import { JournalCard } from "@/components/journal/JournalCard"
 import { EmptyState } from "@/components/ui/EmptyState"
@@ -24,7 +20,7 @@ export default async function JournalIndexPage() {
       />
     )
   }
-  [edited]
+
   return (
     <div className="flex flex-col gap-8">
       <div>
@@ -43,3 +39,4 @@ export default async function JournalIndexPage() {
     </div>
   )
 }
+
