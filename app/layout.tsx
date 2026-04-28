@@ -1,3 +1,5 @@
+
+/* daily modify record */
 import "./globals.css"
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -56,7 +58,7 @@ export default function RootLayout({
               <p>Made in Amarillo, Texas.</p>
               <p>© {new Date().getFullYear()} Paula’s Farm Family Marketplace</p>
             </div>
-          </footer> [modified]
+          </footer>
         </div>
       </body>
     </html>

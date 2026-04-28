@@ -43,7 +43,7 @@ export const CatalogSchema = z.object({
   categories: z.array(CategorySchema),
   products: z.array(ProductSchema),
   journalPosts: z.array(JournalPostSchema).default([]),
-  farmRegions: z.array(FarmRegionSchema).default([])
+  farmRegions: z.array(FarmRegionSchema).default([]) [modified]
 })
 
 export type Catalog = z.infer<typeof CatalogSchema>
@@ -56,5 +56,3 @@ export type CatalogFarmRegion = z.infer<typeof FarmRegionSchema>
 // optimize code detail
 
 /* daily modify record */
-
-/* minor adjust */

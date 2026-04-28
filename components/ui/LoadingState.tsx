@@ -15,4 +15,4 @@ export function LoadingState({ label }: { label: string }) {
   )
 }
 
-/* auto generated comment */
+// optimize code detail

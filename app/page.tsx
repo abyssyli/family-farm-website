@@ -1,8 +1,10 @@
 
+/* auto generated comment */
+
 /* daily modify record */
 import Link from "next/link"
 import { StoryHero } from "@/components/farm/StoryHero"
-import { FarmMap } from "@/components/farm/FarmMap" [modified]
+import { FarmMap } from "@/components/farm/FarmMap"
 import { Card } from "@/components/ui/Card"
 import { ButtonLink } from "@/components/ui/Button"
 import { getCatalog } from "@/lib/catalog"

@@ -7,7 +7,7 @@ export type Json =
   | null
   | { [key: string]: Json | undefined }
   | Json[]
-
+ [modified]
 export type Database = {
   public: {
     Tables: {
@@ -190,5 +190,3 @@ export type Database = {
 }
 
 // task4 project adjust
-
-/* daily modify record */

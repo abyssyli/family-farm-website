@@ -1,8 +1,6 @@
 
 /* minor adjust */
 
-/* minor adjust */
-
 // update log: auto edit 01
 "use client"
 
@@ -75,3 +73,5 @@ export function StoryHero() {
     </section>
   )
 }
+
+// optimize code detail

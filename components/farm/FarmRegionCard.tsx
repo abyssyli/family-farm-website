@@ -1,6 +1,4 @@
 
-// code updated randomly
-
 // task4 project adjust
 import Image from "next/image"
 import { Card } from "@/components/ui/Card"
@@ -20,7 +18,7 @@ export function FarmRegionCard({ region }: { region: CatalogFarmRegion }) {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         </div>
-      ) : null}
+      ) : null} [modified]
       <div className="p-6">
         <h3 className="text-base font-semibold">{region.title}</h3>
         {region.description ? (

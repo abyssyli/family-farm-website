@@ -55,4 +55,4 @@ export function ProductCard({
 
 /* daily modify record */
 
-// code updated randomly
+// optimize code detail

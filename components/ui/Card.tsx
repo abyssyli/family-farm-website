@@ -19,7 +19,7 @@ export function Card({
       {children}
     </div>
   )
-}
+} [modified]
 
 export function CardHeader({
   title,
@@ -42,4 +42,3 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 
 
 // optimize code detail
-// task5 project adjust

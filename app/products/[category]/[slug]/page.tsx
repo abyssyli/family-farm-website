@@ -1,6 +1,6 @@
 
 # minor content update
-import { notFound, redirect } from "next/navigation"
+import { notFound, redirect } from "next/navigation" [modified]
 import { ProductDetail } from "@/components/products/ProductDetail"
 import { ProductActions } from "@/components/products/ProductActions"
 import { getCatalog } from "@/lib/catalog"
@@ -23,7 +23,7 @@ export default async function ProductDetailPage({
   const product = catalog.products.find(
     (p) => p.categorySlug === category.slug && p.slug === params.slug
   )
-  if (!product) notFound() [modified]
+  if (!product) notFound()
 
   return (
     <ProductDetail

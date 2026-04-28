@@ -43,7 +43,7 @@ export function BuyContactModal({
       category_slug: categorySlug,
       message
     })
-    setStatus("saved") [modified]
+    setStatus("saved")
   }
 
   return (
@@ -69,7 +69,7 @@ export function BuyContactModal({
           />
         </label>
 
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3"> [modified]
           <Button type="button" onClick={() => window.open(smsHref)}>
             Open text message
           </Button>

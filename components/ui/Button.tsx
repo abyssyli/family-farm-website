@@ -1,6 +1,4 @@
 
-// task5 project adjust
-
 /* daily modify record */
 import Link from "next/link"
 import { forwardRef } from "react"
@@ -42,7 +40,7 @@ export function ButtonLink({
   href: string
   children: React.ReactNode
   variant?: Variant
-  className?: string
+  className?: string [modified]
 }) {
   const external = /^https?:\/\//i.test(href)
   if (external) {  [edited]
